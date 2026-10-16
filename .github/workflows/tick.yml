@@ -1,17 +1,21 @@
 name: tick
 on:
-  schedule: [{cron: '7 * * * *'}]
+  schedule:
+    - cron: '7 * * * *'
   workflow_dispatch:
-  push: {branches: [main]}
-permissions: {contents: write}
-concurrency: {group: tick, cancel_in_progress: false}
+permissions:
+  contents: write
+concurrency:
+  group: tick
+  cancel_in_progress: false
 jobs:
   tick:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: {python-version: '3.12'}
+        with:
+          python-version: '3.12'
       - name: pull real revenue
         env:
           ADSTERRA_API_KEY: ${{ secrets.ADSTERRA_API_KEY }}
@@ -22,8 +26,6 @@ jobs:
           CLICKADU_API_KEY: ${{ secrets.CLICKADU_API_KEY }}
           HILLTOP_API_KEY: ${{ secrets.HILLTOP_API_KEY }}
           ADCASH_API_KEY: ${{ secrets.ADCASH_API_KEY }}
-          EXOCLICK_KEY: ${{ secrets.EXOCLICK_KEY }}
-          BIDVERTISER_API_KEY: ${{ secrets.BIDVERTISER_API_KEY }}
         run: python3 tools/networks.py
       - name: commit
         run: |

@@ -34,4 +34,6 @@ Promise.all([fetch('/revenue.json?t='+Date.now()).then(r=>r.json()).catch(()=>({
  document.getElementById('own').innerHTML=(own.kuraimi_name?'حسابك: <b>'+own.kuraimi_name+'</b> — '+(own.kuraimi_account||'')+' — '+(own.kuraimi_phone||''):'<span class="w">لم تُضبط بيانات الكريمي — نفّذ bash activate.sh</span>');
 });</script><script src="/ads.js" defer></script><script src="/linkgo.js" defer></script>
 <script>if(!document.querySelector('a[href="/plan.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/start.html">ابدأ</a><a href="/plan.html">الخطة</a>')}</script>
+<script src="/authtoken.js" defer></script>
+<script src="/upsell.js" defer></script>
 </body></html>
