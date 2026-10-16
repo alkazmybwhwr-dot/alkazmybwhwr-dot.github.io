@@ -1,9 +1,9 @@
 {
-  "supabase_url": "",
-  "supabase_anon": "",
-  "tables": {
-    "ledger": "ledger",
-    "withdrawals": "withdrawals",
-    "profiles": "profiles"
-  }
+ "supabase_url": "",
+ "supabase_anon": "",
+ "tables": {
+  "ledger": "ledger",
+  "withdrawals": "withdrawals",
+  "profiles": "profiles"
+ }
 }

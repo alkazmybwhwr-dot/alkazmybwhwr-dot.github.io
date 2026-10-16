@@ -47,3 +47,8 @@ create table if not exists hits(id bigserial primary key,kind text,at timestampt
 alter table hits enable row level security;
 create policy p_hits_ins on hits for insert with check(true);
 create policy p_hits_sel on hits for select using(true);
+
+create table if not exists comments(id bigserial primary key,uid uuid,page text,body text,at timestamptz default now());
+alter table comments enable row level security;
+create policy p_cm_ins on comments for insert with check(true);
+create policy p_cm_sel on comments for select using(true);
