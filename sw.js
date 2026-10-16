@@ -1,8 +1,21 @@
-const V='ch3099-v703-1792183697';
-const CORE=['/','/index.html','/manifest.json','/ads.js'];
-self.addEventListener('install',e=>{self.skipWaiting();e.waitUntil(caches.open(V).then(c=>c.addAll(CORE).catch(()=>{})))});
-self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==V).map(x=>caches.delete(x)))).then(()=>self.clients.claim()))});
-self.addEventListener('fetch',e=>{const r=e.request;if(r.method!=='GET')return;const u=new URL(r.url);
- if(u.origin!==location.origin)return;
- const nf=/\.(json|xml|txt)$/.test(u.pathname)||r.mode==='navigate'||/\.html?$/.test(u.pathname);
- e.respondWith(caches.match(r).then(hit=>{const net=fetch(r).then(res=>{if(res&&res.status===200)caches.open(V).then(c=>c.put(r,res.clone()));return res}).catch(()=>hit);return nf?net.catch(()=>hit):(hit||net);}))});
+const V='ch9-1792191793';
+const CORE=['/','/index.html','/manifest.json','/theme.css','/ads.js','/owner.js'];
+self.addEventListener('install',function(e){self.skipWaiting();
+ e.waitUntil(caches.open(V).then(function(c){return c.addAll(CORE).catch(function(){})}))});
+self.addEventListener('activate',function(e){e.waitUntil(
+ caches.keys().then(function(k){return Promise.all(k.filter(function(x){return x!==V}).map(function(x){return caches.delete(x)}))})
+ .then(function(){return self.clients.claim()})
+ .then(function(){return self.clients.matchAll({type:'window'})})
+ .then(function(cl){cl.forEach(function(c){try{c.postMessage({sw:'updated',v:V})}catch(x){}})})});
+self.addEventListener('fetch',function(e){
+ var r=e.request; if(r.method!=='GET')return;
+ var u=new URL(r.url); if(u.origin!==location.origin)return;
+ var p=u.pathname;
+ if(p==='/sw.js'){ e.respondWith(fetch(r,{cache:'no-store'}).catch(function(){return caches.match(r)})); return }
+ var fresh=/\.(json|xml|txt|md|jsonl)$/.test(p)||r.mode==='navigate'||/\.html?$/.test(p);
+ if(fresh){ e.respondWith(fetch(r,{cache:'no-store'}).then(function(res){
+    if(res&&res.status===200){var cl=res.clone();caches.open(V).then(function(c){c.put(r,cl)})}return res
+  }).catch(function(){return caches.match(r)})); return }
+ e.respondWith(caches.match(r).then(function(hit){return hit||fetch(r).then(function(res){
+    if(res&&res.status===200){var cl=res.clone();caches.open(V).then(function(c){c.put(r,cl)})}return res})}));
+});

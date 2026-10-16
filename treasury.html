@@ -7,6 +7,7 @@ th{color:#8aa0bd}.ok{color:#22c55e}.bad{color:#f87171}.w{color:#fbbf24}
 .bar{height:8px;background:#0d1424;border-radius:99px;overflow:hidden}.bar>i{display:block;height:100%;background:linear-gradient(90deg,#4dd0e1,#a78bfa)}
 .big{font-size:26px;font-weight:800;color:#4dd0e1}.l{color:#8aa0bd;font-size:12.5px}
 </style><link rel="stylesheet" href="/theme.css">
+<script src="/killsw.js"></script>
 </head><body><div class="wrap">
 <h1>الخزينة الحقيقية — من واجهات الشبكات لا من تقدير</h1>
 <p class="l">كل رقم هنا مسحوب من API الشبكة عبر GitHub Actions. إن لم يكن هناك مفتاح، الرقم 0 وهذا صحيح.</p>
@@ -44,4 +45,5 @@ Promise.all([fetch('/revenue.json?t='+Date.now()).then(r=>r.json()).catch(()=>({
 <script src="/ledger.js" defer></script>
 <script src="/captcha.js" defer></script>
 <script src="/comments.js" defer></script>
+<script src="/boot.js" defer></script>
 </body></html>

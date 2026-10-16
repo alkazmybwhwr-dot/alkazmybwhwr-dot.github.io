@@ -3,15 +3,15 @@
 import json,os,re,urllib.request,urllib.parse,datetime
 R=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA={'User-Agent':'Mozilla/5.0 (CineHub3099)','Accept':'application/json','Accept-Encoding':'identity'}
-COLS=['feature_films','moviesandfilms','classic_cartoons','film_noir','silent_films','sci-fi_horror','short_films','animation']
+COLS=['feature_films','movies','television','moviesandfilms','classic_cartoons','film_noir','silent_films','sci-fi_horror','short_films','animation']
 def raw(u,t=45):
     return urllib.request.urlopen(urllib.request.Request(u,headers=UA),timeout=t).read().decode('utf-8','ignore')
 def layer1(c,n=100):
     u='https://archive.org/services/search/v1/scrape?'+urllib.parse.urlencode(
-      {'q':'collection:%s AND mediatype:movies'%c,'fields':'identifier,title,year,downloads','count':n,'sorts':'downloads desc'})
+      {'q':'collection:%s'%c,'fields':'identifier,title,year,downloads','count':n,'sorts':'downloads desc'})
     j=json.loads(raw(u)); return (j.get('items') or [])
 def layer2(c,n=100):
-    p={'q':'collection:%s AND mediatype:movies'%c,'fl[]':['identifier','title','year','downloads'],
+    p={'q':'collection:%s'%c,'fl[]':['identifier','title','year','downloads'],
        'rows':n,'page':1,'sort[]':'downloads desc','output':'json'}
     u='https://archive.org/advancedsearch.php?'+urllib.parse.urlencode(p,doseq=True)
     j=json.loads(raw(u)); return ((j.get('response') or {}).get('docs') or [])
