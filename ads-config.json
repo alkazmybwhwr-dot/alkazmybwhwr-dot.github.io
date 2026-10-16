@@ -3,13 +3,13 @@
   "network": "adsterra",
   "banner_host": "www.highperformanceformat.com",
   "rpm_estimate_usd": 1.2,
-  "popunder_src": "",
-  "socialbar_src": "",
+  "popunder_src": "POPUNDER_SRC",
+  "socialbar_src": "SOCIALBAR_SRC",
   "direct_link": "",
   "banners": {
     "top": {
       "size": "728x90",
-      "key": ""
+      "key": "TOP_KEY"
     },
     "mid": {
       "size": "300x250",
