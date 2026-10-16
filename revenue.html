@@ -179,7 +179,7 @@ init();
      if(!j.result) throw 0; return j.result;
    }).catch(function(){ return rpc(i+1,m,p); });
  }
- fetch("./wallet.json",{cache:"no-store"}).then(function(r){return r.json();}).then(function(w){
+ fetch("/wallet.json",{cache:"no-store"}).then(function(r){return r.json();}).then(function(w){
    var a=(w.address||"").trim();
    if(!a){ document.getElementById("bUSDC").textContent="—"; return; }
    rpc(0,"eth_getBalance",[a,"latest"]).then(function(h){

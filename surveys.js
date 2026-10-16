@@ -1,7 +1,7 @@
 /* زر عائم يوجّه لصفحة الكسب — يظهر فقط إذا فُعّلت منصّة */
 (function(){
 "use strict";
-fetch("./surveys-config.json",{cache:"no-store"}).then(function(r){return r.json();}).then(function(c){
+fetch("/surveys-config.json",{cache:"no-store"}).then(function(r){return r.json();}).then(function(c){
   if(!c||!c.provider||!c.id) return;
   var a=document.createElement("a");
   a.href="./earn.html";

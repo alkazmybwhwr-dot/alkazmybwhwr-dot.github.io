@@ -1,3 +1,7 @@
 User-agent: *
 Allow: /
+User-agent: Mediapartners-Google
+Allow: /
+User-agent: AdsBot-Google
+Allow: /
 Sitemap: https://alkazmybwhwr-dot.github.io/sitemap.xml

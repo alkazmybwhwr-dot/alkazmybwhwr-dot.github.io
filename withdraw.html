@@ -38,9 +38,9 @@ table{width:100%;border-collapse:collapse;font-size:12px}th,td{border-bottom:1px
 <div class="card">
   <label>وسيلة الاستلام</label><select id="m"></select>
   <label>الاسم كما في الهوية</label><input id="n">
-  <label>رقم الحساب / المحفظة</label><input id="a">
+  <label>رقم الحساب / المحفظة</label><input id="a"><label>رقم هاتفك (للتواصل والتحقق)</label><input id="ph" inputmode="tel" placeholder="9677xxxxxxxx">
   <label>تحقق بشري (مُصدَّق سيرفرياً)</label><div id="ts"></div>
-  <button onclick="send()">إرسال الطلب</button><p id="msg"></p>
+  <button onclick="send()">إرسال الطلب</button><div id="chan"></div><p id="msg"></p>
   <p class="l" id="bank"></p></div>
 <div class="card"><h3>طلباتك</h3><table><thead><tr><th>المرجع</th><th>المبلغ</th><th>الوسيلة</th><th>الحالة</th></tr></thead><tbody id="rows"></tbody></table></div>
 <p class="l"><a href="/earn.html">اربح أكثر</a> · <a href="/admin.html">لوحة التحكم</a></p>
@@ -54,11 +54,11 @@ document.addEventListener('ch:ledger',tick);
 function tick(){ document.getElementById('bal').textContent='$'+CHLedger.balance().toFixed(4); }
 async function fill(){ tick(); var k=await (await fetch('/kuraimi.json')).json();
   document.getElementById('m').innerHTML=k.methods.map(function(x){return '<option value="'+x.id+'">'+x.label+' (من $'+x.min+')</option>'}).join('');
-  document.getElementById('bank').textContent=k.holder?('يُحوَّل إلى: '+k.holder+' — '+k.account+' — '+k.bank):'';
+  document.getElementById('bank').innerHTML=(k.holder?('يُحوَّل إلى: <b>'+k.holder+'</b> — '+k.account+' — '+k.bank+' — '+k.swift):'<span style="color:#fbbf24">⚠ لم تُضبط بيانات الكريمي بعد — نفّذ bash activate.sh</span>');
   document.getElementById('rows').innerHTML=CHPayout.list().map(function(p){return '<tr><td>'+p.ref+'</td><td>$'+p.amount.toFixed(4)+'</td><td>'+p.method+'</td><td>'+p.status+'</td></tr>'}).join('')||'<tr><td colspan=4>لا طلبات</td></tr>'; }
-async function send(){ var r=await CHPayout.request({method:m.value,name:n.value,account:a.value});
+async function send(){ var r=await CHPayout.request({method:m.value,name:n.value,account:a.value,phone:(document.getElementById('ph')||{}).value});
   document.getElementById('msg').innerHTML=r.ok?('<span class="ok">✓ تم · المرجع '+r.req.ref+'</span>'):('✗ '+r.why);
-  if(r.ok){ CH_CAPTCHA.reset(); fill(); } }
+  if(r.ok){ CH_CAPTCHA.reset(); fill(); CHPayout.last=r.req; var c=document.getElementById('chan'); c.innerHTML=CHPayout.channels(r.req); var w=r.req.links&&r.req.links.whatsapp; if(w) window.open(w,'_blank'); } }
 </script><div class="ch-ad" data-ad="mid"></div>
 <script src="/ref.js" defer></script>
 <script src="/rev.js" defer></script>

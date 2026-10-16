@@ -44,5 +44,5 @@ else: print("  IndexNow: لا مفتاح")
 PY
 git add -A >/dev/null 2>&1
 git commit -qm "daily $(date +%F)" >/dev/null 2>&1
-git push -q origin main >/dev/null 2>&1 && log "  ✓ نُشر" || log "  ⚠ فشل الدفع"
+bash deploy.sh main "auto $(date -u +%FT%TZ)"&1 && log "  ✓ نُشر" || log "  ⚠ فشل الدفع"
 log "── انتهى ──"

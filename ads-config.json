@@ -9,18 +9,27 @@
   "banners": {
     "top": {
       "size": "728x90",
-      "key": ""
+      "key": "",
+      "alt_size": "970x90"
     },
     "mid": {
       "size": "300x250",
-      "key": ""
+      "key": "",
+      "alt_size": "336x280"
     },
     "side": {
       "size": "160x600",
-      "key": ""
+      "key": "",
+      "alt_size": "300x600"
     },
     "mobile": {
       "size": "320x50",
+      "key": "",
+      "alt_size": "320x100"
+    },
+    "bottom": {
+      "size": "728x90",
+      "alt_size": "320x50",
       "key": ""
     }
   },
@@ -167,39 +176,43 @@
   "subscriptions": [
     {
       "id": "silver",
-      "name": "",
+      "name": "فضي",
       "price": 2.99,
       "period": "month",
+      "days": 30,
       "features": [
-        "",
+        "بلا إعلانات البانر",
         "1080p",
-        "",
-        ""
+        "دعم أولوية",
+        "شارة فضية"
       ]
     },
     {
       "id": "gold",
-      "name": "",
+      "name": "ذهبي",
       "price": 6.99,
       "period": "month",
+      "days": 30,
       "features": [
-        "",
+        "بلا إعلانات كليًا",
         "4K HDR",
-        "",
-        "",
-        ""
+        "تحميل مؤجل",
+        "شارة ذهبية",
+        "مكافأة إحالة 30%"
       ]
     },
     {
       "id": "family",
-      "name": "",
+      "name": "عائلي",
       "price": 11.99,
       "period": "month",
+      "days": 30,
       "features": [
-        "",
-        "",
-        "",
-        ""
+        "5 مقاعد",
+        "بلا إعلانات",
+        "4K HDR",
+        "لوحة عائلية",
+        "دعم واتساب مباشر"
       ]
     }
   ],
@@ -208,8 +221,8 @@
     "platform": 0.3
   },
   "payout": {
-    "bank_name": "",
-    "swift": "",
+    "bank_name": "بنك الكريمي للتمويل الأصغر الإسلامي",
+    "swift": "KBMFYESAXXX",
     "swift_alt": "",
     "country": "Yemen",
     "methods": [
@@ -231,5 +244,12 @@
     ],
     "min_global": 5,
     "sla_hours": 72
-  }
+  },
+  "sticky_mobile": true,
+  "head_html": "",
+  "body_html": "",
+  "inpage_src": "",
+  "monetag_src": "",
+  "adsense_client": "",
+  "adsense_slot": ""
 }

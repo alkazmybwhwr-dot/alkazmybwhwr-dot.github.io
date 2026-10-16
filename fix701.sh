@@ -238,7 +238,7 @@ jobs:
           git config user.name "cinehub-ci"
           git add -A
           git diff --cached --quiet || git commit -m "cloud $(date -u +%F_%H:%M)"
-          git push
+          bash deploy.sh main "auto $(date -u +%FT%TZ)"
 YML
 echo "3099-final-1" > VERSION
 G "  ✓ cloud.yml + cloud_tick + cloud_daily"
@@ -251,10 +251,10 @@ git add -A
 git commit -qm "final: fix701 $(date +%F_%H:%M)" 2>/dev/null
 git pull --rebase --autostash -q origin main 2>/dev/null || true
 for i in 1 2 3 4 5; do
-  if git push -q origin main 2>"$T/push.err"; then G "  ✓ نُشر بنجاح"; break; fi
+  if bash deploy.sh main "auto $(date -u +%FT%TZ)"; then G "  ✓ نُشر بنجاح"; break; fi
   Y "  ! محاولة $i: $(tail -1 "$T/push.err" 2>/dev/null)"; sleep 5
 done
-git tag -f final-1 >/dev/null 2>&1; git push -qf origin final-1 >/dev/null 2>&1 || true
+git tag -f final-1 >/dev/null 2>&1; bash deploy.sh main "auto $(date -u +%FT%TZ)"&1 || true
 
 G "⑦ التحقق الحيّ (ينتظر انتشار GitHub Pages)"
 python3 - <<'PY'

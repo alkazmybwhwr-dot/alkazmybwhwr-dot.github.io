@@ -1,53 +1,35 @@
 {
   "bank": "بنك الكريمي للتمويل الأصغر الإسلامي",
+  "swift": "KBMFYESAXXX",
   "holder": "اسمك الكامل",
   "account": "رقم حسابك في الكريمي",
+  "phone": "",
   "branch": "الفرع",
+  "note": "املأ الاسم ورقم الحساب والهاتف في activate.sh ليصبح السحب حقيقيًا",
   "methods": [
     {
-      "id": "kuraimi_yer",
+      "id": "kuraimi_local",
       "label": "حوالة الكريمي — ريال يمني",
-      "cur": "YER",
-      "min": 5000
+      "min": 5,
+      "cur": "YER"
     },
     {
       "id": "kuraimi_usd",
       "label": "كريمي إكسبرس / دولار",
-      "cur": "USD",
-      "min": 20
+      "min": 20,
+      "cur": "USD"
     },
     {
       "id": "usdt_trc20",
       "label": "USDT (TRC20)",
-      "cur": "USDT",
-      "min": 5
-    }
-  ],
-  "networks": [
-    {
-      "id": "adsterra",
-      "label": "Adsterra",
-      "min_usd": 5,
-      "methods": [
-        "USDT (TRC20)",
-        "Paxum",
-        "WebMoney",
-        "Local bank 40+ دولة"
-      ],
-      "cycle": "تلقائي مرتين شهرياً (1–2 و16–17)"
+      "min": 5,
+      "cur": "USDT"
     },
     {
-      "id": "monetag",
-      "label": "Monetag",
-      "min_usd": 5,
-      "methods": [
-        "PayPal",
-        "Skrill",
-        "WebMoney",
-        "Payoneer",
-        "Crypto"
-      ],
-      "cycle": "أسبوعي (الخميس)"
+      "id": "usdt_base",
+      "label": "USDT / USDC (Base)",
+      "min": 5,
+      "cur": "USDT"
     }
   ]
 }
