@@ -1,14 +1,20 @@
 {
   "address": "0x7AcC22Ed0d07dd775D4456a29011Ff1440945CbB",
-  "balance": 0.0007,
-  "pending": 0.0007,
-  "views": 1.0,
-  "lastTick": 1792180218,
-  "updated": "2026-10-16 22:50:18",
+  "balance": 0.00072,
+  "pending": 0.00072,
+  "views": 2.0,
+  "lastTick": 1792180745,
+  "updated": "2026-10-16 22:59:05",
   "history": [
     {
       "t": "2026-10-16 22:50:18",
       "d": 0.0007
+    },
+    {
+      "t": "2026-10-16 22:59:05",
+      "d": 2e-05
     }
-  ]
+  ],
+  "earned_total": 2e-05,
+  "hourly_rate": 2e-05
 }
