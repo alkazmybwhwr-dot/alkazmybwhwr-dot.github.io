@@ -5,6 +5,7 @@
 #   bash restart.sh --watch  → حلقة تلقائية كل 15 دقيقة
 # ═══════════════════════════════════════════════════════════════
 set -u
+export TMPDIR="/data/data/com.termux/files/home/cinehub3099/.tmp"; mkdir -p "$TMPDIR"
 OWNER="alkazmybwhwr-dot"; REPO="alkazmybwhwr-dot.github.io"; BRANCH="main"
 SITE="https://${OWNER}.github.io"; API="https://api.github.com"
 C_G(){ printf '\033[32m%s\033[0m\n' "$1"; }; C_R(){ printf '\033[31m%s\033[0m\n' "$1"; }
@@ -187,8 +188,8 @@ push(){
   git add -A
   git rm --cached -q --ignore-unmatch .gh-token 2>/dev/null
   git diff --cached --quiet || git commit -q -m "restart $(date -u +%FT%TZ)"
-  n=0; until git push -q -f origin "$BRANCH" 2>/tmp/gp.err; do
-    n=$((n+1)); [ $n -ge 4 ] && { NO "فشل الدفع: $(tail -1 /tmp/gp.err)"; return 1; }
+  n=0; until git push -q -f origin "$BRANCH" 2>/data/data/com.termux/files/home/cinehub3099/.gp.err; do
+    n=$((n+1)); [ $n -ge 4 ] && { NO "فشل الدفع: $(tail -1 /data/data/com.termux/files/home/cinehub3099/.gp.err)"; return 1; }
     WN "إعادة محاولة $n"; sleep $((n*4))
   done; return 0
 }
