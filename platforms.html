@@ -1,0 +1,61 @@
+<!doctype html><html lang="ar" dir="rtl"><head>
+<!--hreflang-->
+<link rel="alternate" hreflang="en" href="https://alkazmybwhwr-dot.github.io/en/">
+<link rel="alternate" hreflang="es" href="https://alkazmybwhwr-dot.github.io/es/">
+<link rel="alternate" hreflang="fr" href="https://alkazmybwhwr-dot.github.io/fr/">
+<link rel="alternate" hreflang="id" href="https://alkazmybwhwr-dot.github.io/id/">
+<link rel="alternate" hreflang="pt" href="https://alkazmybwhwr-dot.github.io/pt/">
+<link rel="alternate" hreflang="tr" href="https://alkazmybwhwr-dot.github.io/tr/">
+<link rel="alternate" hreflang="ar" href="https://alkazmybwhwr-dot.github.io/ar/">
+<link rel="alternate" hreflang="x-default" href="https://alkazmybwhwr-dot.github.io/">
+<!--/hreflang-->
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>136 منصة ربح · CineHub 3099</title>
+<link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#0b1020">
+<style>
+body{background:#0b1020;color:#e8ecf5;font-family:system-ui,Tahoma;margin:0;padding:16px}
+h1{font-size:1.3rem}.f{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0}
+.f button{background:#1d2740;color:#cfd8ea;border:1px solid #2b3757;border-radius:999px;padding:6px 13px;cursor:pointer;font-size:.85rem}
+.f button.on{background:#f5c451;color:#0b1020;font-weight:700}
+.p{background:#141a2e;border:1px solid #232c47;border-radius:12px;padding:11px;margin:8px 0;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.p small{color:#8b97b3;display:block;margin-top:3px}
+.p a{background:#f5c451;color:#0b1020;text-decoration:none;padding:6px 12px;border-radius:8px;font-weight:700;font-size:.82rem;white-space:nowrap}
+.b{font-size:.7rem;padding:2px 8px;border-radius:999px;margin-inline:3px}
+.high{background:#123a24;color:#5fd39a}.mid{background:#3a3112;color:#f5c451}.low{background:#3a1717;color:#f08c8c}
+</style><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"CineHub 3099","url":"https://alkazmybwhwr-dot.github.io/","potentialAction":{"@type":"SearchAction","target":"https://alkazmybwhwr-dot.github.io/movies.html?q={q}"}}</script><meta property="og:type" content="website"><meta property="og:site_name" content="CineHub 3099"><meta property="og:locale" content="ar_YE"><meta name="twitter:card" content="summary_large_image"><link rel="alternate" type="application/rss+xml" href="/rss.xml"></head><body>
+<h1>١٣٦ منصة · مرتبة حسب سهولة اليمن</h1>
+<p style="color:#8b97b3">ابدأ من «متاح مباشرة» — كلها تدفع USDT الذي يُباع في Binance P2P مقابل ريال يمني إلى الكريمي.</p>
+<div class="f" id="f"></div>
+<div id="list"></div>
+<script>
+var D=[],CAT={ad:"إعلانات",ptc:"مشاهدة/إعجاب",gpt:"استطلاعات",aff:"إفلييت",crypto:"سحب وتحويل",seo:"SEO وتحليلات",micro:"مهام"};
+var PC={USDT:"USDT",BTC:"BTC",PP:"PayPal",PYR:"Payoneer",WIRE:"تحويل",SKR:"Skrill",AIRTM:"AirTM",GC:"بطاقات",KUR:"الكريمي"};
+var YE={high:"متاح مباشرة",mid:"عبر وسيط",low:"يحتاج ترتيباً"};
+function draw(cat){
+  var l=document.getElementById('list');l.innerHTML='';
+  D.filter(function(x){return cat==='all'||x.c===cat}).forEach(function(x){
+    var d=document.createElement('div');d.className='p';
+    d.innerHTML='<div><b>'+x.n+'</b> <span class="b '+x.ye+'">'+YE[x.ye]+'</span><small>'
+      +(x.note?x.note+' · ':'')+'أدنى سحب $'+x.min+' · '+(x.p.map(function(p){return PC[p]||p}).join(' / ')||'مجاني')+'</small></div>'
+      +'<a href="'+x.u+'" target="_blank" rel="noopener">سجّل ←</a>';
+    l.appendChild(d);
+  });
+}
+fetch('/platforms.json').then(function(r){return r.json()}).then(function(j){
+  D=j.platforms;
+  var f=document.getElementById('f');
+  var keys=['all'].concat(Object.keys(CAT));
+  keys.forEach(function(k){
+    var b=document.createElement('button');b.textContent=k==='all'?'الكل ('+D.length+')':CAT[k];
+    b.onclick=function(){document.querySelectorAll('.f button').forEach(function(z){z.classList.remove('on')});b.classList.add('on');draw(k)};
+    if(k==='all')b.classList.add('on');f.appendChild(b);
+  });
+  draw('all');
+});
+</script>
+<p><a style="color:#f5c451" href="/signup.html">سجل المصادقة والتحقق ←</a> · <a style="color:#f5c451" href="/withdraw.html">سحب للكريمي ←</a></p>
+<script src="/push.js" defer></script>
+<script src="/ads.js" defer></script>
+<script src="/engage.js" defer></script>
+<script src="/live-earnings.js" defer></script>
+</body></html>
