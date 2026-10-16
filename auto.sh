@@ -8,6 +8,8 @@ while true; do
   printf '\n=== %s ===\n' "$(date -u +%FT%TZ)"
   python3 content/build.py 2>&1 | tail -12
   python3 content/render.py 2>&1 | tail -4
+  python3 content/expand.py 2>&1 | tail -3
+  python3 content/rss.py 2>&1 | tail -1
   python3 - <<'PY'
 import os,re
 F=[]
