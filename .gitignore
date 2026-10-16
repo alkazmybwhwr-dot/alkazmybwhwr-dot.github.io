@@ -1,0 +1,6 @@
+node_modules/
+backups/
+*.log
+.gh-token
+__pycache__/
+*.tgz

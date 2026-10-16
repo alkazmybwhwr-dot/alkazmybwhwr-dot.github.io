@@ -1,0 +1,93 @@
+<!DOCTYPE html><html lang="ar" dir="rtl"><head>
+<!--hreflang-->
+<link rel="alternate" hreflang="en" href="https://alkazmybwhwr-dot.github.io/en/">
+<link rel="alternate" hreflang="es" href="https://alkazmybwhwr-dot.github.io/es/">
+<link rel="alternate" hreflang="fr" href="https://alkazmybwhwr-dot.github.io/fr/">
+<link rel="alternate" hreflang="id" href="https://alkazmybwhwr-dot.github.io/id/">
+<link rel="alternate" hreflang="pt" href="https://alkazmybwhwr-dot.github.io/pt/">
+<link rel="alternate" hreflang="tr" href="https://alkazmybwhwr-dot.github.io/tr/">
+<link rel="alternate" hreflang="ar" href="https://alkazmybwhwr-dot.github.io/ar/">
+<link rel="alternate" hreflang="x-default" href="https://alkazmybwhwr-dot.github.io/">
+<!--/hreflang-->
+
+
+
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>اكسب من CineHub 3099 — استطلاعات وألعاب</title>
+<style>
+body{margin:0;background:#0b0d14;color:#e9ecf5;font:15px/1.7 system-ui,Tahoma,sans-serif}
+.w{max-width:880px;margin:0 auto;padding:22px 16px 60px}
+h1{font-size:22px;margin:0 0 6px}h2{font-size:16px;margin:24px 0 10px;color:#9fb0ff}
+p{opacity:.8}a{color:#8ea2ff}
+.box{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:13px;margin:12px 0}
+code{background:rgba(255,255,255,.08);padding:2px 6px;border-radius:6px;font-size:12.5px}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th,td{border:1px solid rgba(255,255,255,.1);padding:8px;text-align:right}
+th{background:rgba(255,255,255,.05)}
+iframe{width:100%;min-height:640px;border:0;border-radius:12px;background:#fff}
+.st{border-right:3px solid #6c7cff;padding-right:12px;margin:12px 0;font-size:13.5px}
+button{padding:9px 14px;border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.06);color:#cfd4e6;border-radius:9px;cursor:pointer;margin:3px}
+button.on{background:#6c7cff;border-color:#6c7cff;color:#fff}
+</style></head><body><div class="w">
+<h1>اكسب من الموقع</h1>
+<p>أكمل استطلاعًا أو جرّب لعبة → تربح أنت، ونربح نحن. عمولة الاستطلاع أعلى من الإعلان العادي.</p>
+
+<h2>1) الاستطلاعات — فعّلها من هنا</h2>
+<div class="box">
+  <div id="provs"></div>
+  <p style="font-size:12.5px;opacity:.6;margin:6px 0 0">اختر منصّة → ستُحمّل مباشرة.</p>
+</div>
+<div id="wall"><div class="box">لم تُفعّل منصّة استطلاع بعد. راجع <a href="./surveys.html">صفحة المنصات</a>.</div></div>
+
+<h2>2) المنصات الحقيقية — سجّل وانسخ المعرّف</h2>
+<table>
+<tr><th>المنصة</th><th>النوع</th><th>المطلوب</th><th>أدنى سحب</th></tr>
+<tr><td>BitLabs</td><td>استطلاعات</td><td>token من اللوحة</td><td>~30$</td></tr>
+<tr><td>CPX Research</td><td>استطلاعات</td><td>app_id</td><td>~30$</td></tr>
+<tr><td>TheoremReach</td><td>استطلاعات</td><td>api_key</td><td>~50$</td></tr>
+<tr><td>Pollfish</td><td>استطلاعات</td><td>api_key</td><td>~100$</td></tr>
+<tr><td>Lootably</td><td>عروض</td><td>placementID</td><td>~25$</td></tr>
+<tr><td>AdGate Media</td><td>عروض</td><td>wall id</td><td>~50$</td></tr>
+<tr><td>Ayet Studios</td><td>عروض</td><td>external_id</td><td>~50$</td></tr>
+<tr><td>Notik</td><td>عملات</td><td>app_id</td><td>~50$</td></tr>
+</table>
+<p style="font-size:12.5px;opacity:.65">الشرح الكامل في <a href="./surveys.html">surveys.html</a> · والتفعيل بأمر: <code>bash surveys.sh bitlabs TOKEN</code></p>
+
+<h2>3) الفرق عن الإعلان</h2>
+<div class="st">الإعلان يدفع لكل ظهور (~0.5–3$ / 1000). الاستطلاع يدفع لكل <b>إكمال</b> (0.2–2$ للاستطلاع الواحد) — أعلى بكثير لو الزائر مقيّم.</div>
+<p style="margin-top:26px;opacity:.5;font-size:12px">CineHub 3099</p>
+</div>
+<script>
+var U=function(id){var m=/[?&]u=([^&]+)/.exec(location.search);return m?decodeURIComponent(m[1]):(localStorage.getItem("ch3099.uid")||(function(){
+  var s="u"+Math.random().toString(36).slice(2,10);localStorage.setItem("ch3099.uid",s);return s;})());};
+var PROV={
+ bitlabs:{n:"BitLabs",url:function(c,u){return "https://web.bitlabs.ai/?token="+c.id+"&uid="+u;}},
+ cpx:{n:"CPX Research",url:function(c,u){return "https://offers.cpx-research.com/index.php?app_id="+c.id+"&ext_user_id="+u;}},
+ theoremreach:{n:"TheoremReach",url:function(c,u){return "https://theoremreach.com/eng/ovl/survey_wall?api_key="+c.id+"&user_id="+u;}},
+ lootably:{n:"Lootably",url:function(c,u){return "https://wall.lootably.com/?placementID="+c.id+"&userID="+u;}},
+ adgate:{n:"AdGate Media",url:function(c,u){return "https://wall.adgaterewards.com/"+c.id+"/"+u;}},
+ ayet:{n:"Ayet Studios",url:function(c,u){return "https://cdn.ayetstudios.com/offers/web_offerwall/index?external_identifier="+u+"&offerwall_id="+c.id;}},
+ notik:{n:"Notik",url:function(c,u){return "https://notik.me/coins?app_id="+c.id+"&user_id="+u;}}
+};
+function load(p,c){
+  var w=document.getElementById("wall");
+  if(!c.id){ w.innerHTML='<div class="box">منصّة <b>'+(PROV[p]?PROV[p].n:p)+'</b> مُختارة لكن المعرّف فاضي.</div>'; return; }
+  w.innerHTML='<iframe src="'+PROV[p].url(c,U())+'" allowfullscreen loading="lazy"></iframe>';
+}
+fetch("./surveys-config.json",{cache:"no-store"}).then(function(r){return r.json();}).then(function(c){
+  var h="";
+  Object.keys(PROV).forEach(function(k){
+    h+='<button class="'+(k===c.provider?"on":"")+'" onclick="pick(\''+k+'\')">'+PROV[k].n+'</button>';
+  });
+  document.getElementById("provs").innerHTML=h;
+  window.pick=function(k){ fetch("./surveys-config.json").then(function(r){return r.json();}).then(function(c2){load(k,c2);}); };
+  if(c.provider) load(c.provider,c);
+}).catch(function(){
+  document.getElementById("wall").innerHTML='<div class="box">تعذّر قراءة surveys-config.json</div>';
+});
+</script>
+<script src="/push.js" defer></script>
+<script src="/ads.js" defer></script>
+<script src="/engage.js" defer></script>
+<script src="/live-earnings.js" defer></script>
+</body></html>
