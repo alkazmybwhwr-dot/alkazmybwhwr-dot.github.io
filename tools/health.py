@@ -20,7 +20,8 @@ h={'t':datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None).strftim
  'kuraimi':has('kuraimi_account'),'whatsapp':has('whatsapp'),
  'turnstile':bool((o.get('captcha') or {}).get('turnstile_site')),
  'supabase':has('supabase_url'),'apps_script':has('endpoint'),
- 'workflows':len(glob.glob(os.path.join(R,'.github/workflows/*.yml')))}
+ 'workflows':len(glob.glob(os.path.join(R,'.github/workflows/*.yml'))),
+ 'catalog':(rd('data/catalog-index.json',{}) or {}).get('total',0)}
 h['ready_score']=sum([h['banner_keys']>0,h['nets_with_keys']>0,h['shorteners_with_uid']>0,
  h['smartlinks']>0,h['kuraimi'],h['whatsapp'],h['turnstile'],h['supabase'],h['apps_script']])
 json.dump(h,open(os.path.join(R,'health.json'),'w',encoding='utf-8'),indent=1)

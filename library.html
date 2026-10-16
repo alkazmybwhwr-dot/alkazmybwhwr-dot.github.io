@@ -1,0 +1,84 @@
+<!doctype html><html lang="ar" dir="rtl"><head><script src="/killsw.js"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>المكتبة · CineHub 3099</title>
+<meta name="description" content="مكتبة ضخمة: أفلام، مقاطع، تريلرات، كتب، صوت — من مصادر مفتوحة قانونية. شاهد واربح.">
+<link rel="manifest" href="/manifest.json">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:radial-gradient(1000px 480px at 50% -10%,#122a44,#070b14 60%) fixed;color:#e9f4ff;font:15px/1.7 system-ui,Tahoma;padding-bottom:70px}
+a{color:#22d3ee;text-decoration:none}.wrap{max-width:1100px;margin:auto;padding:0 12px}
+header{position:sticky;top:0;z-index:50;backdrop-filter:blur(12px);background:#070b14d9;border-bottom:1px solid #1d2a44;padding:9px 0}
+.hd{display:flex;gap:9px;align-items:center;flex-wrap:wrap}.logo{width:34px;height:34px;border-radius:9px;background:linear-gradient(135deg,#22d3ee,#a78bfa);display:grid;place-items:center;font-weight:900;color:#04121a}
+input,select{background:#0b1220;border:1px solid #1d2a44;color:#e9f4ff;border-radius:9px;padding:9px;font:inherit}
+input{flex:1;min-width:150px}
+.tabs{display:flex;gap:6px;overflow-x:auto;padding:8px 0}
+.tabs button{white-space:nowrap;background:#0b1220;border:1px solid #1d2a44;color:#cfe3f5;border-radius:99px;padding:6px 13px;font-size:12.5px;cursor:pointer}
+.tabs button.on{border-color:#22d3ee;background:#0f2233;color:#fff}
+.grid{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(158px,1fr));margin:12px 0}
+.it{background:#0f1626;border:1px solid #1d2a44;border-radius:12px;overflow:hidden;transition:.18s;display:block}
+.it:hover{transform:translateY(-3px);border-color:#2b3f66}
+.th{height:92px;background:#0b1220 center/cover no-repeat;display:grid;place-items:center;color:#8ba2c0;font-size:22px}
+.it b{display:block;padding:7px 9px;font-size:12.5px;line-height:1.45}
+.it span{display:block;padding:0 9px 8px;color:#8ba2c0;font-size:11px}
+.k{color:#8ba2c0;font-size:12.5px}.big{font-size:24px;font-weight:800;color:#22d3ee}
+#more{margin:14px auto;display:block}
+footer{color:#8ba2c0;font-size:12px;text-align:center;padding:18px;border-top:1px solid #1d2a44;margin-top:20px}
+</style></head><body>
+<header><div class="wrap hd"><div class="logo">▶</div>
+<b style="font-size:14.5px">مكتبة CineHub 3099</b>
+<input id="q" placeholder="ابحث في المكتبة…">
+<a href="/" style="font-size:12.5px">الرئيسية</a><a href="/watch.html" style="font-size:12.5px">شاهد واقبض</a>
+</div>
+<div class="wrap"><div class="tabs" id="tabs"></div></div></header>
+<div class="wrap">
+ <div id="stat" class="k">… يُقرأ</div>
+ <div class="grid" id="g"></div>
+ <button id="more" style="display:none">تحميل المزيد</button>
+ <footer>كل المحتوى من مصادر مفتوحة قانونية · المشاهدة تُدرّ إعلانات ونقرات مدفوعة لصاحب التطبيق</footer>
+</div>
+<script src="/ledger.js" defer></script><script src="/beacon.js" defer></script>
+<script src="/ads.js" defer></script><script src="/owner.js" defer></script><script src="/boot.js" defer></script>
+<script>
+var IDX=null,CACHE={},CUR='',ALL=[],SHOWN=0,STEP=60,LASTQ='';
+function esc(s){return String(s||'').replace(/[<>&"]/g,function(c){return{'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]})}
+function paint(){
+ var f=ALL.filter(function(x){return !LASTQ||(x.t||'').toLowerCase().indexOf(LASTQ)>-1});
+ var page=f.slice(0,SHOWN);
+ document.getElementById('g').innerHTML=page.map(function(x){
+  var q='/play.html?s='+encodeURIComponent(x.c)+'&id='+encodeURIComponent(x.id)+'&t='+encodeURIComponent(x.t||'')+
+   '&img='+encodeURIComponent(x.img||'')+'&kind='+encodeURIComponent(x.kind||'')+'&emb='+encodeURIComponent(x.emb||'')+
+   '&by='+encodeURIComponent(x.by||'')+'&dur='+(x.dur||0);
+  return '<a class="it" href="'+q+'"><div class="th" style="'+(x.img?'background-image:url('+x.img+')':'')+'">'+(x.img?'':'🎬')+'</div>'+
+   '<b>'+esc(String(x.t||'').slice(0,60))+'</b><span>'+(x.y||'')+(x.by?' · '+esc(String(x.by).slice(0,18)):'')+(x.dur?' · '+Math.round(x.dur/60)+'د':'')+'</span></a>';
+ }).join('')||'<p class="k">لا نتائج — جرّب كلمة أخرى</p>';
+ document.getElementById('more').style.display=(f.length>SHOWN)?'block':'none';
+ document.getElementById('more').textContent='تحميل المزيد ('+(f.length-SHOWN)+' متبقٍ)';
+ document.getElementById('stat').innerHTML='إجمالي المفهرس: <b class="big">'+Number(IDX.total||0).toLocaleString('en')+'</b> عنصرًا · المصدر الحالي: <b>'+esc(CUR)+'</b> ('+ALL.length+')';
+}
+function load(src){
+ CUR=src;
+ if(CACHE[src]){ALL=CACHE[src];SHOWN=STEP;paint();return}
+ var s=(IDX.sources||[]).filter(function(x){return x.src===src})[0];
+ ALL=[];paint();
+ fetch(s.file+'?t='+Date.now()).then(function(r){return r.json()}).then(function(j){
+  ALL=(j.items||[]).map(function(x){x.c=src;return x});CACHE[src]=ALL;SHOWN=STEP;paint();
+ }).catch(function(){ALL=[];paint()});
+}
+(function(){
+ fetch('/data/catalog-index.json?t='+Date.now()).then(function(r){return r.json()}).then(function(j){
+  IDX=j;
+  document.getElementById('tabs').innerHTML='<button data-s="archive" class="on">🎬 أفلام ومكتبة Archive</button>'+
+   (j.sources||[]).filter(function(x){return x.src!=='archive'}).map(function(x){return '<button data-s="'+x.src+'">'+esc(x.name)+' ('+x.n+')</button>'}).join('');
+  document.getElementById('tabs').onclick=function(e){
+   var b=e.target.closest('button'); if(!b)return;
+   [].forEach.call(this.children,function(x){x.classList.remove('on')}); b.classList.add('on');
+   ALL=[];SHOWN=STEP;load(b.getAttribute('data-s'));
+  };
+  load('archive');
+  document.getElementById('stat').innerHTML+=' · <span class="k">'+ (j.underlying||[]).map(function(u){return u.n+': '+u.v}).join(' · ')+'</span>';
+ }).catch(function(){document.getElementById('stat').textContent='تعذّر قراءة الفهرس — شغّل bash RUN.sh'});
+ document.getElementById('q').oninput=function(){LASTQ=this.value.trim().toLowerCase();SHOWN=STEP;paint()};
+ document.getElementById('more').onclick=function(){SHOWN+=STEP;paint()};
+})();
+</script>
+</body></html>

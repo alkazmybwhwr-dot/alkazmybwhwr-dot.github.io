@@ -40,7 +40,7 @@ code{background:#0d1424;padding:2px 6px;border-radius:6px;direction:ltr;display:
  document.getElementById('keys').innerHTML=rows.map(r=>'<tr><td>'+r[0]+'</td><td class="'+(r[2]||'')+'"><b>'+r[1]+'</b></td></tr>').join('');
  document.getElementById('sys').innerHTML=[['قيود السجل الموثّق',(li.entries||0)+((li.broken)?' ('+li.broken+' مكسور)':' ✓')],
   ['نبضات الخادم',(pu.seq||0)],['آخر نبضة',pu.t||'—'],['جهات في الكتالوج',h.platforms||0],
-  ['روابط تعمل',h.platforms_live||0],['دورات العمل',h.workflows||0]].map(r=>'<tr><td>'+r[0]+'</td><td><b>'+r[1]+'</b></td></tr>').join('');
+  ['روابط تعمل',h.platforms_live||0],['دورات العمل',h.workflows||0],['عناصر المكتبة',h.catalog||0]].map(r=>'<tr><td>'+r[0]+'</td><td><b>'+r[1]+'</b></td></tr>').join('');
  document.getElementById('cmds').textContent=['bash GO.sh          # يشغّل كل شيء','bash activate.sh    # إدخال المفاتيح','bash fixpush.sh     # إن رفض التوكن','python3 tools/doctor.py','python3 tools/verify.py'].join('\n');
 })();
 </script><script src="/authtoken.js" defer></script>
