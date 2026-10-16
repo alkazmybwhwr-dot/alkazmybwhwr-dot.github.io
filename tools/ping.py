@@ -26,5 +26,5 @@ if KEY:
 res['bing']=get('https://www.bing.com/ping?sitemap=https://%s/sitemap.xml'%HOST)
 res['google']=get('https://www.google.com/ping?sitemap=https://%s/sitemap.xml'%HOST)
 if KEY: res['yandex']=get('https://yandex.com/indexnow?url=https://%s/&key=%s'%(HOST,KEY))
-json.dump({'t':datetime.datetime.utcnow().strftime('%FT%TZ'),'urls':len(urls),'res':res},open(os.path.join(R,'ping.json'),'w',encoding='utf-8'),indent=1)
+json.dump({'t':datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None).strftime('%FT%TZ'),'urls':len(urls),'res':res},open(os.path.join(R,'ping.json'),'w',encoding='utf-8'),indent=1)
 print('ping:',len(urls),res)

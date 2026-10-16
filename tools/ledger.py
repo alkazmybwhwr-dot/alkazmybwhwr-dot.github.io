@@ -10,9 +10,9 @@ def last(m):
     if not lines: return 'GENESIS',0
     o=json.loads(lines[-1]); return o.get('hash','GENESIS'),len(lines)
 def add(kind,amount,src='',meta=None):
-    m=datetime.datetime.utcnow().strftime('%Y-%m')
+    m=datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None).strftime('%Y-%m')
     prev,n=last(m)
-    rec={'i':n+1,'at':datetime.datetime.utcnow().strftime('%FT%TZ'),'kind':kind,
+    rec={'i':n+1,'at':datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None).strftime('%FT%TZ'),'kind':kind,
      'amount':round(float(amount),6),'src':src,'meta':meta or {},'prev':prev}
     rec['hash']=hashlib.sha256((prev+json.dumps(rec,sort_keys=True,ensure_ascii=False)).encode()).hexdigest()
     open(os.path.join(D,m+'.jsonl'),'a',encoding='utf-8').write(json.dumps(rec,ensure_ascii=False)+'\n')
@@ -37,6 +37,6 @@ if __name__=='__main__':
     for k,v in (r.get('networks') or {}).items():
         if v.get('revenue'): add('net_'+k,v['revenue'],k,{'imp':v.get('impressions',0)})
     tot,bad=verify()
-    json.dump({'t':datetime.datetime.utcnow().strftime('%FT%TZ'),'entries':tot,'broken':bad,
+    json.dump({'t':datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None).strftime('%FT%TZ'),'entries':tot,'broken':bad,
      'chain':'sha256'},open(os.path.join(R,'ledger-index.json'),'w',encoding='utf-8'),indent=1)
     print('ledger: %d قيد · %d مكسور'%(tot,bad))

@@ -6,7 +6,7 @@ def rd(p,d=None):
     try: return json.load(open(os.path.join(R,p),encoding='utf-8'))
     except Exception: return d
 def wr(p,o): json.dump(o,open(os.path.join(R,p),'w',encoding='utf-8'),ensure_ascii=False,indent=2)
-now=datetime.datetime.utcnow(); day=now.strftime('%Y-%m-%d')
+now=datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None); day=now.strftime('%Y-%m-%d')
 start=(now-datetime.timedelta(days=30)).strftime('%Y-%m-%d')
 A={'revenue','revenue_usd','earnings','profit','total_revenue','amount'}
 I={'impressions','impression','imps','impressions_count','views'}

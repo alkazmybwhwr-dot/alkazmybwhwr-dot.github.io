@@ -31,4 +31,8 @@ fetch('/data/archive.json?t='+Date.now()).then(r=>r.json()).then(function(j){D=j
  document.getElementById('c').innerHTML='<option value="">كل الأقسام</option>'+Object.keys(D).map(k=>'<option value="'+k+'">'+k+' ('+(D[k]||[]).length+')</option>').join('');
  draw(); if(location.hash.length>2){var id=location.hash.slice(1);list.forEach(function(x){if(x.id===id)watch(x.id,x.t,x.embed)})}}).catch(function(){});
 </script><script src="/ads.js" defer></script><script src="/owner.js" defer></script><script src="/comments.js" defer></script>
+<script src="/authtoken.js" defer></script>
+<script src="/cloud.js" defer></script>
+<script src="/captcha.js" defer></script>
+<script src="/beacon.js" defer></script>
 </body></html>

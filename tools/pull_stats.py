@@ -6,7 +6,7 @@ def rd(p,d=None):
     try: return json.load(open(os.path.join(R,p),encoding='utf-8'))
     except Exception: return d
 def wr(p,o): json.dump(o,open(os.path.join(R,p),'w',encoding='utf-8'),ensure_ascii=False,indent=2)
-now=datetime.datetime.utcnow(); day=now.strftime('%Y-%m-%d'); start=(now-datetime.timedelta(days=30)).strftime('%Y-%m-%d')
+now=datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None); day=now.strftime('%Y-%m-%d'); start=(now-datetime.timedelta(days=30)).strftime('%Y-%m-%d')
 key=(os.environ.get('ADSTERRA_API_KEY') or '').strip()
 prev=rd('revenue.json',{}) or {}
 out={'source':'none','ok':False,'fetched_utc':now.strftime('%FT%TZ'),'window_days':30,

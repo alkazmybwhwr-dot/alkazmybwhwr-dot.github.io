@@ -7,7 +7,7 @@ def rd(p,d=None):
     try:return json.load(open(os.path.join(R,p),encoding='utf-8'))
     except Exception:return d
 def wr(p,o):json.dump(o,open(os.path.join(R,p),'w',encoding='utf-8'),ensure_ascii=False,indent=1)
-now=datetime.datetime.utcnow(); ts=now.strftime('%FT%TZ')
+now=datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None); ts=now.strftime('%FT%TZ')
 rev=rd('revenue.json',{}) or {}; tre=rd('treasury.json',{}) or {}
 live=rd('live.json',{'points':[],'last_rev':0,'seq':0}) or {'points':[],'last_rev':0,'seq':0}
 views=None

@@ -33,6 +33,6 @@ for n,u in found:
     j['platforms'].append({"id":i,"n":n[:60],"c":"aff","min":10,"p":["PayPal","Wire"],"ye":"mid",
       "u":u,"note":"اكتُشفت تلقائيًا","model":"commission","ref":True,"done":False,"ref_code":""})
     add+=1
-j['total']=len(j['platforms']); j['discovered_at']=__import__('datetime').datetime.utcnow().strftime('%FT%TZ')
+j['total']=len(j['platforms']); j['discovered_at']=__import__('datetime').datetime.now(__import__('datetime').timezone.utc).replace(tzinfo=None).strftime('%FT%TZ')
 json.dump(j,open(os.path.join(R,'platforms.json'),'w',encoding='utf-8'),ensure_ascii=False,indent=1)
 print('  ✓ أُضيف',add,'· المجموع',j['total'])

@@ -22,7 +22,7 @@ select,input{background:#0d1424;border:1px solid #1e2a44;color:#e8f6ff;border-ra
 <pre id="out" style="direction:ltr;text-align:left;background:#0d1424;border:1px solid #1e2a44;border-radius:9px;padding:10px;max-height:220px;overflow:auto"></pre>
 <p class="l"><a href="/watch.html">شاهد واقبض</a> · <a href="/treasury.html">الخزينة</a> · <a href="/withdraw.html">السحب</a> · <a href="/">الرئيسية</a></p>
 </div><script>
-var D=[],DONE={},CODES={};
+var D=[],DONE={},CODES={},SHOWN=250;
 function K(k){try{return JSON.parse(localStorage.getItem(k)||'{}')}catch(e){return{}}}
 function S(k,v){localStorage.setItem(k,JSON.stringify(v))}
 Promise.all([fetch('/platforms.json?t='+Date.now()).then(r=>r.json()).catch(()=>({platforms:[]})),
@@ -48,7 +48,8 @@ function draw(){var c=document.getElementById('fc').value,q=(document.getElement
    '<td><input style="width:110px" value="'+(CODES[x.id]||'')+'" placeholder="كود/ID" oninput="setc(\''+x.id+'\',this.value)"></td>'+
    '<td>'+(DONE[x.id]?'<span class="pill" style="color:#22c55e;border-color:#22c55e55">✓ مسجّل</span>':'<span class="l">—</span>')+'</td>'+
    '<td><a class="b" target="_blank" rel="noopener" href="'+x.u+'">سجّل</a> <button onclick="mark(\''+x.id+'\')" style="background:#0d1424;color:#e8f6ff;border:1px solid #1e2a44;border-radius:8px;padding:4px 8px">✓</button></td></tr>'}).join('')
-  ||'<tr><td colspan=9 class="l">لا نتائج</td></tr>';prog();}
+  ||'<tr><td colspan=9 class="l">لا نتائج</td></tr>';
+ if(total>SHOWN&&!q)document.getElementById('tb').insertAdjacentHTML('beforeend','<tr><td colspan=9><button id="loadmore" onclick="SHOWN+=250;draw()">تحميل المزيد ('+(total-SHOWN)+' متبقٍ من '+total+')</button></td></tr>');;prog();}
 function mark(id){DONE[id]=DONE[id]?0:1;S('ch_applied',DONE);draw()}
 function setc(id,v){CODES[id]=v;S('ch_codes',CODES)}
 function prog(){var n=Object.keys(DONE).filter(k=>DONE[k]).length;var pc=D.length?(n/D.length*100):0;

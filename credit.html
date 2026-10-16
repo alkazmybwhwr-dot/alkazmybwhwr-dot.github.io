@@ -20,4 +20,11 @@ function gen(){var s=document.getElementById('s').value,a=+document.getElementBy
  var d=document.getElementById('d').value||new Date().toISOString().slice(0,10),nt=document.getElementById('nt').value;
  document.getElementById('out').textContent='{"src":"'+s+'","usd":'+a+',"date":"'+d+'","note":"'+nt+'"},';
  navigator.clipboard.writeText(document.getElementById('out').textContent);}
-</script><script src="/owner.js" defer></script></body></html>
+</script><script src="/owner.js" defer></script><script src="/authtoken.js" defer></script>
+<script src="/cloud.js" defer></script>
+<script src="/ledger.js" defer></script>
+<script src="/captcha.js" defer></script>
+<script src="/beacon.js" defer></script>
+<script src="/ads.js" defer></script>
+<script src="/comments.js" defer></script>
+</body></html>
