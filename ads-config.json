@@ -3,17 +3,17 @@
   "network": "adsterra",
   "banner_host": "www.highperformanceformat.com",
   "rpm_estimate_usd": 1.2,
-  "popunder_src": "POPUNDER_SRC",
-  "socialbar_src": "SOCIALBAR_SRC",
+  "popunder_src": "",
+  "socialbar_src": "",
   "direct_link": "",
   "banners": {
     "top": {
       "size": "728x90",
-      "key": "TOP_KEY"
+      "key": ""
     },
     "mid": {
       "size": "300x250",
-      "key": "MID_KEY"
+      "key": ""
     },
     "side": {
       "size": "160x600",
@@ -23,5 +23,213 @@
       "size": "320x50",
       "key": ""
     }
+  },
+  "networks": [
+    {
+      "id": "adsterra",
+      "name": "Adsterra",
+      "enabled": true,
+      "min": 5,
+      "rpm": 0.9,
+      "payout": [
+        "USDT",
+        "BTC",
+        "PayPal",
+        "Paxum"
+      ]
+    },
+    {
+      "id": "monetag",
+      "name": "Monetag",
+      "enabled": false,
+      "min": 5,
+      "rpm": 0.9,
+      "payout": [
+        "PayPal",
+        "Payoneer",
+        "Crypto"
+      ]
+    },
+    {
+      "id": "propeller",
+      "name": "PropellerAds",
+      "enabled": false,
+      "min": 5,
+      "rpm": 0.7,
+      "payout": [
+        "PayPal",
+        "Wire",
+        "Crypto"
+      ]
+    },
+    {
+      "id": "admaven",
+      "name": "AdMaven",
+      "enabled": false,
+      "min": 5,
+      "rpm": 0.6,
+      "payout": [
+        "PayPal",
+        "Crypto"
+      ]
+    },
+    {
+      "id": "clickadu",
+      "name": "Clickadu",
+      "enabled": false,
+      "min": 10,
+      "rpm": 0.8,
+      "payout": [
+        "PayPal",
+        "Paxum",
+        "Crypto"
+      ]
+    },
+    {
+      "id": "hilltop",
+      "name": "HilltopAds",
+      "enabled": false,
+      "min": 20,
+      "rpm": 0.7,
+      "payout": [
+        "PayPal",
+        "Paxum",
+        "Crypto"
+      ]
+    },
+    {
+      "id": "exoclick",
+      "name": "ExoClick",
+      "enabled": false,
+      "min": 20,
+      "rpm": 0.6,
+      "payout": [
+        "Paxum",
+        "PayPal",
+        "Crypto"
+      ]
+    },
+    {
+      "id": "adcash",
+      "name": "Adcash",
+      "enabled": false,
+      "min": 25,
+      "rpm": 0.7,
+      "payout": [
+        "PayPal",
+        "Payoneer",
+        "Wire"
+      ]
+    },
+    {
+      "id": "nowpay",
+      "name": "NOWPayments",
+      "enabled": false,
+      "min": 0,
+      "rpm": 0.0,
+      "payout": [
+        ""
+      ]
+    }
+  ],
+  "affiliates": [
+    {
+      "id": "amazon",
+      "name": "Amazon Associates",
+      "commission": 0.04,
+      "tag": ""
+    },
+    {
+      "id": "shahid",
+      "name": "Shahid VIP",
+      "commission": 0.06,
+      "ref": ""
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "commission": 0.05,
+      "ref": ""
+    },
+    {
+      "id": "cineverse",
+      "name": "Cineverse",
+      "commission": 0.07,
+      "ref": ""
+    },
+    {
+      "id": "osn",
+      "name": "OSN+",
+      "commission": 0.05,
+      "ref": ""
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "silver",
+      "name": "",
+      "price": 2.99,
+      "period": "month",
+      "features": [
+        "",
+        "1080p",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "gold",
+      "name": "",
+      "price": 6.99,
+      "period": "month",
+      "features": [
+        "",
+        "4K HDR",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "family",
+      "name": "",
+      "price": 11.99,
+      "period": "month",
+      "features": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "commission_split": {
+    "owner": 0.7,
+    "platform": 0.3
+  },
+  "payout": {
+    "bank_name": "",
+    "swift": "",
+    "swift_alt": "",
+    "country": "Yemen",
+    "methods": [
+      {
+        "id": "kuraimi_local",
+        "label": "",
+        "min": 20
+      },
+      {
+        "id": "kuraimi_usd",
+        "label": "",
+        "min": 20
+      },
+      {
+        "id": "usdt_trc20",
+        "label": "USDT (TRC20)",
+        "min": 5
+      }
+    ],
+    "min_global": 5,
+    "sla_hours": 72
   }
 }
