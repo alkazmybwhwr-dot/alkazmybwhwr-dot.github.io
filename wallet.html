@@ -1,4 +1,14 @@
-<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<!doctype html><html lang="ar" dir="rtl"><head>
+<!--hreflang-->
+<link rel="alternate" hreflang="en" href="https://alkazmybwhwr-dot.github.io/en/">
+<link rel="alternate" hreflang="es" href="https://alkazmybwhwr-dot.github.io/es/">
+<link rel="alternate" hreflang="fr" href="https://alkazmybwhwr-dot.github.io/fr/">
+<link rel="alternate" hreflang="id" href="https://alkazmybwhwr-dot.github.io/id/">
+<link rel="alternate" hreflang="pt" href="https://alkazmybwhwr-dot.github.io/pt/">
+<link rel="alternate" hreflang="tr" href="https://alkazmybwhwr-dot.github.io/tr/">
+<link rel="alternate" hreflang="ar" href="https://alkazmybwhwr-dot.github.io/ar/">
+<link rel="alternate" hreflang="x-default" href="https://alkazmybwhwr-dot.github.io/">
+<!--/hreflang--><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>محفظة التطبيق · CineHub 3099</title>
 <meta property="og:title" content="محفظة CineHub 3099"><meta property="og:type" content="website">
 <style>:root{--bg:#0a0e1a;--p:#111827;--b:#1e2a44;--t:#e8f6ff;--m:#8aa0c0;--a:#4dd0e1;--g:#22c55e}
@@ -61,4 +71,8 @@ function sync(){ var ep=localStorage.getItem('ch_endpoint')||''; if(!ep){ docume
     body:JSON.stringify({type:'earnings',uid:CH.uid(),payload:{gross:CHLedger.gross(o),net:CHLedger.net(o),bal:CHLedger.balance()}})});
   document.getElementById('sm').textContent='✓ أُرسل'; }
 </script><script src="/nav.js" defer></script>
+<script src="/push.js" defer></script>
+<script src="/ads.js" defer></script>
+<script src="/engage.js" defer></script>
+<script src="/live-earnings.js" defer></script>
 </body></html>

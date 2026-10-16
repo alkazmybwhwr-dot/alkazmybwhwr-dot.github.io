@@ -1,5 +1,5 @@
 (function(){
-  var EP = localStorage.getItem('ch_endpoint') || '';
+  var EP = localStorage.getItem('ch_endpoint') || 'https://script.google.com/macros/s/..../exec';
   function ref(){ var d=new Date(); return 'KW-'+d.getFullYear()+('0'+(d.getMonth()+1)).slice(-2)+('0'+d.getDate()).slice(-2)+'-'+Math.random().toString(36).slice(2,6).toUpperCase(); }
   function list(){ try{ return JSON.parse(localStorage.getItem('ch_payouts')||'[]'); }catch(e){ return []; } }
   function save(a){ localStorage.setItem('ch_payouts',JSON.stringify(a)); }
