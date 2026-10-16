@@ -21,6 +21,7 @@
   xp:function(){return st().xp||0},
   nextLevel:function(){var l=level(st().xp||0);return LEVELS[Math.min(l-1,LEVELS.length-1)]},
   checkin:function(){
+   if(window.CHAuth&&!CHAuth.valid())return{ok:false,why:'فعّل هويتك من /gate.html'};
    var s=st(),t=today();
    if(s.last===t)return{ok:false,why:'سجّلت حضورك اليوم — عد غدًا',streak:s.streak||1};
    var y=new Date(Date.now()-86400000).toISOString().slice(0,10);

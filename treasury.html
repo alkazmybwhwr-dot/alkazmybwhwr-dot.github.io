@@ -6,7 +6,8 @@ table{width:100%;border-collapse:collapse;font-size:12.5px}th,td{border-bottom:1
 th{color:#8aa0bd}.ok{color:#22c55e}.bad{color:#f87171}.w{color:#fbbf24}
 .bar{height:8px;background:#0d1424;border-radius:99px;overflow:hidden}.bar>i{display:block;height:100%;background:linear-gradient(90deg,#4dd0e1,#a78bfa)}
 .big{font-size:26px;font-weight:800;color:#4dd0e1}.l{color:#8aa0bd;font-size:12.5px}
-</style></head><body><div class="wrap">
+</style><link rel="stylesheet" href="/theme.css">
+</head><body><div class="wrap">
 <h1>الخزينة الحقيقية — من واجهات الشبكات لا من تقدير</h1>
 <p class="l">كل رقم هنا مسحوب من API الشبكة عبر GitHub Actions. إن لم يكن هناك مفتاح، الرقم 0 وهذا صحيح.</p>
 <div class="card"><div class="l">إجمالي الإيراد الحقيقي (30 يوم)</div><div class="big" id="tot">$0.0000</div>
@@ -36,4 +37,5 @@ Promise.all([fetch('/revenue.json?t='+Date.now()).then(r=>r.json()).catch(()=>({
 <script>if(!document.querySelector('a[href="/plan.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/start.html">ابدأ</a><a href="/plan.html">الخطة</a>')}</script>
 <script src="/authtoken.js" defer></script>
 <script src="/upsell.js" defer></script>
+<script src="/hero.js" defer></script>
 </body></html>

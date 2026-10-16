@@ -1,0 +1,25 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>تدقيق السجل · CineHub 3099</title><style>
+body{margin:0;background:#0a0e1a;color:#e8f6ff;font:15px/1.8 system-ui,Tahoma;padding:14px}.wrap{max-width:900px;margin:auto}
+.card{background:#111827;border:1px solid #1e2a44;border-radius:13px;padding:14px;margin:10px 0}
+table{width:100%;border-collapse:collapse;font-size:12px}th,td{border-bottom:1px solid #1e2a44;padding:6px;text-align:right}
+th{color:#8aa0bd}code{background:#0d1424;padding:2px 6px;border-radius:6px;font-size:11px;direction:ltr;display:inline-block}
+.ok{color:#22c55e}.bad{color:#f87171}.l{color:#8aa0bd;font-size:12.5px}
+</style><link rel="stylesheet" href="/theme.css">
+</head><body><div class="wrap">
+<h1>تدقيق السجل — سلسلة هاش SHA-256</h1>
+<p class="l">كل قيد يحتوي هاش السطر السابق. أي تعديل يدوي في أي رقم يكسر السلسلة ⇒ يُكتشف. هذا ما يجعل «الأرباح حقيقية» قابلة للإثبات لا للتصديق.</p>
+<div class="card"><div id="sum">…</div></div>
+<div class="card" style="padding:0;overflow:auto;max-height:60vh"><table><thead><tr><th>#</th><th>التاريخ</th><th>النوع</th><th>المبلغ</th><th>المصدر</th><th>الهاش</th></tr></thead><tbody id="tb"></tbody></table></div>
+<p class="l"><a href="/gateway.html">بوابة العبور</a> · <a href="/treasury.html">الخزينة</a> · <a href="/">الرئيسية</a></p>
+</div><script>
+(async function(){
+ var idx=await fetch('/ledger-index.json?t='+Date.now()).then(r=>r.json()).catch(()=>({entries:0,broken:0}));
+ var m=new Date().toISOString().slice(0,7);
+ var txt=await fetch('/ledger/'+m+'.jsonl?t='+Date.now()).then(r=>r.text()).catch(()=>'');
+ var rows=txt.split('\n').filter(x=>x.trim()).map(x=>{try{return JSON.parse(x)}catch(e){return null}}).filter(Boolean);
+ document.getElementById('sum').innerHTML='<b>القِيود: '+idx.entries+'</b> · السلسلة: <b class="'+(idx.broken?'bad':'ok')+'">'+(idx.broken?idx.broken+' مكسور':'سليمة ✓')+'</b> · آخر تحديث '+(idx.t||'—');
+ document.getElementById('tb').innerHTML=rows.slice(-200).reverse().map(r=>'<tr><td>'+r.i+'</td><td>'+(r.at||'').slice(0,16)+'</td><td>'+r.kind+'</td><td><b>$'+Number(r.amount||0).toFixed(4)+'</b></td><td class="l">'+(r.src||'')+'</td><td><code>'+(r.hash||'').slice(0,14)+'…</code></td></tr>').join('')||'<tr><td colspan=6 class="l">لا قيود بعد</td></tr>';
+})();
+</script><script src="/ads.js" defer></script><script src="/hero.js" defer></script>
+</body></html>
