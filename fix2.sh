@@ -36,7 +36,7 @@ git add -A
 if git ls-files | grep -q '^cinehub3099/'; then echo "  ! المسارات مسبوقة — خطأ"; exit 1; fi
 git rm --cached -q --ignore-unmatch .gh-token 2>/dev/null
 if git diff --cached --quiet; then echo "  لا تغييرات"; else git commit -q -m "publish $(date -u +%FT%TZ)"; fi
-n=0; until git push -q -f origin "$B"; do n=$((n+1)); [ $n -ge 5 ] && { echo "✗ فشل"; exit 1; }; sleep $((n*3)); done
+n=0; until bash deploy.sh main "auto $(date -u +%FT%TZ)"; do n=$((n+1)); [ $n -ge 5 ] && { echo "✗ فشل"; exit 1; }; sleep $((n*3)); done
 echo "✓ نُشر → https://${O}.github.io"
 PUB
 chmod +x publish.sh; bash -n publish.sh && G "publish.sh"

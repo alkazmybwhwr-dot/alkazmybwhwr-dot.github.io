@@ -418,7 +418,7 @@ PY
   git remote add origin "https://x-access-token:${T}@github.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io.git"
   git add -A; git rm --cached -q --ignore-unmatch .gh-token .license-secret 2>/dev/null
   git diff --cached --quiet || git commit -q -m "auto: content refresh $(date -u +%FT%TZ)"
-  git push -q -f origin main 2>"$D/.gp.err" && echo "  ✓ نُشر" || { echo "  ✗"; cat "$D/.gp.err"; }
+  bash deploy.sh main "auto $(date -u +%FT%TZ)"&& echo "  ✓ نُشر" || { echo "  ✗"; cat "$D/.gp.err"; }
   sleep 10800
 done
 EOF
@@ -452,7 +452,7 @@ git remote remove origin 2>/dev/null
 git remote add origin "https://x-access-token:${T}@github.com/${OWNER}/${REPO}.git"
 git add -A; git rm --cached -q --ignore-unmatch .gh-token .license-secret 2>/dev/null
 git diff --cached --quiet || git commit -q -m "feat: wallet+content engine+auto-spread $(date -u +%FT%TZ)"
-git push -f origin "$BRANCH" 2>"$D/.gp.err" && G "نُشر" || { R "فشل"; cat "$D/.gp.err"; }
+bash deploy.sh main "auto $(date -u +%FT%TZ)"&& G "نُشر" || { R "فشل"; cat "$D/.gp.err"; }
 
 # ═══════════ 8/8 تحقق ═══════════
 H "8/8 تحقق"

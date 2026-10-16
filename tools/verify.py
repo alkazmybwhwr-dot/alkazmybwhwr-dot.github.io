@@ -4,8 +4,8 @@ B='https://raw.githubusercontent.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io
 LIVE='https://alkazmybwhwr-dot.github.io/'
 RAW=['.github/workflows/tick.yml','.github/workflows/daily.yml','tools/networks.py','networks.json',
  'ads.js','rewarded.js','cloud.js','captcha.js','payout.js','ref.js','sw.js','ads.txt','treasury.html',
- 'admin2.html','gift.json','offerwalls.json','db/schema.sql','backend/Code.gs','revenue.json','heartbeat.json','treasury.json']
-LIVEU=['/','/ads-config.json','/networks.json','/treasury.html','/admin2.html','/withdraw.html','/wallet.json']
+ 'admin2.html','gift.json','offerwalls.json','db/schema.sql','backend/Code.gs','revenue.json','heartbeat.json','treasury.json','shorteners.json','linkgo.js','apply.html','watch.html','platforms.json','referrals.json','money.json','tools/ping.py','.github/workflows/ping.yml','ping.json']
+LIVEU=['/','/ads-config.json','/networks.json','/treasury.html','/admin2.html','/withdraw.html','/wallet.json','/apply.html','/watch.html','/shorteners.json']
 def head(u):
     try: return urllib.request.urlopen(u,timeout=25).status
     except Exception as e: return getattr(e,'code','ERR')

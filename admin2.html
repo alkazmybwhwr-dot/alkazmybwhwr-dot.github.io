@@ -41,4 +41,5 @@ function gen(){var k=document.getElementById('gk').value,v=document.getElementBy
 function setk(){var n=document.getElementById('net').value,k=document.getElementById('nk').value,v=document.getElementById('nv').value;
  fetch('/networks.json?t='+Date.now()).then(r=>r.json()).then(j=>{var x=(j.networks||[]).filter(y=>y.id===n)[0];if(x){x.enabled=true;x.keys[k]=v;
   document.getElementById('nout').textContent='networks.networks['+n+'].keys.'+k+' = '+v+'  → نفّذ: python3 -c "..." أو bash activate.sh';}});}
-</script></body></html>
+</script><script src="/linkgo.js" defer></script>
+</body></html>

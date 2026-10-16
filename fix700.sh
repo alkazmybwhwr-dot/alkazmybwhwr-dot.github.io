@@ -226,7 +226,7 @@ print(w["updated"],"+%.8f"%rate,"=> %.8f"%(w["balance"]))
 PY
   git add wallet.json >/dev/null 2>&1
   git commit -qm "earn $(date +%H:%M)" >/dev/null 2>&1
-  git push -q origin main >/dev/null 2>&1 || true
+  bash deploy.sh main "auto $(date -u +%FT%TZ)"&1 || true
   sleep 3600
 done
 SH
@@ -280,7 +280,7 @@ else: print("  IndexNow: لا مفتاح")
 PY
 git add -A >/dev/null 2>&1
 git commit -qm "daily $(date +%F)" >/dev/null 2>&1
-git push -q origin main >/dev/null 2>&1 && log "  ✓ نُشر" || log "  ⚠ فشل الدفع"
+bash deploy.sh main "auto $(date -u +%FT%TZ)"&1 && log "  ✓ نُشر" || log "  ⚠ فشل الدفع"
 log "── انتهى ──"
 SH
 chmod +x daily.sh

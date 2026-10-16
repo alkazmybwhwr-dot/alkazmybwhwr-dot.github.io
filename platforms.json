@@ -1,153 +1,2390 @@
 {
-  "updated": "2026-10-16",
-  "total": 136,
-  "payment_codes": {
-    "USDT":"USDT","BTC":"Bitcoin","PP":"PayPal","PYR":"Payoneer","WIRE":"تحويل بنكي",
-    "SKR":"Skrill","AIRTM":"AirTM","GC":"بطاقات","KUR":"الكريمي (وسيط)"
+ "updated": "",
+ "cats": {
+  "short": "انشر رابطًا واقبض/نقرة",
+  "cpa": "CPA لكل Lead",
+  "ad": "إعلانات عرض",
+  "ptc": "شاهد واقبض",
+  "gpt": "استطلاعات",
+  "aff": "عمولة بيع",
+  "crypto": "صرف وسحب",
+  "video": "فيديو",
+  "write": "مقالات",
+  "micro": "عمل بيانات",
+  "seo": "فهرسة وزيارات"
+ },
+ "total": 143,
+ "platforms": [
+  {
+   "id": "linkvertise",
+   "n": "Linkvertise",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://linkvertise.com/",
+   "note": "$5–70 /1000 نقرة · يدفع للروابط العربية",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
   },
-  "ye_support": {"high":"متاح لليمن مباشرة","mid":"متاح عبر وسيط","low":"يحتاج VPN/وسيط"},
-  "platforms": [
-    {"id":"adsterra","n":"Adsterra","c":"ad","min":5,"p":["USDT","BTC","PP"],"ye":"high","u":"https://adsterra.com/publishers/","note":"الأسرع قبولاً · يدفع USDT"},
-    {"id":"monetag","n":"Monetag","c":"ad","min":5,"p":["USDT","PYR"],"ye":"high","u":"https://monetag.com/","note":"multi-tag + push"},
-    {"id":"propeller","n":"PropellerAds","c":"ad","min":5,"p":["PP","WIRE","USDT"],"ye":"high","u":"https://propellerads.com/"},
-    {"id":"admaven","n":"AdMaven","c":"ad","min":5,"p":["PP","USDT"],"ye":"high","u":"https://admaven.com/"},
-    {"id":"clickadu","n":"Clickadu","c":"ad","min":10,"p":["PP","USDT"],"ye":"mid","u":"https://clickadu.com/"},
-    {"id":"hilltop","n":"HilltopAds","c":"ad","min":20,"p":["PP","USDT"],"ye":"mid","u":"https://hilltopads.com/"},
-    {"id":"exoclick","n":"ExoClick","c":"ad","min":20,"p":["PP","USDT"],"ye":"mid","u":"https://www.exoclick.com/","note":"الأفضل لمحتوى الكبار"},
-    {"id":"adcash","n":"Adcash","c":"ad","min":25,"p":["PP","PYR","WIRE"],"ye":"mid","u":"https://adcash.com/"},
-    {"id":"popads","n":"PopAds","c":"ad","min":5,"p":["PP","USDT"],"ye":"high","u":"https://www.popads.net/"},
-    {"id":"popmyads","n":"PopMyAds","c":"ad","min":5,"p":["PP","USDT"],"ye":"high","u":"https://popmyads.com/"},
-    {"id":"mgid","n":"MGID","c":"ad","min":100,"p":["WIRE","PP"],"ye":"low","u":"https://www.mgid.com/","note":"native"},
-    {"id":"taboola","n":"Taboola","c":"ad","min":100,"p":["WIRE"],"ye":"low","u":"https://www.taboola.com/"},
-    {"id":"outbrain","n":"Outbrain","c":"ad","min":100,"p":["WIRE"],"ye":"low","u":"https://www.outbrain.com/"},
-    {"id":"medianet","n":"Media.net","c":"ad","min":100,"p":["WIRE","PP"],"ye":"low","u":"https://www.media.net/"},
-    {"id":"ezoic","n":"Ezoic","c":"ad","min":20,"p":["PP","WIRE"],"ye":"mid","u":"https://www.ezoic.com/","note":"يحتاج 10k زيارة"},
-    {"id":"snigel","n":"Snigel","c":"ad","min":50,"p":["WIRE"],"ye":"low","u":"https://snigel.com/"},
-    {"id":"setupad","n":"Setupad","c":"ad","min":100,"p":["WIRE"],"ye":"low","u":"https://setupad.com/"},
-    {"id":"nitropay","n":"NitroPay","c":"ad","min":25,"p":["PP","WIRE"],"ye":"mid","u":"https://nitropay.com/"},
-    {"id":"freestar","n":"Freestar","c":"ad","min":100,"p":["WIRE"],"ye":"low","u":"https://freestar.com/"},
-    {"id":"monetizemore","n":"MonetizeMore","c":"ad","min":50,"p":["WIRE","Payeer"],"ye":"low","u":"https://www.monetizemore.com/"},
-    {"id":"sovrn","n":"Sovrn","c":"ad","min":25,"p":["PP","WIRE"],"ye":"mid","u":"https://www.sovrn.com/"},
-    {"id":"bidvertiser","n":"Bidvertiser","c":"ad","min":10,"p":["PP","USDT"],"ye":"high","u":"https://www.bidvertiser.com/"},
-    {"id":"infolinks","n":"Infolinks","c":"ad","min":50,"p":["PP","WIRE"],"ye":"mid","u":"https://www.infolinks.com/"},
-    {"id":"trafficstars","n":"TrafficStars","c":"ad","min":50,"p":["PP","USDT"],"ye":"mid","u":"https://trafficstars.com/"},
-    {"id":"juicyads","n":"JuicyAds","c":"ad","min":50,"p":["PP","USDT"],"ye":"mid","u":"https://www.juicyads.com/","note":"للكبار"},
-    {"id":"trafficjunky","n":"TrafficJunky","c":"ad","min":50,"p":["WIRE","USDT"],"ye":"mid","u":"https://www.trafficjunky.com/","note":"للكبار"},
-    {"id":"plugrush","n":"PlugRush","c":"ad","min":20,"p":["PP","USDT"],"ye":"mid","u":"https://www.plugrush.com/"},
-    {"id":"adnium","n":"Adnium","c":"ad","min":25,"p":["WIRE","USDT"],"ye":"mid","u":"https://adnium.com/","note":"للكبار"},
-    {"id":"gumgum","n":"GumGum","c":"ad","min":100,"p":["WIRE"],"ye":"low","u":"https://gumgum.com/"},
-    {"id":"criteo","n":"Criteo","c":"ad","min":100,"p":["WIRE"],"ye":"low","u":"https://www.criteo.com/"},
-    {"id":"vibrant","n":"Vibrant Media","c":"ad","min":50,"p":["WIRE"],"ye":"low","u":"https://www.vibrantmedia.com/"},
-    {"id":"buysellads","n":"BuySellAds","c":"ad","min":50,"p":["PP","WIRE"],"ye":"mid","u":"https://www.buysellads.com/"},
-    {"id":"raptive","n":"Raptive","c":"ad","min":50,"p":["WIRE"],"ye":"low","u":"https://raptive.com/","note":"حد أدنى نزل إلى 25k"},
-    {"id":"mediavine","n":"Mediavine","c":"ad","min":100,"p":["WIRE"],"ye":"low","u":"https://www.mediavine.com/"},
-    {"id":"playwire","n":"Playwire","c":"ad","min":100,"p":["WIRE"],"ye":"low","u":"https://www.playwire.com/"},
-    {"id":"dianomi","n":"Dianomi","c":"ad","min":100,"p":["WIRE"],"ye":"low","u":"https://www.dianomi.com/"},
-    {"id":"adscompass","n":"AdsCompass","c":"ad","min":50,"p":["PP","WIRE","USDT"],"ye":"mid","u":"https://adscompass.com/"},
-    {"id":"rollerads","n":"RollerAds","c":"ad","min":25,"p":["PP","USDT"],"ye":"mid","u":"https://rollerads.com/"},
-    {"id":"richads","n":"RichAds","c":"ad","min":50,"p":["PP","USDT"],"ye":"mid","u":"https://richads.com/"},
-    {"id":"adsense","n":"Google AdSense","c":"ad","min":100,"p":["WIRE"],"ye":"mid","u":"https://adsense.google.com/","note":"الأعلى CPM لكن التحقق صعب"},
-
-    {"id":"neobux","n":"NeoBux","c":"ptc","min":2,"p":["PP","USDT"],"ye":"high","u":"https://www.neobux.com/"},
-    {"id":"ysense","n":"ySense","c":"ptc","min":5,"p":["PP","SKR","USDT"],"ye":"mid","u":"https://www.ysense.com/"},
-    {"id":"timebucks","n":"TimeBucks","c":"ptc","min":10,"p":["PP","USDT"],"ye":"high","u":"https://timebucks.com/"},
-    {"id":"cointiply","n":"Cointiply","c":"ptc","min":5,"p":["BTC","USDT"],"ye":"high","u":"https://cointiply.com/"},
-    {"id":"freebitco","n":"FreeBitco.in","c":"ptc","min":5,"p":["BTC"],"ye":"high","u":"https://freebitco.in/"},
-    {"id":"faucetpay","n":"FaucetPay","c":"ptc","min":1,"p":["USDT","BTC"],"ye":"high","u":"https://faucetpay.io/","note":"مجمّع لكل المصارف"},
-    {"id":"firefaucet","n":"FireFaucet","c":"ptc","min":1,"p":["USDT","BTC"],"ye":"high","u":"https://firefaucet.win/"},
-    {"id":"coinpayu","n":"CoinPayU","c":"ptc","min":1,"p":["USDT","BTC"],"ye":"high","u":"https://www.coinpayu.com/"},
-    {"id":"adbtc","n":"AdBtc","c":"ptc","min":1,"p":["BTC"],"ye":"high","u":"https://adbtc.top/"},
-    {"id":"bitcotasks","n":"BitcoTasks","c":"ptc","min":1,"p":["USDT","BTC"],"ye":"high","u":"https://bitcotasks.com/"},
-    {"id":"scarlet","n":"Scarlet-Clicks","c":"ptc","min":2,"p":["PP","USDT"],"ye":"high","u":"https://scarlet-clicks.info/"},
-    {"id":"grabpoints","n":"GrabPoints","c":"ptc","min":3,"p":["PP","GC"],"ye":"mid","u":"https://grabpoints.com/"},
-    {"id":"idleempire","n":"Idle-Empire","c":"ptc","min":1,"p":["PP","BTC"],"ye":"high","u":"https://www.idle-empire.com/"},
-    {"id":"rewardedtv","n":"RewardedTV","c":"ptc","min":5,"p":["GC","PP"],"ye":"mid","u":"https://rewarded.tv/","note":"مشاهدة أفلام مقابل ربح"},
-    {"id":"watchcrypto","n":"WatchCrypto","c":"ptc","min":1,"p":["USDT"],"ye":"high","u":"https://watchcrypto.io/"},
-    {"id":"earnapp","n":"EarnApp","c":"ptc","min":2,"p":["PP","USDT"],"ye":"mid","u":"https://earnapp.com/","note":"بادئ نطاق"},
-    {"id":"honeygain","n":"Honeygain","c":"ptc","min":20,"p":["PP","BTC"],"ye":"mid","u":"https://www.honeygain.com/"},
-    {"id":"packetstream","n":"PacketStream","c":"ptc","min":5,"p":["PP"],"ye":"mid","u":"https://packetstream.io/"},
-    {"id":"peer2profit","n":"Peer2Profit","c":"ptc","min":1,"p":["USDT"],"ye":"high","u":"https://p2pr.io/"},
-    {"id":"traffmonetizer","n":"Traffmonetizer","c":"ptc","min":1,"p":["USDT"],"ye":"high","u":"https://traffmonetizer.com/"},
-    {"id":"repocket","n":"Repocket","c":"ptc","min":5,"p":["PP","USDT"],"ye":"mid","u":"https://repocket.co/"},
-    {"id":"pawns","n":"Pawns.app","c":"ptc","min":5,"p":["PP","USDT"],"ye":"mid","u":"https://pawns.app/"},
-    {"id":"grass","n":"Grass","c":"ptc","min":1,"p":["USDT"],"ye":"high","u":"https://www.getgrass.io/"},
-    {"id":"nodepay","n":"Nodepay","c":"ptc","min":1,"p":["USDT"],"ye":"high","u":"https://nodepay.ai/"},
-    {"id":"titan","n":"Titan Network","c":"ptc","min":1,"p":["USDT"],"ye":"high","u":"https://titannet.io/"},
-
-    {"id":"swagbucks","n":"Swagbucks","c":"gpt","min":3,"p":["PP","GC"],"ye":"mid","u":"https://www.swagbucks.com/"},
-    {"id":"surveyjunkie","n":"Survey Junkie","c":"gpt","min":5,"p":["PP"],"ye":"mid","u":"https://www.surveyjunkie.com/"},
-    {"id":"inboxdollars","n":"InboxDollars","c":"gpt","min":15,"p":["PP"],"ye":"mid","u":"https://www.inboxdollars.com/"},
-    {"id":"prizerebel","n":"PrizeRebel","c":"gpt","min":5,"p":["PP","USDT"],"ye":"mid","u":"https://www.prizerebel.com/"},
-    {"id":"instagc","n":"InstaGC","c":"gpt","min":1,"p":["PP","GC"],"ye":"mid","u":"https://www.instagc.com/"},
-    {"id":"yougov","n":"YouGov","c":"gpt","min":15,"p":["WIRE","GC"],"ye":"mid","u":"https://yougov.com/"},
-    {"id":"toluna","n":"Toluna","c":"gpt","min":10,"p":["PP","GC"],"ye":"mid","u":"https://www.toluna.com/"},
-    {"id":"lifepoints","n":"LifePoints","c":"gpt","min":5,"p":["PP","GC"],"ye":"mid","u":"https://www.lifepointspanel.com/"},
-    {"id":"prolific","n":"Prolific","c":"gpt","min":5,"p":["PP"],"ye":"mid","u":"https://www.prolific.com/","note":"أعلى أجر/ساعة"},
-    {"id":"clickworker","n":"Clickworker","c":"gpt","min":5,"p":["PP","WIRE"],"ye":"mid","u":"https://www.clickworker.com/"},
-    {"id":"microworkers","n":"Microworkers","c":"gpt","min":9,"p":["PP","SKR","USDT"],"ye":"mid","u":"https://www.microworkers.com/"},
-    {"id":"picoworkers","n":"Picoworkers","c":"gpt","min":5,"p":["PP","USDT"],"ye":"high","u":"https://picoworkers.com/"},
-    {"id":"remotasks","n":"Remotasks","c":"gpt","min":5,"p":["PP"],"ye":"mid","u":"https://www.remotasks.com/"},
-    {"id":"appen","n":"Appen","c":"gpt","min":10,"p":["PP","WIRE"],"ye":"mid","u":"https://appen.com/"},
-    {"id":"toloka","n":"Toloka","c":"gpt","min":1,"p":["PP","USDT"],"ye":"high","u":"https://toloka.ai/"},
-    {"id":"attapoll","n":"AttaPoll","c":"gpt","min":3,"p":["PP"],"ye":"mid","u":"https://attapoll.app/","note":"يعمل على الجوال"},
-    {"id":"pollpay","n":"Poll Pay","c":"gpt","min":5,"p":["PP"],"ye":"mid","u":"https://pollpay.app/"},
-    {"id":"streetbees","n":"Streetbees","c":"gpt","min":5,"p":["PP"],"ye":"mid","u":"https://www.streetbees.com/"},
-    {"id":"roamler","n":"Roamler","c":"gpt","min":10,"p":["PP"],"ye":"low","u":"https://www.roamler.com/"},
-    {"id":"fieldagent","n":"Field Agent","c":"gpt","min":5,"p":["PP"],"ye":"low","u":"https://www.fieldagent.net/"},
-    {"id":"surveytime","n":"SurveyTime","c":"gpt","min":1,"p":["PP"],"ye":"mid","u":"https://surveytime.io/"},
-    {"id":"oneforma","n":"OneForma","c":"gpt","min":10,"p":["PP","WIRE"],"ye":"mid","u":"https://www.oneforma.com/"},
-
-    {"id":"amazon","n":"Amazon Associates","c":"aff","min":10,"p":["WIRE","GC"],"ye":"low","u":"https://affiliate-program.amazon.com/","note":"يحتاج حساب أمازون"},
-    {"id":"aliexpress","n":"AliExpress Portals","c":"aff","min":10,"p":["WIRE"],"ye":"high","u":"https://portals.aliexpress.com/","note":"الأسهل عربياً"},
-    {"id":"cj","n":"CJ Affiliate","c":"aff","min":50,"p":["WIRE"],"ye":"low","u":"https://www.cj.com/"},
-    {"id":"shareasale","n":"ShareASale","c":"aff","min":50,"p":["WIRE"],"ye":"low","u":"https://www.shareasale.com/"},
-    {"id":"impact","n":"Impact","c":"aff","min":10,"p":["WIRE","PYR"],"ye":"mid","u":"https://impact.com/"},
-    {"id":"rakuten","n":"Rakuten Advertising","c":"aff","min":50,"p":["WIRE"],"ye":"low","u":"https://rakutenadvertising.com/"},
-    {"id":"awin","n":"Awin","c":"aff","min":20,"p":["WIRE"],"ye":"low","u":"https://www.awin.com/"},
-    {"id":"clickbank","n":"ClickBank","c":"aff","min":10,"p":["WIRE","PP"],"ye":"mid","u":"https://www.clickbank.com/","note":"عمولة عالية 50%"},
-    {"id":"digistore24","n":"Digistore24","c":"aff","min":10,"p":["WIRE","PP"],"ye":"mid","u":"https://www.digistore24.com/"},
-    {"id":"shahid","n":"Shahid VIP","c":"aff","min":10,"p":["WIRE"],"ye":"high","u":"https://www.shahid.net/","note":"عمولة اشتراك عربي"},
-    {"id":"osn","n":"OSN+","c":"aff","min":10,"p":["WIRE"],"ye":"high","u":"https://www.osn.com/"},
-    {"id":"spotify","n":"Spotify","c":"aff","min":10,"p":["WIRE"],"ye":"mid","u":"https://www.spotify.com/"},
-    {"id":"audible","n":"Audible","c":"aff","min":5,"p":["WIRE","GC"],"ye":"low","u":"https://www.audible.com/"},
-    {"id":"skillshare","n":"Skillshare","c":"aff","min":10,"p":["PP"],"ye":"mid","u":"https://www.skillshare.com/"},
-    {"id":"nordvpn","n":"NordVPN","c":"aff","min":10,"p":["PP","WIRE"],"ye":"mid","u":"https://nordvpn.com/affiliate/","note":"عمولة متكررة 30%"},
-    {"id":"hostinger","n":"Hostinger","c":"aff","min":50,"p":["PP","WIRE"],"ye":"mid","u":"https://www.hostinger.com/affiliates"},
-    {"id":"temu","n":"Temu Affiliate","c":"aff","min":10,"p":["PP","WIRE"],"ye":"mid","u":"https://www.temu.com/"},
-    {"id":"noon","n":"Noon","c":"aff","min":10,"p":["WIRE"],"ye":"high","u":"https://www.noon.com/"},
-    {"id":"jumia","n":"Jumia","c":"aff","min":10,"p":["WIRE"],"ye":"mid","u":"https://www.jumia.com/"},
-    {"id":"namecheap","n":"Namecheap","c":"aff","min":50,"p":["WIRE","PP"],"ye":"mid","u":"https://www.namecheap.com/affiliates/"},
-
-    {"id":"binancep2p","n":"Binance P2P","c":"crypto","min":0,"p":["KUR","WIRE"],"ye":"high","u":"https://p2p.binance.com/","note":"بيع USDT مقابل ريال يمني"},
-    {"id":"nowpay","n":"NOWPayments","c":"crypto","min":0,"p":["USDT"],"ye":"high","u":"https://nowpayments.io/","note":"0.5% بلا KYC"},
-    {"id":"bybit","n":"Bybit P2P","c":"crypto","min":0,"p":["KUR","WIRE"],"ye":"high","u":"https://www.bybit.com/"},
-    {"id":"okx","n":"OKX P2P","c":"crypto","min":0,"p":["KUR","WIRE"],"ye":"high","u":"https://www.okx.com/"},
-    {"id":"trust","n":"Trust Wallet","c":"crypto","min":0,"p":["USDT","BTC"],"ye":"high","u":"https://trustwallet.com/"},
-    {"id":"metamask","n":"MetaMask","c":"crypto","min":0,"p":["USDT"],"ye":"high","u":"https://metamask.io/"},
-    {"id":"wise","n":"Wise","c":"crypto","min":0,"p":["WIRE"],"ye":"low","u":"https://wise.com/"},
-    {"id":"payoneer","n":"Payoneer","c":"crypto","min":0,"p":["WIRE"],"ye":"mid","u":"https://www.payoneer.com/"},
-    {"id":"skrill","n":"Skrill","c":"crypto","min":0,"p":["WIRE"],"ye":"mid","u":"https://www.skrill.com/"},
-    {"id":"airtm","n":"AirTM","c":"crypto","min":0,"p":["KUR","WIRE"],"ye":"high","u":"https://airtm.com/"},
-    {"id":"deel","n":"Deel","c":"crypto","min":0,"p":["WIRE"],"ye":"low","u":"https://www.deel.com/"},
-    {"id":"remitly","n":"Remitly","c":"crypto","min":0,"p":["WIRE"],"ye":"low","u":"https://www.remitly.com/"},
-    {"id":"kuraimi","n":"بنك الكريمي","c":"crypto","min":0,"p":["KUR"],"ye":"high","u":"https://www.alkuraimibank.com/","note":"الهدف النهائي · SWIFT KBMFYESAXXX"},
-
-    {"id":"gsc","n":"Google Search Console","c":"seo","min":0,"p":[],"ye":"high","u":"https://search.google.com/search-console"},
-    {"id":"bingwm","n":"Bing Webmaster","c":"seo","min":0,"p":[],"ye":"high","u":"https://www.bing.com/webmasters"},
-    {"id":"yandexwm","n":"Yandex Webmaster","c":"seo","min":0,"p":[],"ye":"high","u":"https://webmaster.yandex.com/"},
-    {"id":"indexnow","n":"IndexNow","c":"seo","min":0,"p":[],"ye":"high","u":"https://www.indexnow.org/","note":"فهرسة فورية Bing+Yandex"},
-    {"id":"cloudflare","n":"Cloudflare","c":"seo","min":0,"p":[],"ye":"high","u":"https://www.cloudflare.com/","note":"Turnstile + CDN"},
-    {"id":"statcounter","n":"StatCounter","c":"seo","min":0,"p":[],"ye":"high","u":"https://statcounter.com/"},
-    {"id":"histats","n":"Histats","c":"seo","min":0,"p":[],"ye":"high","u":"https://www.histats.com/"},
-    {"id":"ga","n":"Google Analytics","c":"seo","min":0,"p":[],"ye":"high","u":"https://analytics.google.com/"},
-    {"id":"plausible","n":"Plausible","c":"seo","min":0,"p":[],"ye":"mid","u":"https://plausible.io/"},
-    {"id":"umami","n":"Umami","c":"seo","min":0,"p":[],"ye":"high","u":"https://umami.is/"},
-    {"id":"brave","n":"Brave Creators","c":"seo","min":0,"p":["USDT"],"ye":"high","u":"https://creators.brave.com/","note":"ربح من متصفح Brave"},
-
-    {"id":"mturk","n":"Amazon MTurk","c":"micro","min":1,"p":["WIRE","GC"],"ye":"mid","u":"https://www.mturk.com/"},
-    {"id":"surge","n":"Surge AI","c":"micro","min":10,"p":["PP","WIRE"],"ye":"mid","u":"https://www.surgehq.ai/"},
-    {"id":"scale","n":"Scale AI","c":"micro","min":10,"p":["PP"],"ye":"mid","u":"https://scale.com/"},
-    {"id":"invisible","n":"Invisible Tech","c":"micro","min":10,"p":["WIRE"],"ye":"mid","u":"https://www.invisible.co/"},
-    {"id":"sigma","n":"Sigma AI","c":"micro","min":10,"p":["PP"],"ye":"mid","u":"https://www.sigma.ai/"}
-  ]
+  {
+   "id": "workink",
+   "n": "Work.ink",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://work.ink/",
+   "note": "$10–90 /1000 نقرة · شرط حقيقي بالحد الأدنى",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "shrinkearn",
+   "n": "ShrinkEarn",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://shrinkearn.com/",
+   "note": "حتى $40 /1000 · إحالة 25%",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "shrinkme",
+   "n": "ShrinkMe",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal",
+    "Crypto",
+    "Bank"
+   ],
+   "ye": "high",
+   "u": "https://shrinkme.io/",
+   "note": "حتى $22 /1000 · إحالة 20% · دفع يومي",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "clksh",
+   "n": "Clk.sh",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://clk.sh/",
+   "note": "حتى $20 /1000",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "gplinks",
+   "n": "GPLinks",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal",
+    "Crypto",
+    "UPI"
+   ],
+   "ye": "high",
+   "u": "https://gplinks.co/",
+   "note": "حتى $15 /1000",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "dropgalaxy",
+   "n": "DropGalaxy",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://dropgalaxy.com/",
+   "note": "رفع ملفات + $14 /1000",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "ou",
+   "n": "Ou.re",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://ou.re/",
+   "note": "حتى $12 /1000",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "boost",
+   "n": "Boost.ink",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "high",
+   "u": "https://boost.ink/",
+   "note": "حتى $12 /1000",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "exe",
+   "n": "Exe.io",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "high",
+   "u": "https://exe.io/",
+   "note": "حتى $10 /1000",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "adfly",
+   "n": "AdF.ly",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal",
+    "Payoneer"
+   ],
+   "ye": "high",
+   "u": "https://adf.ly/",
+   "note": "الأقدم والأوثق",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "linkpays",
+   "n": "LinkPays",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal",
+    "UPI"
+   ],
+   "ye": "high",
+   "u": "https://linkpays.in/",
+   "note": "حتى $9 /1000",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "pibox",
+   "n": "Pibox",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "high",
+   "u": "https://pibox.io/",
+   "note": "حتى $10 /1000",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "shortest",
+   "n": "Shorte.st",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "high",
+   "u": "https://shorte.st/",
+   "note": "حتى $8 /1000",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "za",
+   "n": "Za.gl",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "high",
+   "u": "https://za.gl/",
+   "note": "حتى $8 /1000",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "cuty",
+   "n": "Cuty.io",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "high",
+   "u": "https://cuty.io/",
+   "note": "حتى $7 /1000",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "ogads",
+   "n": "OGAds",
+   "c": "cpa",
+   "min": 10,
+   "p": [
+    "PayPal",
+    "Wire"
+   ],
+   "ye": "high",
+   "u": "https://ogads.com/",
+   "note": "content locker للجوال · $0.3–20/lead",
+   "model": "cpa",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "cpagrip",
+   "n": "CPAGrip",
+   "c": "cpa",
+   "min": 50,
+   "p": [
+    "PayPal",
+    "Wire"
+   ],
+   "ye": "high",
+   "u": "https://cpagrip.com/",
+   "note": "incentive CPA · $0.2–15/lead",
+   "model": "cpa",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "cpalead",
+   "n": "CPALead",
+   "c": "cpa",
+   "min": 50,
+   "p": [
+    "PayPal",
+    "Wire"
+   ],
+   "ye": "high",
+   "u": "https://cpalead.com/",
+   "note": "locker + smartlink",
+   "model": "cpa",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "adworkmedia",
+   "n": "AdWorkMedia",
+   "c": "cpa",
+   "min": 50,
+   "p": [
+    "PayPal",
+    "Wire"
+   ],
+   "ye": "high",
+   "u": "https://www.adworkmedia.com/",
+   "note": "content locker",
+   "model": "cpa",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "mylead",
+   "n": "MyLead",
+   "c": "cpa",
+   "min": 20,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://mylead.global/",
+   "note": "أدنى سحب $20 · smartlink",
+   "model": "cpa",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "zeydoo",
+   "n": "Zeydoo",
+   "c": "cpa",
+   "min": 50,
+   "p": [
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://zeydoo.com/",
+   "note": "smartlink متعدد المجالات",
+   "model": "cpa",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "mobidea",
+   "n": "Mobidea",
+   "c": "cpa",
+   "min": 50,
+   "p": [
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.mobidea.com/",
+   "note": "carrier billing",
+   "model": "cpa",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "lospollos",
+   "n": "LosPollos",
+   "c": "cpa",
+   "min": 100,
+   "p": [
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://lospollos.com/",
+   "note": "dating smartlink",
+   "model": "cpa",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "imonetizeit",
+   "n": "iMonetizeIt",
+   "c": "cpa",
+   "min": 50,
+   "p": [
+    "Wire"
+   ],
+   "ye": "high",
+   "u": "https://imonetizeit.com/",
+   "note": "smartlink",
+   "model": "cpa",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "maxbounty",
+   "n": "MaxBounty",
+   "c": "cpa",
+   "min": 50,
+   "p": [
+    "Wire",
+    "PayPal"
+   ],
+   "ye": "high",
+   "u": "https://www.maxbounty.com/",
+   "note": "أعلى دفع لكل Lead",
+   "model": "cpa",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "advidi",
+   "n": "Advidi",
+   "c": "cpa",
+   "min": 100,
+   "p": [
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://advidi.com/",
+   "note": "dating عالي",
+   "model": "cpa",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "crakrevenue",
+   "n": "CrakRevenue",
+   "c": "cpa",
+   "min": 50,
+   "p": [
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.crakrevenue.com/",
+   "note": "adult + dating",
+   "model": "cpa",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "toroadvertising",
+   "n": "TORO Advertising",
+   "c": "cpa",
+   "min": 50,
+   "p": [
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.toroadvertising.com/",
+   "note": "smartlink",
+   "model": "cpa",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "clickdealer",
+   "n": "ClickDealer",
+   "c": "cpa",
+   "min": 50,
+   "p": [
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://www.clickdealer.com/",
+   "note": "CPA/CPL",
+   "model": "cpa",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "adsterra",
+   "n": "Adsterra",
+   "c": "ad",
+   "min": 5,
+   "p": [
+    "USDT",
+    "BTC",
+    "PayPal",
+    "Paxum"
+   ],
+   "ye": "high",
+   "u": "https://publishers.adsterra.com/",
+   "note": "الأسرع قبولًا · $5",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "monetag",
+   "n": "Monetag",
+   "c": "ad",
+   "min": 5,
+   "p": [
+    "USDT",
+    "PayPal",
+    "Payoneer"
+   ],
+   "ye": "high",
+   "u": "https://monetag.com/",
+   "note": "multitag + rewarded $2+",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "propeller",
+   "n": "PropellerAds",
+   "c": "ad",
+   "min": 5,
+   "p": [
+    "USDT",
+    "PayPal",
+    "Wire"
+   ],
+   "ye": "high",
+   "u": "https://propellerads.com/",
+   "note": "popunder + inpage",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "admaven",
+   "n": "AdMaven",
+   "c": "ad",
+   "min": 5,
+   "p": [
+    "USDT",
+    "PayPal"
+   ],
+   "ye": "high",
+   "u": "https://admaven.com/",
+   "note": "popunder",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "clickadu",
+   "n": "Clickadu",
+   "c": "ad",
+   "min": 10,
+   "p": [
+    "USDT",
+    "PayPal",
+    "Paxum"
+   ],
+   "ye": "mid",
+   "u": "https://clickadu.com/",
+   "note": "popunder",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "hilltop",
+   "n": "HilltopAds",
+   "c": "ad",
+   "min": 20,
+   "p": [
+    "USDT",
+    "PayPal",
+    "Paxum"
+   ],
+   "ye": "mid",
+   "u": "https://hilltopads.com/",
+   "note": "popunder",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "popads",
+   "n": "PopAds",
+   "c": "ad",
+   "min": 5,
+   "p": [
+    "USDT",
+    "PayPal"
+   ],
+   "ye": "high",
+   "u": "https://www.popads.net/",
+   "note": "popunder",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "popmyads",
+   "n": "PopMyAds",
+   "c": "ad",
+   "min": 5,
+   "p": [
+    "USDT",
+    "PayPal"
+   ],
+   "ye": "high",
+   "u": "https://popmyads.com/",
+   "note": "popunder",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "adcash",
+   "n": "Adcash",
+   "c": "ad",
+   "min": 25,
+   "p": [
+    "PayPal",
+    "Payoneer",
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://adcash.com/",
+   "note": "multi",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "exoclick",
+   "n": "ExoClick",
+   "c": "ad",
+   "min": 20,
+   "p": [
+    "USDT",
+    "PayPal",
+    "Paxum"
+   ],
+   "ye": "mid",
+   "u": "https://www.exoclick.com/",
+   "note": "الأفضل للكبار",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "bidvertiser",
+   "n": "Bidvertiser",
+   "c": "ad",
+   "min": 10,
+   "p": [
+    "PayPal",
+    "USDT"
+   ],
+   "ye": "high",
+   "u": "https://www.bidvertiser.com/",
+   "note": "بانرات",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "trafficstars",
+   "n": "TrafficStars",
+   "c": "ad",
+   "min": 50,
+   "p": [
+    "USDT",
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://trafficstars.com/",
+   "note": "",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "juicyads",
+   "n": "JuicyAds",
+   "c": "ad",
+   "min": 50,
+   "p": [
+    "USDT",
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://www.juicyads.com/",
+   "note": "للكبار",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "plugrush",
+   "n": "PlugRush",
+   "c": "ad",
+   "min": 20,
+   "p": [
+    "USDT",
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://www.plugrush.com/",
+   "note": "",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "galaksion",
+   "n": "Galaksion",
+   "c": "ad",
+   "min": 50,
+   "p": [
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://galaksion.com/",
+   "note": "popunder",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "kadam",
+   "n": "Kadam",
+   "c": "ad",
+   "min": 50,
+   "p": [
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://kadam.net/",
+   "note": "native",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "richads",
+   "n": "RichAds",
+   "c": "ad",
+   "min": 50,
+   "p": [
+    "USDT",
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://richads.com/",
+   "note": "pop + push",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "rollerads",
+   "n": "RollerAds",
+   "c": "ad",
+   "min": 25,
+   "p": [
+    "USDT",
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://rollerads.com/",
+   "note": "",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "mgid",
+   "n": "MGID",
+   "c": "ad",
+   "min": 100,
+   "p": [
+    "Wire",
+    "PayPal"
+   ],
+   "ye": "low",
+   "u": "https://www.mgid.com/",
+   "note": "native",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "medianet",
+   "n": "Media.net",
+   "c": "ad",
+   "min": 100,
+   "p": [
+    "Wire",
+    "PayPal"
+   ],
+   "ye": "low",
+   "u": "https://www.media.net/",
+   "note": "contextual",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "adsense",
+   "n": "Google AdSense",
+   "c": "ad",
+   "min": 100,
+   "p": [
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://adsense.google.com/",
+   "note": "الأعلى CPM",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "ezoic",
+   "n": "Ezoic",
+   "c": "ad",
+   "min": 20,
+   "p": [
+    "PayPal",
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://www.ezoic.com/",
+   "note": "بلا حد زيارات · $8–20 RPM",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "mediavine",
+   "n": "Mediavine Journey",
+   "c": "ad",
+   "min": 25,
+   "p": [
+    "Wire"
+   ],
+   "ye": "low",
+   "u": "https://www.mediavine.com/",
+   "note": "من 1000 جلسة (Journey)",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "raptive",
+   "n": "Raptive",
+   "c": "ad",
+   "min": 25,
+   "p": [
+    "Wire"
+   ],
+   "ye": "low",
+   "u": "https://raptive.com/",
+   "note": "حد أدنى نزل إلى 25k",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "snigel",
+   "n": "Snigel",
+   "c": "ad",
+   "min": 50,
+   "p": [
+    "Wire"
+   ],
+   "ye": "low",
+   "u": "https://snigel.com/",
+   "note": "",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "setupad",
+   "n": "Setupad",
+   "c": "ad",
+   "min": 100,
+   "p": [
+    "Wire"
+   ],
+   "ye": "low",
+   "u": "https://setupad.com/",
+   "note": "",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "nitropay",
+   "n": "NitroPay",
+   "c": "ad",
+   "min": 25,
+   "p": [
+    "PayPal",
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://nitropay.com/",
+   "note": "",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "newormedia",
+   "n": "Newor Media",
+   "c": "ad",
+   "min": 50,
+   "p": [
+    "Wire"
+   ],
+   "ye": "low",
+   "u": "https://newormedia.com/",
+   "note": "بديل Ezoic",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "playwire",
+   "n": "Playwire",
+   "c": "ad",
+   "min": 100,
+   "p": [
+    "Wire"
+   ],
+   "ye": "low",
+   "u": "https://www.playwire.com/",
+   "note": "",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "timebucks",
+   "n": "TimeBucks",
+   "c": "ptc",
+   "min": 10,
+   "p": [
+    "PayPal",
+    "USDT"
+   ],
+   "ye": "high",
+   "u": "https://timebucks.com/",
+   "note": "إحالة 30% مدى الحياة",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "ysense",
+   "n": "ySense",
+   "c": "ptc",
+   "min": 5,
+   "p": [
+    "PayPal",
+    "Skrill",
+    "USDT"
+   ],
+   "ye": "mid",
+   "u": "https://www.ysense.com/",
+   "note": "إحالة 30%",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "swagbucks",
+   "n": "Swagbucks",
+   "c": "ptc",
+   "min": 3,
+   "p": [
+    "PayPal",
+    "GC"
+   ],
+   "ye": "mid",
+   "u": "https://www.swagbucks.com/",
+   "note": "إحالة 300 SB",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "freebitco",
+   "n": "FreeBitco.in",
+   "c": "ptc",
+   "min": 5,
+   "p": [
+    "BTC"
+   ],
+   "ye": "high",
+   "u": "https://freebitco.in/",
+   "note": "إحالة 50% — الأعلى",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "cointiply",
+   "n": "Cointiply",
+   "c": "ptc",
+   "min": 5,
+   "p": [
+    "BTC",
+    "USDT"
+   ],
+   "ye": "high",
+   "u": "https://cointiply.com/",
+   "note": "إحالة 10% + بونص",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "adbtc",
+   "n": "AdBtc",
+   "c": "ptc",
+   "min": 1,
+   "p": [
+    "BTC"
+   ],
+   "ye": "high",
+   "u": "https://adbtc.top/",
+   "note": "إحالة 50%",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "bitcotasks",
+   "n": "BitcoTasks",
+   "c": "ptc",
+   "min": 1,
+   "p": [
+    "USDT",
+    "BTC"
+   ],
+   "ye": "high",
+   "u": "https://bitcotasks.com/",
+   "note": "إحالة 30%",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "firefaucet",
+   "n": "FireFaucet",
+   "c": "ptc",
+   "min": 1,
+   "p": [
+    "USDT",
+    "BTC"
+   ],
+   "ye": "high",
+   "u": "https://firefaucet.win/",
+   "note": "إحالة 30%",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "coinpayu",
+   "n": "CoinPayU",
+   "c": "ptc",
+   "min": 1,
+   "p": [
+    "USDT",
+    "BTC"
+   ],
+   "ye": "high",
+   "u": "https://www.coinpayu.com/",
+   "note": "إحالة 10%",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "neobux",
+   "n": "NeoBux",
+   "c": "ptc",
+   "min": 2,
+   "p": [
+    "PayPal",
+    "USDT"
+   ],
+   "ye": "high",
+   "u": "https://www.neobux.com/",
+   "note": "إحالة مؤجرة",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "scarlet",
+   "n": "Scarlet-Clicks",
+   "c": "ptc",
+   "min": 2,
+   "p": [
+    "PayPal",
+    "USDT"
+   ],
+   "ye": "high",
+   "u": "https://scarlet-clicks.info/",
+   "note": "",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "grabpoints",
+   "n": "GrabPoints",
+   "c": "ptc",
+   "min": 3,
+   "p": [
+    "PayPal",
+    "GC"
+   ],
+   "ye": "mid",
+   "u": "https://grabpoints.com/",
+   "note": "إحالة 10%",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "idleempire",
+   "n": "Idle-Empire",
+   "c": "ptc",
+   "min": 1,
+   "p": [
+    "PayPal",
+    "BTC"
+   ],
+   "ye": "high",
+   "u": "https://www.idle-empire.com/",
+   "note": "",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "watchcrypto",
+   "n": "WatchCrypto",
+   "c": "ptc",
+   "min": 1,
+   "p": [
+    "USDT"
+   ],
+   "ye": "high",
+   "u": "https://watchcrypto.io/",
+   "note": "",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "rewardxp",
+   "n": "RewardXP",
+   "c": "ptc",
+   "min": 5,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://rewardxp.com/",
+   "note": "",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "faucetpay",
+   "n": "FaucetPay",
+   "c": "ptc",
+   "min": 1,
+   "p": [
+    "USDT",
+    "BTC"
+   ],
+   "ye": "high",
+   "u": "https://faucetpay.io/",
+   "note": "مجمّع مصارف",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "earnapp",
+   "n": "EarnApp",
+   "c": "ptc",
+   "min": 2,
+   "p": [
+    "PayPal",
+    "USDT"
+   ],
+   "ye": "mid",
+   "u": "https://earnapp.com/",
+   "note": "بادئ النطاق",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "honeygain",
+   "n": "Honeygain",
+   "c": "ptc",
+   "min": 20,
+   "p": [
+    "PayPal",
+    "BTC"
+   ],
+   "ye": "mid",
+   "u": "https://www.honeygain.com/",
+   "note": "",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "grass",
+   "n": "Grass",
+   "c": "ptc",
+   "min": 1,
+   "p": [
+    "USDT"
+   ],
+   "ye": "high",
+   "u": "https://www.getgrass.io/",
+   "note": "",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "nodepay",
+   "n": "Nodepay",
+   "c": "ptc",
+   "min": 1,
+   "p": [
+    "USDT"
+   ],
+   "ye": "high",
+   "u": "https://nodepay.ai/",
+   "note": "",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "traffmonetizer",
+   "n": "Traffmonetizer",
+   "c": "ptc",
+   "min": 1,
+   "p": [
+    "USDT"
+   ],
+   "ye": "high",
+   "u": "https://traffmonetizer.com/",
+   "note": "",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "prolific",
+   "n": "Prolific",
+   "c": "gpt",
+   "min": 5,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://www.prolific.com/",
+   "note": "أعلى أجر/ساعة",
+   "model": "survey",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "prizerebel",
+   "n": "PrizeRebel",
+   "c": "gpt",
+   "min": 5,
+   "p": [
+    "PayPal",
+    "USDT"
+   ],
+   "ye": "mid",
+   "u": "https://www.prizerebel.com/",
+   "note": "إحالة 30%",
+   "model": "survey",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "microworkers",
+   "n": "Microworkers",
+   "c": "gpt",
+   "min": 9,
+   "p": [
+    "PayPal",
+    "Skrill",
+    "USDT"
+   ],
+   "ye": "mid",
+   "u": "https://www.microworkers.com/",
+   "note": "",
+   "model": "survey",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "picoworkers",
+   "n": "Picoworkers",
+   "c": "gpt",
+   "min": 5,
+   "p": [
+    "PayPal",
+    "USDT"
+   ],
+   "ye": "high",
+   "u": "https://picoworkers.com/",
+   "note": "",
+   "model": "survey",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "toloka",
+   "n": "Toloka",
+   "c": "gpt",
+   "min": 1,
+   "p": [
+    "PayPal",
+    "USDT"
+   ],
+   "ye": "high",
+   "u": "https://toloka.ai/",
+   "note": "",
+   "model": "survey",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "attapoll",
+   "n": "AttaPoll",
+   "c": "gpt",
+   "min": 3,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://attapoll.app/",
+   "note": "على الجوال",
+   "model": "survey",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "pollpay",
+   "n": "Poll Pay",
+   "c": "gpt",
+   "min": 5,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://pollpay.app/",
+   "note": "",
+   "model": "survey",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "instagc",
+   "n": "InstaGC",
+   "c": "gpt",
+   "min": 1,
+   "p": [
+    "PayPal",
+    "GC"
+   ],
+   "ye": "mid",
+   "u": "https://www.instagc.com/",
+   "note": "",
+   "model": "survey",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "yougov",
+   "n": "YouGov",
+   "c": "gpt",
+   "min": 15,
+   "p": [
+    "Wire",
+    "GC"
+   ],
+   "ye": "mid",
+   "u": "https://yougov.com/",
+   "note": "",
+   "model": "survey",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "toluna",
+   "n": "Toluna",
+   "c": "gpt",
+   "min": 10,
+   "p": [
+    "PayPal",
+    "GC"
+   ],
+   "ye": "mid",
+   "u": "https://www.toluna.com/",
+   "note": "",
+   "model": "survey",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "lifepoints",
+   "n": "LifePoints",
+   "c": "gpt",
+   "min": 5,
+   "p": [
+    "PayPal",
+    "GC"
+   ],
+   "ye": "mid",
+   "u": "https://www.lifepointspanel.com/",
+   "note": "",
+   "model": "survey",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "surveytime",
+   "n": "SurveyTime",
+   "c": "gpt",
+   "min": 1,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://surveytime.io/",
+   "note": "",
+   "model": "survey",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "clickworker",
+   "n": "Clickworker",
+   "c": "gpt",
+   "min": 5,
+   "p": [
+    "PayPal",
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://www.clickworker.com/",
+   "note": "",
+   "model": "survey",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "oneforma",
+   "n": "OneForma",
+   "c": "gpt",
+   "min": 10,
+   "p": [
+    "PayPal",
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://www.oneforma.com/",
+   "note": "",
+   "model": "survey",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "shahid",
+   "n": "Shahid VIP",
+   "c": "aff",
+   "min": 10,
+   "p": [
+    "Wire"
+   ],
+   "ye": "high",
+   "u": "https://www.shahid.net/",
+   "note": "عمولة اشتراك عربي",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "osn",
+   "n": "OSN+",
+   "c": "aff",
+   "min": 10,
+   "p": [
+    "Wire"
+   ],
+   "ye": "high",
+   "u": "https://www.osn.com/",
+   "note": "",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "aliexpress",
+   "n": "AliExpress Portals",
+   "c": "aff",
+   "min": 10,
+   "p": [
+    "Wire"
+   ],
+   "ye": "high",
+   "u": "https://portals.aliexpress.com/",
+   "note": "الأسهل عربياً",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "noon",
+   "n": "Noon Affiliate",
+   "c": "aff",
+   "min": 10,
+   "p": [
+    "Wire"
+   ],
+   "ye": "high",
+   "u": "https://www.noon.com/",
+   "note": "",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "jumia",
+   "n": "Jumia Affiliate",
+   "c": "aff",
+   "min": 10,
+   "p": [
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://www.jumia.com/",
+   "note": "",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "clickbank",
+   "n": "ClickBank",
+   "c": "aff",
+   "min": 10,
+   "p": [
+    "Wire",
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://www.clickbank.com/",
+   "note": "عمولة 50–75%",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "digistore24",
+   "n": "Digistore24",
+   "c": "aff",
+   "min": 10,
+   "p": [
+    "Wire",
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://www.digistore24.com/",
+   "note": "",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "nordvpn",
+   "n": "NordVPN",
+   "c": "aff",
+   "min": 10,
+   "p": [
+    "PayPal",
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://nordvpn.com/affiliate/",
+   "note": "عمولة متكررة 30%",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "hostinger",
+   "n": "Hostinger",
+   "c": "aff",
+   "min": 50,
+   "p": [
+    "PayPal",
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://www.hostinger.com/affiliates",
+   "note": "",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "namecheap",
+   "n": "Namecheap",
+   "c": "aff",
+   "min": 50,
+   "p": [
+    "Wire",
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://www.namecheap.com/affiliates/",
+   "note": "",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "amazon",
+   "n": "Amazon Associates",
+   "c": "aff",
+   "min": 10,
+   "p": [
+    "Wire",
+    "GC"
+   ],
+   "ye": "low",
+   "u": "https://affiliate-program.amazon.com/",
+   "note": "",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "temu",
+   "n": "Temu Affiliate",
+   "c": "aff",
+   "min": 10,
+   "p": [
+    "PayPal",
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://www.temu.com/",
+   "note": "",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "impact",
+   "n": "Impact",
+   "c": "aff",
+   "min": 10,
+   "p": [
+    "Wire",
+    "Payoneer"
+   ],
+   "ye": "mid",
+   "u": "https://impact.com/",
+   "note": "",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "awin",
+   "n": "Awin",
+   "c": "aff",
+   "min": 20,
+   "p": [
+    "Wire"
+   ],
+   "ye": "low",
+   "u": "https://www.awin.com/",
+   "note": "",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "binancep2p",
+   "n": "Binance P2P",
+   "c": "crypto",
+   "min": 0,
+   "p": [
+    "KUR",
+    "WIRE"
+   ],
+   "ye": "high",
+   "u": "https://p2p.binance.com/",
+   "note": "بيع USDT مقابل ريال",
+   "model": "cashout",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "bybit",
+   "n": "Bybit P2P",
+   "c": "crypto",
+   "min": 0,
+   "p": [
+    "KUR",
+    "WIRE"
+   ],
+   "ye": "high",
+   "u": "https://www.bybit.com/",
+   "note": "",
+   "model": "cashout",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "okx",
+   "n": "OKX P2P",
+   "c": "crypto",
+   "min": 0,
+   "p": [
+    "KUR",
+    "WIRE"
+   ],
+   "ye": "high",
+   "u": "https://www.okx.com/",
+   "note": "",
+   "model": "cashout",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "trust",
+   "n": "Trust Wallet",
+   "c": "crypto",
+   "min": 0,
+   "p": [
+    "USDT",
+    "BTC"
+   ],
+   "ye": "high",
+   "u": "https://trustwallet.com/",
+   "note": "",
+   "model": "cashout",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "nowpay",
+   "n": "NOWPayments",
+   "c": "crypto",
+   "min": 0,
+   "p": [
+    "USDT"
+   ],
+   "ye": "high",
+   "u": "https://nowpayments.io/",
+   "note": "0.5% بلا KYC",
+   "model": "cashout",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "airtm",
+   "n": "AirTM",
+   "c": "crypto",
+   "min": 0,
+   "p": [
+    "KUR",
+    "WIRE"
+   ],
+   "ye": "high",
+   "u": "https://airtm.com/",
+   "note": "يدعم اليمن",
+   "model": "cashout",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "kuraimi",
+   "n": "بنك الكريمي",
+   "c": "crypto",
+   "min": 0,
+   "p": [
+    "KUR"
+   ],
+   "ye": "high",
+   "u": "https://www.alkuraimibank.com/",
+   "note": "الهدف النهائي · KBMFYESAXXX",
+   "model": "cashout",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "payoneer",
+   "n": "Payoneer",
+   "c": "crypto",
+   "min": 0,
+   "p": [
+    "WIRE"
+   ],
+   "ye": "mid",
+   "u": "https://www.payoneer.com/",
+   "note": "",
+   "model": "cashout",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "wise",
+   "n": "Wise",
+   "c": "crypto",
+   "min": 0,
+   "p": [
+    "WIRE"
+   ],
+   "ye": "low",
+   "u": "https://wise.com/",
+   "note": "",
+   "model": "cashout",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "skrill",
+   "n": "Skrill",
+   "c": "crypto",
+   "min": 0,
+   "p": [
+    "WIRE"
+   ],
+   "ye": "mid",
+   "u": "https://www.skrill.com/",
+   "note": "",
+   "model": "cashout",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "youtube",
+   "n": "YouTube Partner",
+   "c": "video",
+   "min": 100,
+   "p": [
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://www.youtube.com/creators/",
+   "note": "1000 مشترك + 4000 ساعة",
+   "model": "per_view",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "rumble",
+   "n": "Rumble",
+   "c": "video",
+   "min": 50,
+   "p": [
+    "Wire"
+   ],
+   "ye": "low",
+   "u": "https://rumble.com/",
+   "note": "",
+   "model": "per_view",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "dailymotion",
+   "n": "Dailymotion Partner",
+   "c": "video",
+   "min": 100,
+   "p": [
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://www.dailymotion.com/partner",
+   "note": "",
+   "model": "per_view",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "odysee",
+   "n": "Odysee / LBRY",
+   "c": "video",
+   "min": 0,
+   "p": [
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://odysee.com/",
+   "note": "",
+   "model": "per_view",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "tiktokcreator",
+   "n": "TikTok Creator",
+   "c": "video",
+   "min": 0,
+   "p": [
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://www.tiktok.com/creators/",
+   "note": "",
+   "model": "per_view",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "medium",
+   "n": "Medium Partner",
+   "c": "write",
+   "min": 0,
+   "p": [
+    "Wire"
+   ],
+   "ye": "low",
+   "u": "https://medium.com/partner-program",
+   "note": "",
+   "model": "per_read",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "vocal",
+   "n": "Vocal Media",
+   "c": "write",
+   "min": 0,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://vocal.media/",
+   "note": "",
+   "model": "per_read",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "hubpages",
+   "n": "HubPages",
+   "c": "write",
+   "min": 0,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "low",
+   "u": "https://hubpages.com/",
+   "note": "",
+   "model": "per_read",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "substack",
+   "n": "Substack",
+   "c": "write",
+   "min": 0,
+   "p": [
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://substack.com/",
+   "note": "اشتراكات مدفوعة",
+   "model": "subs",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "blogger",
+   "n": "Blogger + AdSense",
+   "c": "write",
+   "min": 0,
+   "p": [
+    "Wire"
+   ],
+   "ye": "high",
+   "u": "https://www.blogger.com/",
+   "note": "استضافة مجانية + إعلانات",
+   "model": "subs",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "wordpresscom",
+   "n": "WordPress.com",
+   "c": "write",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://wordpress.com/",
+   "note": "",
+   "model": "subs",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "outlier",
+   "n": "Outlier AI",
+   "c": "micro",
+   "min": 10,
+   "p": [
+    "PayPal",
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://outlier.ai/",
+   "note": "أجر مرتفع للساعة",
+   "model": "task",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "dataannotation",
+   "n": "DataAnnotation.tech",
+   "c": "micro",
+   "min": 10,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://www.dataannotation.tech/",
+   "note": "",
+   "model": "task",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "mturk",
+   "n": "Amazon MTurk",
+   "c": "micro",
+   "min": 1,
+   "p": [
+    "Wire",
+    "GC"
+   ],
+   "ye": "mid",
+   "u": "https://www.mturk.com/",
+   "note": "",
+   "model": "task",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "surge",
+   "n": "Surge AI",
+   "c": "micro",
+   "min": 10,
+   "p": [
+    "PayPal",
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://www.surgehq.ai/",
+   "note": "",
+   "model": "task",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "scale",
+   "n": "Scale AI",
+   "c": "micro",
+   "min": 10,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://scale.com/",
+   "note": "",
+   "model": "task",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "sigma",
+   "n": "Sigma AI",
+   "c": "micro",
+   "min": 10,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://www.sigma.ai/",
+   "note": "",
+   "model": "task",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "gsc",
+   "n": "Google Search Console",
+   "c": "seo",
+   "min": 0,
+   "p": [],
+   "ye": "high",
+   "u": "https://search.google.com/search-console",
+   "note": "يُدخل الزيارات فعليًا",
+   "model": "traffic",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "bingwm",
+   "n": "Bing Webmaster",
+   "c": "seo",
+   "min": 0,
+   "p": [],
+   "ye": "high",
+   "u": "https://www.bing.com/webmasters",
+   "note": "",
+   "model": "traffic",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "yandexwm",
+   "n": "Yandex Webmaster",
+   "c": "seo",
+   "min": 0,
+   "p": [],
+   "ye": "high",
+   "u": "https://webmaster.yandex.com/",
+   "note": "",
+   "model": "traffic",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "indexnow",
+   "n": "IndexNow",
+   "c": "seo",
+   "min": 0,
+   "p": [],
+   "ye": "high",
+   "u": "https://www.indexnow.org/",
+   "note": "فهرسة فورية — مؤتمتة",
+   "model": "traffic",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "cloudflare",
+   "n": "Cloudflare",
+   "c": "seo",
+   "min": 0,
+   "p": [],
+   "ye": "high",
+   "u": "https://www.cloudflare.com/",
+   "note": "Turnstile + CDN",
+   "model": "traffic",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "brave",
+   "n": "Brave Creators",
+   "c": "seo",
+   "min": 0,
+   "p": [
+    "USDT"
+   ],
+   "ye": "high",
+   "u": "https://creators.brave.com/",
+   "note": "ربح من متصفح Brave",
+   "model": "traffic",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "ga",
+   "n": "Google Analytics",
+   "c": "seo",
+   "min": 0,
+   "p": [],
+   "ye": "high",
+   "u": "https://analytics.google.com/",
+   "note": "",
+   "model": "traffic",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "histats",
+   "n": "Histats",
+   "c": "seo",
+   "min": 0,
+   "p": [],
+   "ye": "high",
+   "u": "https://www.histats.com/",
+   "note": "",
+   "model": "traffic",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  }
+ ]
 }

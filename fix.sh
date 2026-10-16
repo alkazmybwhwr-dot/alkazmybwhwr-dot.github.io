@@ -19,7 +19,7 @@ git remote remove origin 2>/dev/null
 git remote add origin "https://x-access-token:${T}@github.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io.git"
 git add -A; git rm --cached -q --ignore-unmatch .gh-token 2>/dev/null
 git diff --cached --quiet || git commit -q -m "fix: TMPDIR + robust push $(date -u +%FT%TZ)"
-if git push -f origin main 2>"$D/.gp.err"; then echo "  ✓✓ الدفع نجح فعلياً"; else echo "  ✗ فشل:"; cat "$D/.gp.err"; fi
+if bash deploy.sh main "auto $(date -u +%FT%TZ)"; then echo "  ✓✓ الدفع نجح فعلياً"; else echo "  ✗ فشل:"; cat "$D/.gp.err"; fi
 
 echo "── 3) تشغيل دورة كاملة ──"
 bash restart.sh

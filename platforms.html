@@ -18,4 +18,5 @@ fetch('/platforms.json').then(function(r){return r.json()}).then(function(j){D=j
 ['all'].concat(Object.keys(C)).forEach(function(k){var b=document.createElement('button');b.textContent=k=='all'?'الكل ('+D.length+')':C[k];
 b.onclick=function(){document.querySelectorAll('.f button').forEach(function(z){z.classList.remove('on')});b.classList.add('on');d(k)};if(k=='all')b.classList.add('on');f.appendChild(b)});d('all')});
 </script><script src="/earnings.js" defer></script>
-<p><a style="color:#f5c451" href="/signup.html">سجل التسجيل</a> · <a style="color:#f5c451" href="/withdraw.html">سحب للكريمي</a></p></body></html>
+<p><a style="color:#f5c451" href="/signup.html">سجل التسجيل</a> · <a style="color:#f5c451" href="/withdraw.html">سحب للكريمي</a></p><script src="/linkgo.js" defer></script>
+</body></html>

@@ -465,7 +465,7 @@ git remote remove origin 2>/dev/null
 git remote add origin "https://x-access-token:${T}@github.com/${OWNER}/${REPO}.git"
 git add -A; git rm --cached -q --ignore-unmatch .gh-token .license-secret 2>/dev/null
 git diff --cached --quiet || git commit -q -m "feat: viral+lock+ticker+rss+tg+cats $(date -u +%FT%TZ)"
-git push -f origin "$BRANCH" 2>"$D/.gp.err" && G "نُشر" || { R "فشل"; cat "$D/.gp.err"; }
+bash deploy.sh main "auto $(date -u +%FT%TZ)"&& G "نُشر" || { R "فشل"; cat "$D/.gp.err"; }
 
 # ═══ 8/9 دمج مع auto.sh ═══
 H "8/9 دمج الأتمتة"
