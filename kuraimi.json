@@ -1,15 +1,53 @@
 {
   "bank": "بنك الكريمي للتمويل الأصغر الإسلامي",
-  "holder": "",
-  "account": "",
-  "branch": "",
+  "holder": "اسمك الكامل",
+  "account": "رقم حسابك في الكريمي",
+  "branch": "الفرع",
   "methods": [
-    { "id": "kuraimi_yer", "label": "حوالة الكريمي — ريال يمني", "cur": "YER", "min": 5000 },
-    { "id": "kuraimi_usd", "label": "كريمي إكسبرس / دولار", "cur": "USD", "min": 20 },
-    { "id": "usdt_trc20", "label": "USDT (TRC20)", "cur": "USDT", "min": 5 }
+    {
+      "id": "kuraimi_yer",
+      "label": "حوالة الكريمي — ريال يمني",
+      "cur": "YER",
+      "min": 5000
+    },
+    {
+      "id": "kuraimi_usd",
+      "label": "كريمي إكسبرس / دولار",
+      "cur": "USD",
+      "min": 20
+    },
+    {
+      "id": "usdt_trc20",
+      "label": "USDT (TRC20)",
+      "cur": "USDT",
+      "min": 5
+    }
   ],
   "networks": [
-    { "id": "adsterra", "label": "Adsterra", "min_usd": 5, "methods": ["USDT (TRC20)", "Paxum", "WebMoney", "Local bank 40+ دولة"], "cycle": "تلقائي مرتين شهرياً (1–2 و16–17)" },
-    { "id": "monetag",  "label": "Monetag",  "min_usd": 5, "methods": ["PayPal", "Skrill", "WebMoney", "Payoneer", "Crypto"], "cycle": "أسبوعي (الخميس)" }
+    {
+      "id": "adsterra",
+      "label": "Adsterra",
+      "min_usd": 5,
+      "methods": [
+        "USDT (TRC20)",
+        "Paxum",
+        "WebMoney",
+        "Local bank 40+ دولة"
+      ],
+      "cycle": "تلقائي مرتين شهرياً (1–2 و16–17)"
+    },
+    {
+      "id": "monetag",
+      "label": "Monetag",
+      "min_usd": 5,
+      "methods": [
+        "PayPal",
+        "Skrill",
+        "WebMoney",
+        "Payoneer",
+        "Crypto"
+      ],
+      "cycle": "أسبوعي (الخميس)"
+    }
   ]
 }
