@@ -1,6 +1,6 @@
 /* طبقة المالك: تُخفي أدوات الإدارة عن الزوّار، وتفتحها لك بـ ?o=1 أو 5 نقرات على الشعار */
 (function(){
- var OWN=['apply.html','treasury.html','audit.html','gateway.html','live-dash.html','admin2.html','plan.html','owner.html','credit.html','img.html'];
+ var OWN=['accounts.html','apply.html','treasury.html','audit.html','gateway.html','live-dash.html','admin2.html','plan.html','owner.html','credit.html','img.html'];
  function isOwner(){return localStorage.getItem('ch_owner')==='1'}
  function mark(){
   document.querySelectorAll('nav a, .foot a, a').forEach(function(a){
