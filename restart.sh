@@ -187,8 +187,8 @@ push(){
   git add -A
   git rm --cached -q --ignore-unmatch .gh-token 2>/dev/null
   git diff --cached --quiet || git commit -q -m "restart $(date -u +%FT%TZ)"
-  n=0; until git push -q -f origin "$BRANCH" 2>/data/data/com.termux/files/home/data/data/com.termux/files/home/tmp/gp.err; do
-    n=$((n+1)); [ $n -ge 4 ] && { NO "فشل الدفع: $(tail -1 /data/data/com.termux/files/home/data/data/com.termux/files/home/tmp/gp.err)"; return 1; }
+  n=0; until git push -q -f origin "$BRANCH" 2>/data/data/com.termux/files/home/data/data/com.termux/files/home/data/data/com.termux/files/home/tmp/gp.err; do
+    n=$((n+1)); [ $n -ge 4 ] && { NO "فشل الدفع: $(tail -1 /data/data/com.termux/files/home/data/data/com.termux/files/home/data/data/com.termux/files/home/tmp/gp.err)"; return 1; }
     WN "إعادة محاولة $n"; sleep $((n*4))
   done; return 0
 }
