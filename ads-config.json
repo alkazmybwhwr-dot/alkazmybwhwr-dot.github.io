@@ -13,7 +13,7 @@
     },
     "mid": {
       "size": "300x250",
-      "key": ""
+      "key": "MID_KEY"
     },
     "side": {
       "size": "160x600",

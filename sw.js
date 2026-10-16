@@ -1,4 +1,4 @@
-const V="ch3099-1792157840";
+const V="ch3099-1792157967";
 const CORE=["/","/index.html","/ads.js","/manifest.json"];
 self.addEventListener("install",e=>{self.skipWaiting();e.waitUntil(caches.open(V).then(c=>c.addAll(CORE).catch(()=>{})))});
 self.addEventListener("activate",e=>{e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==V).map(x=>caches.delete(x)))).then(()=>self.clients.claim()))});
