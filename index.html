@@ -141,20 +141,17 @@ code{background:#0c1424;border:1px solid var(--line);padding:1px 6px;border-radi
    ["NOWPayments","Premium","—","Crypto 0.5% · بلا KYC"]].forEach(function(n){
     var tr=document.createElement("tr");tr.innerHTML="<td><b>"+n[0]+"</b></td><td>"+n[1]+"</td><td>"+n[2]+"</td><td>"+n[3]+"</td>";
     q("#nets").appendChild(tr);});
-  fetch("/ads-config.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).then(function(c){
-    var B=c.banners||{},keys=0;Object.keys(B).forEach(function(k){if(B[k]&&(B[k].key||B[k].id))keys++});
-    var nets=(c.networks||[]).filter(function(n){return n.enabled}),rows=[];
-    rows.push(['حالة المحرّك',c.enabled?'ok':'bad',c.enabled?'مُفعّل':'موقوف']);
-    rows.push(['خانات إعلانية مربوطة بمفاتيح',keys?'ok':'bad',keys?keys+' من 5 — ظهور حقيقي':'لا مفاتيح ⇒ الظهور 0 والأرباح $0.00 حقيقةً']);
-    if(c.popunder_src)rows.push(['Popunder','ok','مربوط']);
-    if(c.socialbar_src)rows.push(['Social Bar','ok','مربوط']);
-    if(c.inpage_src)rows.push(['In-Page Push','ok','مربوط']);
-    if(c.monetag_src)rows.push(['Monetag MultiTag','ok','مربوط']);
-    if(c.adsense_client)rows.push(['AdSense','ok','مربوط']);
-    rows.push(['الشبكات المُفعّلة',nets.length?'ok':'bad',nets.length?nets.map(function(n){return n.name}).join(' · '):'—']);
-    q("#status").innerHTML=rows.map(function(x){return '<div style="margin:4px 0"><span class="pill '+x[1]+'">'+x[2]+'</span> '+x[0]+'</div>'}).join('')
-     +(keys?'':'<div class="sub" style="margin-top:8px">نفّذ <code>bash activate.sh</code> والصق مفاتيح Adsterra.</div>');
-  }).catch(function(){q("#status").innerHTML='<span class="pill bad">تعذّر قراءة ads-config.json</span>'});
+  Promise.all([fetch("/ads-config.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).catch(function(){return{}}),
+  fetch("/networks.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).catch(function(){return{}})])
+  .then(function(a){var c=a[0],n=a[1]||{},B=c.banners||{},keys=0;
+   Object.keys(B).forEach(function(x){if(B[x]&&B[x].key)keys++});
+   var en=(n.networks||[]).filter(function(x){return x.enabled}),mapped=(n.networks||[]).filter(function(x){var K=x.keys||{},h=false;Object.keys(K).forEach(function(y){if(K[y])h=true});return h});
+   var rows=[["حالة المحرّك",c.enabled?"ok":"bad",c.enabled?"مُفعّل":"موقوف"],
+    ["خانات مربوطة بمفاتيح",keys?"ok":"bad",keys?keys+" خانة — ظهور حقيقي":"لا مفاتيح ⇒ الظهور 0 والأرباح $0.00 حقيقةً"],
+    ["شبكات مُفعّلة",en.length?"ok":"bad",en.length?en.length+" شبكة":"—"],
+    ["شبكات لها مفاتيح فعلية",mapped.length?"ok":"bad",mapped.length?mapped.map(function(x){return x.name}).join(" · "):"لا شيء — نفّذ bash activate.sh"]];
+   q("#status").innerHTML=rows.map(function(x){return '<div style="margin:4px 0"><span class="pill '+x[1]+'">'+x[2]+'</span> '+x[0]+'</div>'}).join("");
+  }).catch(function(){q("#status").innerHTML='<span class="pill bad">تعذّر قراءة الإعدادات</span>'});
   var RPC=["https://base.llamarpc.com","https://mainnet.base.org","https://base-rpc.publicnode.com","https://1rpc.io/base"];
   var TK={USDC:["0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",6],USDT:["0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",6],
           VVV:["0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf",18],DIEM:["0xf4d97f2da56e8c3098f3a8d538db630a2606a024",18]};

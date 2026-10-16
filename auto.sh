@@ -29,6 +29,6 @@ PY
   git remote add origin "https://x-access-token:${T}@github.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io.git"
   git add -A; git rm --cached -q --ignore-unmatch .gh-token .license-secret 2>/dev/null
   git diff --cached --quiet || git commit -q -m "auto: content refresh $(date -u +%FT%TZ)"
-  git push -q -f origin main 2>"$D/.gp.err" && echo "  ✓ نُشر" || { echo "  ✗"; cat "$D/.gp.err"; }
+  bash deploy.sh main "auto $(date -u +%FT%TZ)"&& echo "  ✓ نُشر" || { echo "  ✗"; cat "$D/.gp.err"; }
   sleep 10800
 done

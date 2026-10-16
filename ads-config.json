@@ -31,6 +31,14 @@
       "size": "728x90",
       "alt_size": "320x50",
       "key": ""
+    },
+    "inarticle": {
+      "size": "336x280",
+      "key": ""
+    },
+    "native": {
+      "size": "1x1",
+      "key": ""
     }
   },
   "networks": [
@@ -181,10 +189,11 @@
       "period": "month",
       "days": 30,
       "features": [
-        "بلا إعلانات البانر",
+        "بلا بانرات",
         "1080p",
-        "دعم أولوية",
-        "شارة فضية"
+        "أولوية دعم",
+        "شارة فضية",
+        "مكافأة إحالة 10%"
       ]
     },
     {
@@ -198,7 +207,7 @@
         "4K HDR",
         "تحميل مؤجل",
         "شارة ذهبية",
-        "مكافأة إحالة 30%"
+        "مكافأة إحالة 20%"
       ]
     },
     {
@@ -223,25 +232,7 @@
   "payout": {
     "bank_name": "بنك الكريمي للتمويل الأصغر الإسلامي",
     "swift": "KBMFYESAXXX",
-    "swift_alt": "",
     "country": "Yemen",
-    "methods": [
-      {
-        "id": "kuraimi_local",
-        "label": "",
-        "min": 20
-      },
-      {
-        "id": "kuraimi_usd",
-        "label": "",
-        "min": 20
-      },
-      {
-        "id": "usdt_trc20",
-        "label": "USDT (TRC20)",
-        "min": 5
-      }
-    ],
     "min_global": 5,
     "sla_hours": 72
   },
@@ -251,5 +242,11 @@
   "inpage_src": "",
   "monetag_src": "",
   "adsense_client": "",
-  "adsense_slot": ""
+  "adsense_slot": "",
+  "monetag_rewarded_zone": "",
+  "anti_adblock": true,
+  "frequency_cap": {
+    "popunder_min": 30,
+    "interstitial_min": 45
+  }
 }

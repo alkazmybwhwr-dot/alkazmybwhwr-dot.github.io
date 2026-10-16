@@ -1,35 +1,65 @@
 #!/data/data/com.termux/files/usr/bin/bash
 cd "$(dirname "$0")" || exit 1
-ask(){ printf '%s' "$2"; read -r v; [ -n "$v" ] && echo "$v" || echo "$1"; }
-echo "— اترك الفراغ ليبقى الحالي —"
-P=$(ask "" "معرّف ناشر Adsterra (ads.txt) [فارغ=تخطّي]: ")
-for z in top mid side mobile bottom; do K=$(ask "" "مفتاح بانر $z [فارغ=تخطّي]: "); [ -n "$K" ] && eval "K_$z=\$K"; done
-PU=$(ask "" "رابط سكربت Popunder: "); SB=$(ask "" "رابط سكربت Social Bar: "); IP=$(ask "" "رابط In-Page Push: ")
-MT=$(ask "" "رابط Monetag MultiTag: "); AC=$(ask "" "AdSense client (ca-pub-...): "); AS=$(ask "" "AdSense slot: ")
-HN=$(ask "" "اسمك كما في الهوية (الكريمي): "); HA=$(ask "" "رقم حسابك في الكريمي: ")
-HP=$(ask "" "رقم هاتفك (967...): "); HB=$(ask "" "الفرع: ")
-WA=$(ask "" "واتساب للطلبات (967...): "); TG=$(ask "" "تيليجرام (username): "); EM=$(ask "" "بريدك: ")
-UT=$(ask "" "عنوان USDT TRC20: "); EP=$(ask "" "رابط Google Apps Script Web App: ")
-TSS=$(ask "" "Turnstile sitekey: "); TSK=$(ask "" "Turnstile secret: ")
-export P PU SB IP MT AC AS HN HA HP HB WA TG EM UT EP TSS TSK K_top K_mid K_side K_mobile K_bottom
+ask(){ printf '%s' "$2"; read -r v; [ -n "$v" ] && echo "$v"; }
+echo "— اترك الفراغ لتخطّي —"
+export P=$(ask "" "Adsterra Publisher ID (لـads.txt): ")
+for z in top mid side mobile bottom inarticle; do export K_$z=$(ask "" "مفتاح بانر $z: "); done
+export PU=$(ask "" "Popunder src: "); export SB=$(ask "" "SocialBar src: "); export IP=$(ask "" "InPage src: ")
+export MT=$(ask "" "Monetag MultiTag src: "); export MRZ=$(ask "" "Monetag rewarded zone: ")
+export AC=$(ask "" "AdSense client: "); export AS=$(ask "" "AdSense slot: ")
+export MON=$(ask "" "Monetag API key: "); export PRO=$(ask "" "PropellerAds API key: ")
+export HN=$(ask "" "اسمك كما في الهوية: "); export HA=$(ask "" "رقم حسابك في الكريمي: ")
+export HP=$(ask "" "رقم هاتفك (967...): "); export HM=$(ask "" "رقم إم فلوس: ")
+export WA=$(ask "" "واتساب الطلبات: "); export TG=$(ask "" "تيليجرام: "); export EM=$(ask "" "بريدك: ")
+export UT=$(ask "" "USDT TRC20: "); export EP=$(ask "" "Apps Script URL: ")
+export TSS=$(ask "" "Turnstile sitekey: "); export TSK=$(ask "" "Turnstile secret: ")
+export SU=$(ask "" "Supabase URL: "); export SA=$(ask "" "Supabase anon key: ")
+export TGB=$(ask "" "Telegram bot token: "); export TGC=$(ask "" "Telegram chat id: ")
 python3 - <<'PY'
 import json,os
-c=json.load(open('ads-config.json',encoding='utf-8'))
-for k in ('K_top','K_mid','K_side','K_mobile','K_bottom'):
-    z=k.split('_')[1]; v=os.environ.get(k,'')
-    if v: c['banners'][z]['key']=v
-for env,key in (('PU','popunder_src'),('SB','socialbar_src'),('IP','inpage_src'),('MT','monetag_src'),('AC','adsense_client'),('AS','adsense_slot')):
-    if os.environ.get(env): c[key]=os.environ[env]
-json.dump(c,open('ads-config.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
-k=json.load(open('kuraimi.json',encoding='utf-8'))
-for env,key in (('HN','holder'),('HA','account'),('HP','phone'),('HB','branch')):
-    if os.environ.get(env): k[key]=os.environ[env]
-json.dump(k,open('kuraimi.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
-o=json.load(open('owner.json',encoding='utf-8'))
-for env,key in (('WA','whatsapp'),('TG','telegram'),('EM','email'),('UT','usdt_trc20'),('EP','endpoint'),('TSS','turnstile_site'),('TSK','turnstile_secret')):
-    if os.environ.get(env): o[key]=os.environ[env]
-json.dump(o,open('owner.json','w',encoding='utf-8'),ensure_ascii=False,indent=2)
-if os.environ.get('P'): open('ads.txt','a',encoding='utf-8').write('\nadsterra.com, %s, DIRECT\n'%os.environ['P'])
-print('  ✓ حُدِّثت الملفات')
+def rd(p,d):
+    try:return json.load(open(p,encoding='utf-8'))
+    except Exception:return d
+def wr(p,o):json.dump(o,open(p,'w',encoding='utf-8'),ensure_ascii=False,indent=2)
+e=os.environ.get
+n=rd('networks.json',{}); a=n.setdefault('networks',[])[0] if n.get('networks') else None
+for x in n.get('networks',[]):
+    if x['id']=='adsterra':
+        for z in ('top','mid','side','mobile','bottom','inarticle'):
+            v=e('K_'+z) or ''
+            if v:x['keys']['banner_'+z]=v
+        for env,k in (('PU','popunder'),('SB','socialbar'),('IP','inpage')):
+            if e(env):x['keys'][k]=e(env)
+        if any(x['keys'].values()):x['enabled']=True
+    if x['id']=='monetag' and e('MT'):x['enabled']=True;x['keys']['multitag']=e('MT')
+wr('networks.json',n)
+c=rd('ads-config.json',{})
+if e('AC'):c['adsense_client']=e('AC')
+if e('AS'):c['adsense_slot']=e('AS')
+if e('MT'):c['monetag_src']=e('MT')
+if e('MRZ'):c['monetag_rewarded_zone']=e('MRZ')
+wr('ads-config.json',c)
+o=rd('owner.json',{})
+for env,k in (('HN','kuraimi_name'),('HA','kuraimi_account'),('HP','kuraimi_phone'),('HM','mfloos'),
+ ('WA','whatsapp'),('TG','telegram'),('EM','email'),('UT','usdt_trc20'),('EP','endpoint'),
+ ('SU','supabase_url'),('SA','supabase_anon'),('TGB','telegram_bot_token'),('TGC','telegram_chat')):
+    if e(env):o[k]=e(env)
+cc=o.setdefault('captcha',{})
+if e('TSS'):cc['turnstile_site']=e('TSS')
+if e('TSK'):cc['turnstile_secret']=e('TSK')
+wr('owner.json',o)
+k=rd('kuraimi.json',{})
+for env,key in (('HN','holder'),('HA','account'),('HP','phone')):
+    if e(env):k[key]=e(env)
+wr('kuraimi.json',k)
+cl=rd('cloud-config.json',{})
+if e('SU'):cl['supabase_url']=e('SU')
+if e('SA'):cl['supabase_anon']=e('SA')
+wr('cloud-config.json',cl)
+if e('P'):open('ads.txt','a',encoding='utf-8').write('\nadsterra.com, %s, DIRECT\n'%e('P'))
+se={'ADSTERRA_API_KEY':'','MONETAG_API_KEY':e('MON'),'PROPELLER_API_KEY':e('PRO')}
+open('secrets.template.env','w',encoding='utf-8').write('\n'.join('%s=%s'%(a,b) for a,b in se.items())+'\n')
+print('  ✓ حُدّثت networks/ads-config/owner/kuraimi/cloud-config/ads.txt')
 PY
-bash deploy.sh main "activate $(date -u +%FT%TZ)"
+bash deploy.sh main "activate v3 $(date -u +%FT%TZ)"
+python3 tools/verify.py

@@ -1,12 +1,15 @@
-/* زر عائم يوجّه لصفحة الكسب — يظهر فقط إذا فُعّلت منصّة */
 (function(){
-"use strict";
-fetch("/surveys-config.json",{cache:"no-store"}).then(function(r){return r.json();}).then(function(c){
-  if(!c||!c.provider||!c.id) return;
-  var a=document.createElement("a");
-  a.href="./earn.html";
-  a.textContent="💰 اكسب";
-  a.style.cssText="position:fixed;bottom:16px;left:16px;z-index:9998;background:linear-gradient(180deg,#22c55e,#16a34a);color:#fff;padding:11px 16px;border-radius:999px;font:700 13px system-ui;text-decoration:none;box-shadow:0 6px 20px rgba(0,0,0,.4)";
-  document.body.appendChild(a);
-}).catch(function(){});
+ function uid(){return (window.CHCloud?CHCloud.uid():'anon')}
+ function render(){
+  fetch('/offerwalls.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json()}).then(function(j){
+   var host=document.getElementById('walls'); if(!host)return;
+   host.innerHTML=(j.walls||[]).map(function(w){
+    var url=w.url?w.url.replace('{uid}',uid()).replace('{USER_ID}',uid()):'';
+    return '<div class="card"><b>'+w.name+'</b><div class="l">ربح لكل استطلاع: '+w.rpm+' · أدنى سحب $'+w.min+'</div>'+
+     (url?'<a href="'+url+'" target="_blank" rel="noopener" style="display:inline-block;margin-top:8px;background:#4dd0e1;color:#04121a;border-radius:9px;padding:8px 14px;font-weight:800;text-decoration:none">افتح الاستطلاعات</a>':'<span class="l"> — ضع الرابط في offerwalls.json</span>')+
+     '<div class="l" style="opacity:.7;margin-top:6px">معرّفك للإحالة: <code>'+uid()+'</code></div></div>'
+   }).join('')||'<p class="l">لا بوابات مُعدّة</p>';
+  }).catch(function(){});
+ }
+ document.readyState==='loading'?addEventListener('DOMContentLoaded',render):render();
 })();

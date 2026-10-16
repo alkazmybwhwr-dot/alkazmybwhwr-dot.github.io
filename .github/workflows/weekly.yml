@@ -1,0 +1,20 @@
+name: weekly
+on:
+  schedule: [{cron: '41 3 * * 0'}]
+  workflow_dispatch:
+permissions: {contents: write}
+jobs:
+  w:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          python3 - <<'PY'
+          import json,datetime
+          try: t=json.load(open('treasury.json'))
+          except Exception: t={'total_30d':0}
+          open('reports/%s.md'%datetime.date.today(),'w').write('# تقرير أسبوعي\n\nإجمالي 30 يوم: $%s\n'%t.get('total_30d',0))
+          PY
+          mkdir -p reports
+          git config user.name cinehub-bot; git config user.email bot@users.noreply.github.com
+          git add -A; git diff --cached --quiet || git commit -m "weekly report [skip ci]"; git push

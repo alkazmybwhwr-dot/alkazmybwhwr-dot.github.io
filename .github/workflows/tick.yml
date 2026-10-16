@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push: {branches: [main]}
 permissions: {contents: write}
-concurrency: {group: tick, cancel-in_progress: false}
+concurrency: {group: tick, cancel_in_progress: false}
 jobs:
   tick:
     runs-on: ubuntu-latest
@@ -12,10 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
-      - name: pull real stats
+      - name: pull real revenue
         env:
           ADSTERRA_API_KEY: ${{ secrets.ADSTERRA_API_KEY }}
-        run: python3 tools/pull_stats.py
+          MONETAG_API_KEY: ${{ secrets.MONETAG_API_KEY }}
+          PROPELLER_API_KEY: ${{ secrets.PROPELLER_API_KEY }}
+          POPADS_API_KEY: ${{ secrets.POPADS_API_KEY }}
+          ADMAVEN_API_KEY: ${{ secrets.ADMAVEN_API_KEY }}
+          CLICKADU_API_KEY: ${{ secrets.CLICKADU_API_KEY }}
+          HILLTOP_API_KEY: ${{ secrets.HILLTOP_API_KEY }}
+          ADCASH_API_KEY: ${{ secrets.ADCASH_API_KEY }}
+          EXOCLICK_KEY: ${{ secrets.EXOCLICK_KEY }}
+          BIDVERTISER_API_KEY: ${{ secrets.BIDVERTISER_API_KEY }}
+        run: python3 tools/networks.py
       - name: commit
         run: |
           git config user.name cinehub-bot
