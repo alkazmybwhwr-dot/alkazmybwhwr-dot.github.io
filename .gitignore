@@ -2,8 +2,5 @@ node_modules/
 backups/
 *.log
 .gh-token
-.license-secret
-.gp.err
-.tmp/
 __pycache__/
 *.tgz
