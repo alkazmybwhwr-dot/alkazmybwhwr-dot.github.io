@@ -3,7 +3,11 @@
 import os,re,json,urllib.request,datetime
 R=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HOST='alkazmybwhwr-dot.github.io'
-KEY=open(os.path.join(R,'.indexnow-key'),encoding='utf-8').read().strip() if os.path.exists(os.path.join(R,'.indexnow-key')) else ''
+KEY=''
+import glob,re as _re
+for f in glob.glob(os.path.join(R,'*.txt')):
+    if _re.fullmatch(r'[0-9a-f]{32}',os.path.basename(f)[:-4]): KEY=os.path.basename(f)[:-4]; break
+if not KEY and os.path.exists(os.path.join(R,'.indexnow-key')): KEY=open(os.path.join(R,'.indexnow-key'),encoding='utf-8').read().strip()
 def post(u,d):
     try:
         rq=urllib.request.Request(u,data=json.dumps(d).encode(),headers={'Content-Type':'application/json; charset=utf-8'})

@@ -57,4 +57,5 @@ function exportJSON(){var o={};Object.keys(CODES).forEach(k=>{if(CODES[k])o[k]=C
  document.getElementById('out').textContent=JSON.stringify(o,null,1);navigator.clipboard.writeText(JSON.stringify(o,null,1));}
 function clearAll(){DONE={};CODES={};S('ch_applied',{});S('ch_codes',{});draw();}
 </script><script src="/ads.js" defer></script><script src="/nav.js" defer></script><script src="/linkgo.js" defer></script>
+<script>if(!document.querySelector('a[href="/plan.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/start.html">ابدأ</a><a href="/plan.html">الخطة</a>')}</script>
 </body></html>

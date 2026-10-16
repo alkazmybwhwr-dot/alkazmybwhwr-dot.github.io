@@ -13,7 +13,7 @@
   "micro": "عمل بيانات",
   "seo": "فهرسة وزيارات"
  },
- "total": 143,
+ "total": 205,
  "platforms": [
   {
    "id": "linkvertise",
@@ -2382,6 +2382,1020 @@
    "u": "https://www.histats.com/",
    "note": "",
    "model": "traffic",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "link1s",
+   "n": "Link1s",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://link1s.com/",
+   "note": "حتى $15/1000",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "clicksfly",
+   "n": "ClicksFly",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://clicksfly.com/",
+   "note": "حتى $14/1000",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "shrinkpe",
+   "n": "Shrink.pe",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://shrink.pe/",
+   "note": "حتى $20/1000",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "arolinks",
+   "n": "AroLinks",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://arolinks.com/",
+   "note": "حتى $15/1000",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "linkshortify",
+   "n": "Linkshortify",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://linkshortify.com/",
+   "note": "حتى $13/1000",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "mdisk",
+   "n": "MDisk",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://mdisk.me/",
+   "note": "حتى $12/1000",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "zagl",
+   "n": "Zagl",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "high",
+   "u": "https://zagl.ink/",
+   "note": "حتى $10/1000",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "bom",
+   "n": "Bom.so",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "high",
+   "u": "https://bom.so/",
+   "note": "حتى $9/1000",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "droplink",
+   "n": "Droplink",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "high",
+   "u": "https://droplink.co/",
+   "note": "حتى $9/1000",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "cutlink",
+   "n": "CutLink",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "high",
+   "u": "https://cutlink.net/",
+   "note": "حتى $8/1000",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "adrinolinks",
+   "n": "Adrinolinks",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "high",
+   "u": "https://adrinolinks.in/",
+   "note": "حتى $8/1000",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "beebiz",
+   "n": "Bee4.biz",
+   "c": "short",
+   "min": 5,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "high",
+   "u": "https://bee4.biz/",
+   "note": "حتى $8/1000",
+   "model": "ppc",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "adcombo",
+   "n": "AdCombo",
+   "c": "cpa",
+   "min": 50,
+   "p": [
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://adcombo.com/",
+   "note": "COD عالي",
+   "model": "cpa",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "dr-cash",
+   "n": "Dr.Cash",
+   "c": "cpa",
+   "min": 50,
+   "p": [
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://dr-cash.com/",
+   "note": "",
+   "model": "cpa",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "leadbit",
+   "n": "Leadbit",
+   "c": "cpa",
+   "min": 50,
+   "p": [
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://leadbit.com/",
+   "note": "",
+   "model": "cpa",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "traffcore",
+   "n": "TraffCore",
+   "c": "cpa",
+   "min": 50,
+   "p": [
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://traffcore.com/",
+   "note": "",
+   "model": "cpa",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "shakes",
+   "n": "Shakes.pro",
+   "c": "cpa",
+   "min": 50,
+   "p": [
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://shakes.pro/",
+   "note": "",
+   "model": "cpa",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "m4trix",
+   "n": "M4trix",
+   "c": "cpa",
+   "min": 50,
+   "p": [
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://m4trix.net/",
+   "note": "",
+   "model": "cpa",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "cpagetti",
+   "n": "CPAGetti",
+   "c": "cpa",
+   "min": 50,
+   "p": [
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://cpagetti.com/",
+   "note": "",
+   "model": "cpa",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "monetizus",
+   "n": "Monetizus",
+   "c": "cpa",
+   "min": 50,
+   "p": [
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://monetizus.com/",
+   "note": "",
+   "model": "cpa",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "everad",
+   "n": "Everad",
+   "c": "cpa",
+   "min": 50,
+   "p": [
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://everad.com/",
+   "note": "",
+   "model": "cpa",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "expertmobi",
+   "n": "ExpertMobi",
+   "c": "cpa",
+   "min": 100,
+   "p": [
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://expertmobi.com/",
+   "note": "",
+   "model": "cpa",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "adscompass",
+   "n": "AdsCompass",
+   "c": "ad",
+   "min": 50,
+   "p": [
+    "Wire",
+    "USDT"
+   ],
+   "ye": "mid",
+   "u": "https://adscompass.com/",
+   "note": "",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "adnium",
+   "n": "Adnium",
+   "c": "ad",
+   "min": 25,
+   "p": [
+    "Wire",
+    "USDT"
+   ],
+   "ye": "mid",
+   "u": "https://adnium.com/",
+   "note": "للكبار",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "trafficjunky",
+   "n": "TrafficJunky",
+   "c": "ad",
+   "min": 50,
+   "p": [
+    "Wire",
+    "USDT"
+   ],
+   "ye": "mid",
+   "u": "https://www.trafficjunky.com/",
+   "note": "",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "buysellads",
+   "n": "BuySellAds",
+   "c": "ad",
+   "min": 50,
+   "p": [
+    "PayPal",
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://www.buysellads.com/",
+   "note": "بيع مباشر",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "infolinks",
+   "n": "Infolinks",
+   "c": "ad",
+   "min": 50,
+   "p": [
+    "PayPal",
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://www.infolinks.com/",
+   "note": "",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "sovrn",
+   "n": "Sovrn",
+   "c": "ad",
+   "min": 25,
+   "p": [
+    "PayPal",
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://www.sovrn.com/",
+   "note": "",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "vibrant",
+   "n": "Vibrant Media",
+   "c": "ad",
+   "min": 50,
+   "p": [
+    "Wire"
+   ],
+   "ye": "low",
+   "u": "https://www.vibrantmedia.com/",
+   "note": "",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "dianomi",
+   "n": "Dianomi",
+   "c": "ad",
+   "min": 100,
+   "p": [
+    "Wire"
+   ],
+   "ye": "low",
+   "u": "https://www.dianomi.com/",
+   "note": "",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "gumgum",
+   "n": "GumGum",
+   "c": "ad",
+   "min": 100,
+   "p": [
+    "Wire"
+   ],
+   "ye": "low",
+   "u": "https://gumgum.com/",
+   "note": "",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "criteo",
+   "n": "Criteo",
+   "c": "ad",
+   "min": 100,
+   "p": [
+    "Wire"
+   ],
+   "ye": "low",
+   "u": "https://www.criteo.com/",
+   "note": "",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "freestar",
+   "n": "Freestar",
+   "c": "ad",
+   "min": 100,
+   "p": [
+    "Wire"
+   ],
+   "ye": "low",
+   "u": "https://freestar.com/",
+   "note": "",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "monetizemore",
+   "n": "MonetizeMore",
+   "c": "ad",
+   "min": 50,
+   "p": [
+    "Wire",
+    "Payeer"
+   ],
+   "ye": "low",
+   "u": "https://www.monetizemore.com/",
+   "note": "",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "adapex",
+   "n": "Adapex",
+   "c": "ad",
+   "min": 50,
+   "p": [
+    "Wire"
+   ],
+   "ye": "low",
+   "u": "https://adapex.io/",
+   "note": "",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "optad360",
+   "n": "OptAd360",
+   "c": "ad",
+   "min": 50,
+   "p": [
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://optad360.com/",
+   "note": "",
+   "model": "display",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "pawns",
+   "n": "Pawns.app",
+   "c": "ptc",
+   "min": 5,
+   "p": [
+    "PayPal",
+    "USDT"
+   ],
+   "ye": "mid",
+   "u": "https://pawns.app/",
+   "note": "",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "repocket",
+   "n": "Repocket",
+   "c": "ptc",
+   "min": 5,
+   "p": [
+    "PayPal",
+    "USDT"
+   ],
+   "ye": "mid",
+   "u": "https://repocket.co/",
+   "note": "",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "packetstream",
+   "n": "PacketStream",
+   "c": "ptc",
+   "min": 5,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://packetstream.io/",
+   "note": "",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "peer2profit",
+   "n": "Peer2Profit",
+   "c": "ptc",
+   "min": 1,
+   "p": [
+    "USDT"
+   ],
+   "ye": "high",
+   "u": "https://p2pr.io/",
+   "note": "",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "titan",
+   "n": "Titan Network",
+   "c": "ptc",
+   "min": 1,
+   "p": [
+    "USDT"
+   ],
+   "ye": "high",
+   "u": "https://titannet.io/",
+   "note": "",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "mysterium",
+   "n": "Mysterium",
+   "c": "ptc",
+   "min": 1,
+   "p": [
+    "USDT"
+   ],
+   "ye": "high",
+   "u": "https://mysterium.network/",
+   "note": "",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "freecash",
+   "n": "Freecash",
+   "c": "ptc",
+   "min": 1,
+   "p": [
+    "PayPal",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://freecash.com/",
+   "note": "إحالة 5%",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "jumptask",
+   "n": "JumpTask",
+   "c": "ptc",
+   "min": 1,
+   "p": [
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://jumptask.io/",
+   "note": "",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "coinbase-earn",
+   "n": "Coinbase Earn",
+   "c": "ptc",
+   "min": 0,
+   "p": [
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.coinbase.com/earn",
+   "note": "مكافآت تعلم",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "presearch",
+   "n": "Presearch",
+   "c": "ptc",
+   "min": 0,
+   "p": [
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://presearch.io/",
+   "note": "محرّك بحث يدفع",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "bitcoinplus",
+   "n": "Bitcoin Plus",
+   "c": "ptc",
+   "min": 5,
+   "p": [
+    "BTC"
+   ],
+   "ye": "high",
+   "u": "https://bitcoin-plus.net/",
+   "note": "",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "cashinstyl",
+   "n": "CashInStyle",
+   "c": "ptc",
+   "min": 5,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://cashinstyle.com/",
+   "note": "",
+   "model": "watch",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "yandex-toloka",
+   "n": "Yandex Toloka",
+   "c": "gpt",
+   "min": 1,
+   "p": [
+    "PayPal",
+    "USDT"
+   ],
+   "ye": "high",
+   "u": "https://toloka.yandex.com/",
+   "note": "",
+   "model": "survey",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "appinio",
+   "n": "Appinio",
+   "c": "gpt",
+   "min": 5,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://www.appinio.com/",
+   "note": "",
+   "model": "survey",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "metrixlab",
+   "n": "MetrixLab",
+   "c": "gpt",
+   "min": 5,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://www.metrixlab.com/",
+   "note": "",
+   "model": "survey",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "gemi",
+   "n": "Gemi",
+   "c": "gpt",
+   "min": 5,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://www.gemi.com/",
+   "note": "",
+   "model": "survey",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "zeitgeist",
+   "n": "Zeitgeist",
+   "c": "gpt",
+   "min": 5,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://www.zeitgeist-research.com/",
+   "note": "",
+   "model": "survey",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "mindswarms",
+   "n": "MindSwarms",
+   "c": "gpt",
+   "min": 10,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://mindswarms.com/",
+   "note": "مقابلات فيديو",
+   "model": "survey",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "respondent",
+   "n": "Respondent.io",
+   "c": "gpt",
+   "min": 10,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://www.respondent.io/",
+   "note": "مقابلات بمبالغ كبيرة",
+   "model": "survey",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "userinterviews",
+   "n": "User Interviews",
+   "c": "gpt",
+   "min": 10,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://www.userinterviews.com/",
+   "note": "$50+ للمقابلة",
+   "model": "survey",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "wonder",
+   "n": "Wonder",
+   "c": "gpt",
+   "min": 10,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://www.wonder.com/",
+   "note": "",
+   "model": "survey",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "fiverr",
+   "n": "Fiverr",
+   "c": "aff",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://www.fiverr.com/",
+   "note": "خدمات مدفوعة",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "upwork",
+   "n": "Upwork",
+   "c": "aff",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire"
+   ],
+   "ye": "mid",
+   "u": "https://www.upwork.com/",
+   "note": "عمل حر بالدولار",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "patreon",
+   "n": "Patreon",
+   "c": "write",
+   "min": 0,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://www.patreon.com/",
+   "note": "دعم مباشر",
+   "model": "subs",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "ko-fi",
+   "n": "Ko-fi",
+   "c": "write",
+   "min": 0,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://ko-fi.com/",
+   "note": "تبرعات",
+   "model": "subs",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "buymeacoffee",
+   "n": "BuyMeACoffee",
+   "c": "write",
+   "min": 0,
+   "p": [
+    "PayPal"
+   ],
+   "ye": "mid",
+   "u": "https://www.buymeacoffee.com/",
+   "note": "تبرعات",
+   "model": "subs",
    "ref": true,
    "done": false,
    "ref_code": ""

@@ -42,4 +42,5 @@ function setk(){var n=document.getElementById('net').value,k=document.getElement
  fetch('/networks.json?t='+Date.now()).then(r=>r.json()).then(j=>{var x=(j.networks||[]).filter(y=>y.id===n)[0];if(x){x.enabled=true;x.keys[k]=v;
   document.getElementById('nout').textContent='networks.networks['+n+'].keys.'+k+' = '+v+'  → نفّذ: python3 -c "..." أو bash activate.sh';}});}
 </script><script src="/linkgo.js" defer></script>
+<script>if(!document.querySelector('a[href="/plan.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/start.html">ابدأ</a><a href="/plan.html">الخطة</a>')}</script>
 </body></html>
