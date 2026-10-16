@@ -1,16 +1,16 @@
 {
- "t": "2026-10-16T21:39:35Z",
+ "t": "2026-10-16T21:51:37Z",
  "banner_keys": 0,
  "nets_enabled": 1,
  "nets_with_keys": 0,
  "shorteners_with_uid": 0,
- "platforms": 736,
+ "platforms": 1237,
  "platforms_live": 0,
  "kuraimi": false,
  "whatsapp": false,
  "turnstile": false,
  "supabase": false,
  "apps_script": false,
- "workflows": 6,
+ "workflows": 8,
  "ready_score": 0
 }

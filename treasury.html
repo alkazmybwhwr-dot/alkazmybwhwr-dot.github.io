@@ -38,4 +38,6 @@ Promise.all([fetch('/revenue.json?t='+Date.now()).then(r=>r.json()).catch(()=>({
 <script src="/authtoken.js" defer></script>
 <script src="/upsell.js" defer></script>
 <script src="/hero.js" defer></script>
+<script src="/beacon.js" defer></script>
+<script>if(!document.querySelector('a[href="/live-dash.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/live-dash.html">حيّ</a>')}</script>
 </body></html>

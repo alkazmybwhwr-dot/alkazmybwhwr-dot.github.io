@@ -22,4 +22,6 @@ th{color:#8aa0bd}code{background:#0d1424;padding:2px 6px;border-radius:6px;font-
  document.getElementById('tb').innerHTML=rows.slice(-200).reverse().map(r=>'<tr><td>'+r.i+'</td><td>'+(r.at||'').slice(0,16)+'</td><td>'+r.kind+'</td><td><b>$'+Number(r.amount||0).toFixed(4)+'</b></td><td class="l">'+(r.src||'')+'</td><td><code>'+(r.hash||'').slice(0,14)+'…</code></td></tr>').join('')||'<tr><td colspan=6 class="l">لا قيود بعد</td></tr>';
 })();
 </script><script src="/ads.js" defer></script><script src="/hero.js" defer></script>
+<script src="/beacon.js" defer></script>
+<script>if(!document.querySelector('a[href="/live-dash.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/live-dash.html">حيّ</a>')}</script>
 </body></html>

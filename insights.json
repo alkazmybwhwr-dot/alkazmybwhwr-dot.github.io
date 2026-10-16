@@ -1,0 +1,19 @@
+{
+ "t": "2026-10-16T21:51:21Z",
+ "score": 0,
+ "verdict": "ينقص تفعيل",
+ "missing": [
+  "banner_keys",
+  "nets_with_keys",
+  "shorteners_with_uid",
+  "kuraimi",
+  "whatsapp",
+  "turnstile",
+  "supabase",
+  "apps_script"
+ ],
+ "top_source": null,
+ "rev_24h": 0.0,
+ "views_global": null,
+ "pulses": 1
+}

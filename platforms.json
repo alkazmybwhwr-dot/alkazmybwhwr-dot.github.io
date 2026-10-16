@@ -12,9 +12,25 @@
   "write": "مقالات وعمل حر",
   "micro": "عمل بيانات وترجمة",
   "crypto": "صرف وسحب",
-  "seo": "فهرسة وزيارات"
+  "seo": "فهرسة وزيارات",
+  "stock": "صور وفيديو وصوت — ارفع واقبض",
+  "print": "طباعة ومنتجات رقمية",
+  "music": "موسيقى وتوزيع",
+  "domain": "نطاقات ومواقع للبيع",
+  "jobs": "وظائف عن بعد",
+  "cashback": "كاش باك",
+  "travel": "سفر وفنادق",
+  "finance": "تمويل واستثمار",
+  "gaming": "ألعاب",
+  "dating": "تعارف",
+  "betting": "مراهنات",
+  "edu": "تعليم",
+  "health": "صحة ولياقة",
+  "design": "تصميم",
+  "crowd": "تمويل جماعي وتبرعات",
+  "arabic": "منصات عربية"
  },
- "total": 736,
+ "total": 1237,
  "platforms": [
   {
    "id": "linkvertise",
@@ -12264,6 +12280,9025 @@
    "ref": true,
    "done": false,
    "ref_code": ""
+  },
+  {
+   "id": "shutterstock",
+   "n": "Shutterstock",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://submit.shutterstock.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "adobe-stock",
+   "n": "Adobe Stock",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://contributor.stock.adobe.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "alamy",
+   "n": "Alamy",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.alamy.com/contributor/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "dreamstime",
+   "n": "Dreamstime",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.dreamstime.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "pond5",
+   "n": "Pond5",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.pond5.com/artist-signup",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "vecteezy",
+   "n": "Vecteezy",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.vecteezy.com/contributors",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "freepik",
+   "n": "Freepik",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://contributor.freepik.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "500px",
+   "n": "500px",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://500px.com/contributor",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "eyeem",
+   "n": "EyeEm",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.eyeem.com/market",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "getty-images",
+   "n": "Getty Images",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://contributors.gettyimages.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "istock",
+   "n": "iStock",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.istockphoto.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "depositphotos",
+   "n": "Depositphotos",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://depositphotos.com/contributor",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "bigstock",
+   "n": "Bigstock",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.bigstockphoto.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "123rf",
+   "n": "123RF",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.123rf.com/contributors/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "canva-contributors",
+   "n": "Canva Contributors",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.canva.com/contributors/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "motion-array",
+   "n": "Motion Array",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://motionarray.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "storyblocks",
+   "n": "Storyblocks",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.storyblocks.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "artgrid",
+   "n": "Artgrid",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://artgrid.io/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "artlist",
+   "n": "Artlist",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://artlist.io/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "musicbed",
+   "n": "Musicbed",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.musicbed.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "audiojungle",
+   "n": "AudioJungle",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://audiojungle.net/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "pixels",
+   "n": "Pixels",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.pexels.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "unsplash",
+   "n": "Unsplash",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://unsplash.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "freesound",
+   "n": "Freesound",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://freesound.org/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "soundsnap",
+   "n": "Soundsnap",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.soundsnap.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "shutterstock-video",
+   "n": "Shutterstock Video",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://submit.shutterstock.com/video",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "getty-video",
+   "n": "Getty Video",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://contributors.gettyimages.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "pond5-music",
+   "n": "Pond5 Music",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.pond5.com/music",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "envato-elements",
+   "n": "Envato Elements",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://elements.envato.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "creative-market",
+   "n": "Creative Market",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://creativemarket.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "design-bundles",
+   "n": "Design Bundles",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://designbundles.net/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "the-hungry-jpeg",
+   "n": "The Hungry JPEG",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://thehungryjpeg.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "font-bundles",
+   "n": "Font Bundles",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://fontbundles.net/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "ui8",
+   "n": "UI8",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://ui8.net/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "gumroad-design",
+   "n": "Gumroad Design",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://gumroad.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "lottiefiles",
+   "n": "LottieFiles",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://lottiefiles.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "iconscout",
+   "n": "Iconscout",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://iconscout.com/contributors",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "flaticon",
+   "n": "Flaticon",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.flaticon.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "noun-project",
+   "n": "Noun Project",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://thenounproject.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "iconfinder",
+   "n": "Iconfinder",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.iconfinder.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "smashing-magazine",
+   "n": "Smashing Magazine",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.smashingmagazine.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "codepen-challenges",
+   "n": "Codepen Challenges",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://codepen.io/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "codester",
+   "n": "Codester",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.codester.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "codecanyon",
+   "n": "CodeCanyon",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://codecanyon.net/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "templatemonster",
+   "n": "TemplateMonster",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.templatemonster.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "themeforest",
+   "n": "ThemeForest",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://themeforest.net/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "wrapbootstrap",
+   "n": "WrapBootstrap",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://wrapbootstrap.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "sell-my-app",
+   "n": "Sell My App",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://sellmyapp.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "codester-scripts",
+   "n": "Codester Scripts",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.codester.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "chupamobile",
+   "n": "Chupamobile",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.chupamobile.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "appsumo",
+   "n": "AppSumo",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://sell.appsumo.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "microacquire",
+   "n": "MicroAcquire",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://microacquire.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "flippa",
+   "n": "Flippa",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://flippa.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "empire-flippers",
+   "n": "Empire Flippers",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://empireflippers.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "motionelements",
+   "n": "MotionElements",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.motionelements.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "videohive",
+   "n": "VideoHive",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://videohive.net/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "graphicriver",
+   "n": "GraphicRiver",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://graphicriver.net/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "photodune",
+   "n": "PhotoDune",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://photodune.net/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "3docean",
+   "n": "3DOcean",
+   "c": "stock",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://3docean.net/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "redbubble",
+   "n": "Redbubble",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.redbubble.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "teespring",
+   "n": "Teespring",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://teespring.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "merch-by-amazon",
+   "n": "Merch by Amazon",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://merch.amazon.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "society6",
+   "n": "Society6",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://society6.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "zazzle",
+   "n": "Zazzle",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.zazzle.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "printful",
+   "n": "Printful",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.printful.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "printify",
+   "n": "Printify",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://printify.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "displate",
+   "n": "Displate",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://displate.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "fine-art-america",
+   "n": "Fine Art America",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://fineartamerica.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "cafepress",
+   "n": "CafePress",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.cafepress.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "spreadshirt",
+   "n": "Spreadshirt",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.spreadshirt.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "threadless",
+   "n": "Threadless",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.threadless.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "teepublic",
+   "n": "Teepublic",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.teepublic.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "gelato",
+   "n": "Gelato",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.gelato.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "gooten",
+   "n": "Gooten",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.gooten.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "spod",
+   "n": "SPOD",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.spod.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "customcat",
+   "n": "CustomCat",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://customcat.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "aop",
+   "n": "AOP+",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.aop.plus/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "teelaunch",
+   "n": "Teelaunch",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://teelaunch.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "mydesigns",
+   "n": "MyDesigns",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://mydesigns.io/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "placeit",
+   "n": "Placeit",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://placeit.net/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "canva-print",
+   "n": "Canva Print",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.canva.com/print/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "etsy",
+   "n": "Etsy",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.etsy.com/sell",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "ebay",
+   "n": "eBay",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.ebay.com/sl/sell",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "amazon-kdp",
+   "n": "Amazon KDP",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://kdp.amazon.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "ingramspark",
+   "n": "IngramSpark",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.ingramspark.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "lulu",
+   "n": "Lulu",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.lulu.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "blurb",
+   "n": "Blurb",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.blurb.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "bookbaby",
+   "n": "BookBaby",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.bookbaby.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "draft2digital",
+   "n": "Draft2Digital",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.draft2digital.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "smashwords",
+   "n": "Smashwords",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.smashwords.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "publishdrive",
+   "n": "PublishDrive",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://publishdrive.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "streetlib",
+   "n": "StreetLib",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.streetlib.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "kobo-writing-life",
+   "n": "Kobo Writing Life",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.kobo.com/writinglife",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "apple-books",
+   "n": "Apple Books",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://authors.apple.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "google-play-books",
+   "n": "Google Play Books",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://play.google.com/books/publish",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "gumroad-ebooks",
+   "n": "Gumroad Ebooks",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://gumroad.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "payhip",
+   "n": "Payhip",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://payhip.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "sellfy",
+   "n": "Sellfy",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://sellfy.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "lemon-squeezy",
+   "n": "Lemon Squeezy",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.lemonsqueezy.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "sendowl",
+   "n": "SendOwl",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.sendowl.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "fetchapp",
+   "n": "FetchApp",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.fetchapp.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "shopify",
+   "n": "Shopify",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.shopify.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "woocommerce",
+   "n": "WooCommerce",
+   "c": "print",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://woocommerce.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "spotify-for-artists",
+   "n": "Spotify for Artists",
+   "c": "music",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://artists.spotify.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "apple-music-for-artists",
+   "n": "Apple Music for Artists",
+   "c": "music",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://artists.apple.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "distrokid",
+   "n": "DistroKid",
+   "c": "music",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://distrokid.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "tunecore",
+   "n": "TuneCore",
+   "c": "music",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.tunecore.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "cd-baby",
+   "n": "CD Baby",
+   "c": "music",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://cdbaby.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "amuse",
+   "n": "Amuse",
+   "c": "music",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.amuse.io/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "landr",
+   "n": "LANDR",
+   "c": "music",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.landr.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "soundcloud",
+   "n": "SoundCloud",
+   "c": "music",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://soundcloud.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "audiomack",
+   "n": "Audiomack",
+   "c": "music",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://audiomack.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "bandcamp",
+   "n": "Bandcamp",
+   "c": "music",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://bandcamp.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "ditto-music",
+   "n": "Ditto Music",
+   "c": "music",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://dittomusic.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "routenote",
+   "n": "RouteNote",
+   "c": "music",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://routenote.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "united-masters",
+   "n": "United Masters",
+   "c": "music",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://unitedmasters.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "stem",
+   "n": "Stem",
+   "c": "music",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://stem.is/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "symphonic",
+   "n": "Symphonic",
+   "c": "music",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://symphonic.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "awal",
+   "n": "Awal",
+   "c": "music",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.awal.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "believe",
+   "n": "Believe",
+   "c": "music",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.believe.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "the-orchard",
+   "n": "The Orchard",
+   "c": "music",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.theorchard.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "angahmi",
+   "n": "Angahmi",
+   "c": "music",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://anghami.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "deezer-artists",
+   "n": "Deezer Artists",
+   "c": "music",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.deezer.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "tidal-artists",
+   "n": "Tidal Artists",
+   "c": "music",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://tidal.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "youtube-music",
+   "n": "YouTube Music",
+   "c": "music",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://music.youtube.com/",
+   "note": "",
+   "model": "royalty",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "sedo",
+   "n": "Sedo",
+   "c": "domain",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://sedo.com/",
+   "note": "",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "afternic",
+   "n": "Afternic",
+   "c": "domain",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.afternic.com/",
+   "note": "",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "dan-com",
+   "n": "Dan.com",
+   "c": "domain",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://dan.com/",
+   "note": "",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "godaddy-auctions",
+   "n": "GoDaddy Auctions",
+   "c": "domain",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://auctions.godaddy.com/",
+   "note": "",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "namecheap-market",
+   "n": "Namecheap Market",
+   "c": "domain",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.namecheap.com/market/",
+   "note": "",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "bodis",
+   "n": "Bodis",
+   "c": "domain",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.bodis.com/",
+   "note": "",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "parkingcrew",
+   "n": "ParkingCrew",
+   "c": "domain",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://parkingcrew.net/",
+   "note": "",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "above-com",
+   "n": "Above.com",
+   "c": "domain",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://above.com/",
+   "note": "",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "squadhelp",
+   "n": "Squadhelp",
+   "c": "domain",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.squadhelp.com/",
+   "note": "",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "brandbucket",
+   "n": "BrandBucket",
+   "c": "domain",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.brandbucket.com/",
+   "note": "",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "atom",
+   "n": "Atom",
+   "c": "domain",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.atom.com/",
+   "note": "",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "efty",
+   "n": "Efty",
+   "c": "domain",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://efty.com/",
+   "note": "",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "undeveloped",
+   "n": "Undeveloped",
+   "c": "domain",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://undeveloped.com/",
+   "note": "",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "sav",
+   "n": "Sav",
+   "c": "domain",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.sav.com/",
+   "note": "",
+   "model": "sale",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "remoteok",
+   "n": "RemoteOK",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://remoteok.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "weworkremotely",
+   "n": "WeWorkRemotely",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://weworkremotely.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "remote-co",
+   "n": "Remote.co",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://remote.co/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "flexjobs",
+   "n": "FlexJobs",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.flexjobs.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "justremote",
+   "n": "JustRemote",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://justremote.co/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "remotive",
+   "n": "Remotive",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://remotive.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "working-nomads",
+   "n": "Working Nomads",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.workingnomads.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "jobspresso",
+   "n": "Jobspresso",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://jobspresso.co/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "outsourcely",
+   "n": "Outsourcely",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.outsourcely.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "dynamite-jobs",
+   "n": "Dynamite Jobs",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://dynamitejobs.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "nooro",
+   "n": "Nooro",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://nooro.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "remote4me",
+   "n": "Remote4Me",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://remote4me.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "himalayas",
+   "n": "Himalayas",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://himalayas.app/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "remote-leaf",
+   "n": "Remote Leaf",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://remoteleaf.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "toggl-hire",
+   "n": "Toggl Hire",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://toggl.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "wellfound",
+   "n": "Wellfound",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://wellfound.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "otta",
+   "n": "Otta",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://otta.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "built-in",
+   "n": "Built In",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://builtin.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "hacker-news-jobs",
+   "n": "Hacker News Jobs",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://news.ycombinator.com/jobs",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "stack-overflow-jobs",
+   "n": "Stack Overflow Jobs",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://stackoverflow.com/jobs",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "dice",
+   "n": "Dice",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.dice.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "indeed",
+   "n": "Indeed",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.indeed.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "linkedin-jobs",
+   "n": "LinkedIn Jobs",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.linkedin.com/jobs/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "glassdoor",
+   "n": "Glassdoor",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.glassdoor.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "bayt",
+   "n": "Bayt",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.bayt.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "naukrigulf",
+   "n": "Naukrigulf",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.naukrigulf.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "gulftalent",
+   "n": "GulfTalent",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.gulftalent.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "akhtaboot",
+   "n": "Akhtaboot",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.akhtaboot.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "tanqeeb",
+   "n": "Tanqeeb",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.tanqeeb.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "wuzzuf",
+   "n": "Wuzzuf",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://wuzzuf.net/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "forasna",
+   "n": "Forasna",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://forasna.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "yemen-jobs",
+   "n": "Yemen Jobs",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.yemenhr.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "bidayat",
+   "n": "Bidayat",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://bidayat.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "mihnati",
+   "n": "Mihnati",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://mihnati.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "talentera",
+   "n": "Talentera",
+   "c": "jobs",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.talentera.com/",
+   "note": "",
+   "model": "salary",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "topcashback-us",
+   "n": "TopCashback US",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.topcashback.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "topcashback-uk",
+   "n": "TopCashback UK",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.topcashback.co.uk/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "rakuten",
+   "n": "Rakuten",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.rakuten.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "swagbucks-shop",
+   "n": "Swagbucks Shop",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.swagbucks.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "mr-rebates",
+   "n": "Mr Rebates",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.mrrebates.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "ebates",
+   "n": "Ebates",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.rakuten.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "fetch",
+   "n": "Fetch",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://fetchrewards.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "checkout-51",
+   "n": "Checkout 51",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.checkout51.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "quidco",
+   "n": "Quidco",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.quidco.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "piggybank",
+   "n": "PiggyBank",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.piggybank.co.uk/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "coupert",
+   "n": "Coupert",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.coupert.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "karma",
+   "n": "Karma",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.karmanow.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "capital-one-shopping",
+   "n": "Capital One Shopping",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://capitaloneshopping.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "cently",
+   "n": "Cently",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.cently.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "shopback",
+   "n": "ShopBack",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.shopback.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "fave",
+   "n": "Fave",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://myfave.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "grabrewards",
+   "n": "GrabRewards",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.grab.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "wemakeprice",
+   "n": "Wemakeprice",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.wemakeprice.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "aliexpress-cashback",
+   "n": "AliExpress Cashback",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.aliexpress.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "noon-cashback",
+   "n": "Noon Cashback",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.noon.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "namshi-cashback",
+   "n": "Namshi Cashback",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.namshi.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "cashback-world",
+   "n": "Cashback World",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.cashbackworld.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "fatcoupon",
+   "n": "FatCoupon",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://fatcoupon.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "wikibuy",
+   "n": "Wikibuy",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://capitaloneshopping.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "fluz",
+   "n": "Fluz",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://fluz.app/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "mode-mobile",
+   "n": "Mode Mobile",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://mode.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "ember",
+   "n": "Ember",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://emberfund.io/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "step",
+   "n": "Step",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://step.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "current",
+   "n": "Current",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://current.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "chime",
+   "n": "Chime",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.chime.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "varo",
+   "n": "Varo",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.varomoney.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "revolut",
+   "n": "Revolut",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.revolut.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "monzo",
+   "n": "Monzo",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://monzo.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "n26",
+   "n": "N26",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://n26.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "wise-cashback",
+   "n": "Wise Cashback",
+   "c": "cashback",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://wise.com/",
+   "note": "",
+   "model": "cashback",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "booking-com",
+   "n": "Booking.com",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.booking.com/affiliate-program/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "agoda",
+   "n": "Agoda",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://partners.agoda.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "expedia",
+   "n": "Expedia",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.expedia.com/affiliates",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "hotels-com",
+   "n": "Hotels.com",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.hotels.com/affiliates",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "trip-com",
+   "n": "Trip.com",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.trip.com/partners/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "klook",
+   "n": "Klook",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.klook.com/affiliate/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "getyourguide",
+   "n": "GetYourGuide",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://partner.getyourguide.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "viator",
+   "n": "Viator",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.viator.com/affiliates",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "skyscanner",
+   "n": "Skyscanner",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.skyscanner.net/affiliates",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "trivago",
+   "n": "Trivago",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.trivago.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "airbnb",
+   "n": "Airbnb",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.airbnb.com/affiliates",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "vrbo",
+   "n": "Vrbo",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.vrbo.com/affiliates",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "hostelworld",
+   "n": "Hostelworld",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.hostelworld.com/affiliates",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "kayak",
+   "n": "Kayak",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.kayak.com/affiliates",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "momondo",
+   "n": "Momondo",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.momondo.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "cheapoair",
+   "n": "CheapOair",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.cheapoair.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "kiwi-com",
+   "n": "Kiwi.com",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.kiwi.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "omio",
+   "n": "Omio",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.omio.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "trainline",
+   "n": "Trainline",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.thetrainline.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "flixbus",
+   "n": "FlixBus",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://global.flixbus.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "ryanair",
+   "n": "Ryanair",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.ryanair.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "easyjet",
+   "n": "EasyJet",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.easyjet.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "emirates",
+   "n": "Emirates",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.emirates.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "qatar-airways",
+   "n": "Qatar Airways",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.qatarairways.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "etihad",
+   "n": "Etihad",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.etihad.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "turkish-airlines",
+   "n": "Turkish Airlines",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.turkishairlines.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "flydubai",
+   "n": "Flydubai",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.flydubai.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "air-arabia",
+   "n": "Air Arabia",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.airarabia.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "yemenia",
+   "n": "Yemenia",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.yemenia.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "rixos",
+   "n": "Rixos",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.rixos.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "accor",
+   "n": "Accor",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://all.accor.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "marriott",
+   "n": "Marriott",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.marriott.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "hilton",
+   "n": "Hilton",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.hilton.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "ihg",
+   "n": "IHG",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.ihg.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "radisson",
+   "n": "Radisson",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.radissonhotels.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "wyndham",
+   "n": "Wyndham",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.wyndhamhotels.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "rotana",
+   "n": "Rotana",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.rotana.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "jumeirah",
+   "n": "Jumeirah",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.jumeirah.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "rove-hotels",
+   "n": "Rove Hotels",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.rovehotels.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "time-hotels",
+   "n": "Time Hotels",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.timehotels.ae/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "dnata",
+   "n": "Dnata",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.dnata.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "almosafer",
+   "n": "Almosafer",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.almosafer.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "flyin",
+   "n": "Flyin",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.flyin.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "rehlat",
+   "n": "Rehlat",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.rehlat.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "wego",
+   "n": "Wego",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.wego.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "tajawal",
+   "n": "Tajawal",
+   "c": "travel",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.tajawal.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "bankrate",
+   "n": "Bankrate",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.bankrate.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "nerdwallet",
+   "n": "NerdWallet",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.nerdwallet.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "credit-karma",
+   "n": "Credit Karma",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.creditkarma.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "lendingtree",
+   "n": "LendingTree",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.lendingtree.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "sofi",
+   "n": "SoFi",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.sofi.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "robinhood",
+   "n": "Robinhood",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://robinhood.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "webull",
+   "n": "Webull",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.webull.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "etoro",
+   "n": "eToro",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.etoro.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "interactive-brokers",
+   "n": "Interactive Brokers",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.interactivebrokers.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "trading212",
+   "n": "Trading212",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.trading212.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "degiro",
+   "n": "Degiro",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.degiro.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "saxo",
+   "n": "Saxo",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.home.saxo/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "xtb",
+   "n": "XTB",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.xtb.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "plus500",
+   "n": "Plus500",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.plus500.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "avatrade",
+   "n": "AvaTrade",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.avatrade.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "xm",
+   "n": "XM",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.xm.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "exness",
+   "n": "Exness",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.exness.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "octafx",
+   "n": "OctaFX",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.octafx.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "hfm",
+   "n": "HFM",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.hfm.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "ic-markets",
+   "n": "IC Markets",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.icmarkets.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "pepperstone",
+   "n": "Pepperstone",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://pepperstone.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "tickmill",
+   "n": "Tickmill",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.tickmill.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "fbs",
+   "n": "FBS",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://fbs.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "hotforex",
+   "n": "HotForex",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.hfm.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "forex-com",
+   "n": "Forex.com",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.forex.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "oanda",
+   "n": "OANDA",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.oanda.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "saxo-bank",
+   "n": "Saxo Bank",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.home.saxo/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "alpari",
+   "n": "Alpari",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.alpari.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "instaforex",
+   "n": "InstaForex",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.instaforex.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "fxtm",
+   "n": "FXTM",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.forextime.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "roboforex",
+   "n": "RoboForex",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://roboforex.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "admirals",
+   "n": "Admirals",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://admiralmarkets.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "capital-com",
+   "n": "Capital.com",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://capital.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "skilling",
+   "n": "Skilling",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://skilling.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "bitpanda",
+   "n": "Bitpanda",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.bitpanda.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "swissborg",
+   "n": "SwissBorg",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://swissborg.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "youhodler",
+   "n": "YouHodler",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.youhodler.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "nexo",
+   "n": "Nexo",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://nexo.io/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "celsius",
+   "n": "Celsius",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://celsius.network/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "blockfi",
+   "n": "BlockFi",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://blockfi.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "ledn",
+   "n": "Ledn",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.ledn.io/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "coinloan",
+   "n": "CoinLoan",
+   "c": "finance",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://coinloan.io/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "g2a",
+   "n": "G2A",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.g2a.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "kinguin",
+   "n": "Kinguin",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.kinguin.net/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "eneba",
+   "n": "Eneba",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.eneba.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "greenmangaming",
+   "n": "GreenManGaming",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.greenmangaming.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "fanatical",
+   "n": "Fanatical",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.fanatical.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "humble-bundle",
+   "n": "Humble Bundle",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.humblebundle.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "instant-gaming",
+   "n": "Instant Gaming",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.instant-gaming.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "gamivo",
+   "n": "Gamivo",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.gamivo.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "steam",
+   "n": "Steam",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://store.steampowered.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "epic-games",
+   "n": "Epic Games",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.epicgames.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "gog",
+   "n": "GOG",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.gog.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "origin",
+   "n": "Origin",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.ea.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "ubisoft",
+   "n": "Ubisoft",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.ubisoft.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "playstation",
+   "n": "PlayStation",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.playstation.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "xbox",
+   "n": "Xbox",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.xbox.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "nintendo",
+   "n": "Nintendo",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.nintendo.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "roblox",
+   "n": "Roblox",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.roblox.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "minecraft",
+   "n": "Minecraft",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.minecraft.net/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "fortnite-creator",
+   "n": "Fortnite Creator",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.epicgames.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "twitch-affiliate",
+   "n": "Twitch Affiliate",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.twitch.tv/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "discord-nitro",
+   "n": "Discord Nitro",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://discord.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "faceit",
+   "n": "Faceit",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.faceit.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "esl-play",
+   "n": "ESL Play",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://play.eslgaming.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "toornament",
+   "n": "Toornament",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.toornament.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "challengermode",
+   "n": "Challengermode",
+   "c": "gaming",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.challengermode.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "match",
+   "n": "Match",
+   "c": "dating",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.match.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "tinder",
+   "n": "Tinder",
+   "c": "dating",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://tinder.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "badoo",
+   "n": "Badoo",
+   "c": "dating",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://badoo.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "bumble",
+   "n": "Bumble",
+   "c": "dating",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://bumble.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "okcupid",
+   "n": "OkCupid",
+   "c": "dating",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.okcupid.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "plenty-of-fish",
+   "n": "Plenty of Fish",
+   "c": "dating",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.pof.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "zoosk",
+   "n": "Zoosk",
+   "c": "dating",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.zoosk.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "eharmony",
+   "n": "eHarmony",
+   "c": "dating",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.eharmony.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "hinge",
+   "n": "Hinge",
+   "c": "dating",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://hinge.co/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "coffee-meets-bagel",
+   "n": "Coffee Meets Bagel",
+   "c": "dating",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://coffeemeetsbagel.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "happn",
+   "n": "Happn",
+   "c": "dating",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.happn.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "grindr",
+   "n": "Grindr",
+   "c": "dating",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.grindr.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "her",
+   "n": "Her",
+   "c": "dating",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://weareher.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "jdate",
+   "n": "Jdate",
+   "c": "dating",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.jdate.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "christian-mingle",
+   "n": "Christian Mingle",
+   "c": "dating",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.christianmingle.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "arablounge",
+   "n": "ArabLounge",
+   "c": "dating",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.arab lounge.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "muzmatch",
+   "n": "Muzmatch",
+   "c": "dating",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://muzz.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "salam-swipe",
+   "n": "Salam Swipe",
+   "c": "dating",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.salamswipe.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "bet365",
+   "n": "Bet365",
+   "c": "betting",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.bet365.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "1xbet",
+   "n": "1xBet",
+   "c": "betting",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://1xbet.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "betway",
+   "n": "Betway",
+   "c": "betting",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://betway.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "william-hill",
+   "n": "William Hill",
+   "c": "betting",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.williamhill.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "pinnacle",
+   "n": "Pinnacle",
+   "c": "betting",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.pinnacle.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "unibet",
+   "n": "Unibet",
+   "c": "betting",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.unibet.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "bwin",
+   "n": "Bwin",
+   "c": "betting",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.bwin.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "draftkings",
+   "n": "DraftKings",
+   "c": "betting",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.draftkings.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "fanduel",
+   "n": "FanDuel",
+   "c": "betting",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.fanduel.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "betfair",
+   "n": "Betfair",
+   "c": "betting",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.betfair.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "melbet",
+   "n": "Melbet",
+   "c": "betting",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://melbet.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "mostbet",
+   "n": "Mostbet",
+   "c": "betting",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://mostbet.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "parimatch",
+   "n": "Parimatch",
+   "c": "betting",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://parimatch.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "betwinner",
+   "n": "Betwinner",
+   "c": "betting",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://betwinner.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "22bet",
+   "n": "22Bet",
+   "c": "betting",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://22bet.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "megapari",
+   "n": "Megapari",
+   "c": "betting",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://megapari.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "sportingbet",
+   "n": "Sportingbet",
+   "c": "betting",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.sportingbet.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "marathonbet",
+   "n": "Marathonbet",
+   "c": "betting",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.marathonbet.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "leon",
+   "n": "Leon",
+   "c": "betting",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://leonbets.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "betano",
+   "n": "Betano",
+   "c": "betting",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.betano.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "yobetit",
+   "n": "Yobetit",
+   "c": "betting",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://yobetit.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "rabona",
+   "n": "Rabona",
+   "c": "betting",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://rabona.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "udemy",
+   "n": "Udemy",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.udemy.com/affiliate/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "coursera",
+   "n": "Coursera",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.coursera.org/affiliates",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "skillshare",
+   "n": "Skillshare",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.skillshare.com/affiliates",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "domestika",
+   "n": "Domestika",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.domestika.org/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "edx",
+   "n": "edX",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.edx.org/affiliates",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "futurelearn",
+   "n": "FutureLearn",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.futurelearn.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "masterclass",
+   "n": "MasterClass",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.masterclass.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "pluralsight",
+   "n": "Pluralsight",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.pluralsight.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "linkedin-learning",
+   "n": "LinkedIn Learning",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://learning.linkedin.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "treehouse",
+   "n": "Treehouse",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://teamtreehouse.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "codecademy",
+   "n": "Codecademy",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.codecademy.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "datacamp",
+   "n": "DataCamp",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.datacamp.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "brilliant",
+   "n": "Brilliant",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://brilliant.org/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "khan-academy",
+   "n": "Khan Academy",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.khanacademy.org/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "almentor",
+   "n": "Almentor",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.almentor.net/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "rwaq",
+   "n": "Rwaq",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.rwaq.org/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "edraak",
+   "n": "Edraak",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.edraak.org/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "nafham",
+   "n": "Nafham",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.nafham.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "hsoub-academy",
+   "n": "Hsoub Academy",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://academy.hsoub.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "maharah",
+   "n": "Maharah",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://maharah.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "ta3leem",
+   "n": "Ta3leem",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://ta3leem.net/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "skillsoft",
+   "n": "Skillsoft",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.skillsoft.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "simplilearn",
+   "n": "Simplilearn",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.simplilearn.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "great-learning",
+   "n": "Great Learning",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.mygreatlearning.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "upgrad",
+   "n": "UpGrad",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.upgrad.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "scaler",
+   "n": "Scaler",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.scaler.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "newton-school",
+   "n": "Newton School",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.newtonschool.co/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "alura",
+   "n": "Alura",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.alura.com.br/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "descomplica",
+   "n": "Descomplica",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://descomplica.com.br/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "hotmart",
+   "n": "Hotmart",
+   "c": "edu",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.hotmart.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "myfitnesspal",
+   "n": "MyFitnessPal",
+   "c": "health",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.myfitnesspal.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "noom",
+   "n": "Noom",
+   "c": "health",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.noom.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "weightwatchers",
+   "n": "WeightWatchers",
+   "c": "health",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.weightwatchers.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "fitbit",
+   "n": "Fitbit",
+   "c": "health",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.fitbit.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "garmin",
+   "n": "Garmin",
+   "c": "health",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.garmin.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "strava",
+   "n": "Strava",
+   "c": "health",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.strava.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "nike-training",
+   "n": "Nike Training",
+   "c": "health",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.nike.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "adidas-training",
+   "n": "Adidas Training",
+   "c": "health",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.adidas.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "peloton",
+   "n": "Peloton",
+   "c": "health",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.onepeloton.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "beachbody",
+   "n": "Beachbody",
+   "c": "health",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.beachbody.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "zumba",
+   "n": "Zumba",
+   "c": "health",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.zumba.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "les-mills",
+   "n": "Les Mills",
+   "c": "health",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.lesmills.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "headspace",
+   "n": "Headspace",
+   "c": "health",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.headspace.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "calm",
+   "n": "Calm",
+   "c": "health",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.calm.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "betterhelp",
+   "n": "BetterHelp",
+   "c": "health",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.betterhelp.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "talkspace",
+   "n": "Talkspace",
+   "c": "health",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.talkspace.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "hims",
+   "n": "Hims",
+   "c": "health",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.hims.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "hers",
+   "n": "Hers",
+   "c": "health",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.forhers.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "keeps",
+   "n": "Keeps",
+   "c": "health",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.keeps.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "roman",
+   "n": "Roman",
+   "c": "health",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.getroman.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "nutrisystem",
+   "n": "Nutrisystem",
+   "c": "health",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.nutrisystem.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "optavia",
+   "n": "Optavia",
+   "c": "health",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.optavia.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "dribbble",
+   "n": "Dribbble",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://dribbble.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "behance",
+   "n": "Behance",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.behance.net/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "99designs",
+   "n": "99designs",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://99designs.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "fiverr-pro",
+   "n": "Fiverr Pro",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://pro.fiverr.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "toptal-design",
+   "n": "Toptal Design",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.toptal.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "designcrowd",
+   "n": "DesignCrowd",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.designcrowd.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "designhill",
+   "n": "Designhill",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.designhill.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "crowdspring",
+   "n": "Crowdspring",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.crowdspring.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "hatchwise",
+   "n": "Hatchwise",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.hatchwise.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "logotournament",
+   "n": "LogoTournament",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.logotournament.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "bark",
+   "n": "Bark",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.bark.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "freelancer-design",
+   "n": "Freelancer Design",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.freelancer.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "truelancer-design",
+   "n": "Truelancer Design",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.truelancer.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "peopleperhour-design",
+   "n": "PeoplePerHour Design",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.peopleperhour.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "behance-jobs",
+   "n": "Behance Jobs",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.behance.net/joblist",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "awwwards",
+   "n": "Awwwards",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.awwwards.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "muzli",
+   "n": "Muzli",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://muz.li/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "siteinspire",
+   "n": "SiteInspire",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.siteinspire.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "land-book",
+   "n": "Land-book",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://land-book.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "saas-landing-page",
+   "n": "SaaS Landing Page",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://saaslandingpage.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "lapa-ninja",
+   "n": "Lapa Ninja",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.lapa.ninja/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "onepagelove",
+   "n": "Onepagelove",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://onepagelove.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "httpster",
+   "n": "Httpster",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://httpster.net/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "minimal-gallery",
+   "n": "Minimal Gallery",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://minimal.gallery/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "refero",
+   "n": "Refero",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://refero.design/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "mobbin",
+   "n": "Mobbin",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://mobbin.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "ui-sources",
+   "n": "UI Sources",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.uisources.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "screenlane",
+   "n": "Screenlane",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://screenlane.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "collect-ui",
+   "n": "Collect UI",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://collectui.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "pttrns",
+   "n": "Pttrns",
+   "c": "design",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://pttrns.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "kickstarter",
+   "n": "Kickstarter",
+   "c": "crowd",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.kickstarter.com/",
+   "note": "",
+   "model": "donation",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "indiegogo",
+   "n": "Indiegogo",
+   "c": "crowd",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.indiegogo.com/",
+   "note": "",
+   "model": "donation",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "gofundme",
+   "n": "GoFundMe",
+   "c": "crowd",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.gofundme.com/",
+   "note": "",
+   "model": "donation",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "liberapay",
+   "n": "Liberapay",
+   "c": "crowd",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://liberapay.com/",
+   "note": "",
+   "model": "donation",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "open-collective",
+   "n": "Open Collective",
+   "c": "crowd",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://opencollective.com/",
+   "note": "",
+   "model": "donation",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "fundrazr",
+   "n": "Fundrazr",
+   "c": "crowd",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://fundrazr.com/",
+   "note": "",
+   "model": "donation",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "fundly",
+   "n": "Fundly",
+   "c": "crowd",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://fundly.com/",
+   "note": "",
+   "model": "donation",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "launchgood",
+   "n": "LaunchGood",
+   "c": "crowd",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.launchgood.com/",
+   "note": "",
+   "model": "donation",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "waqf",
+   "n": "Waqf",
+   "c": "crowd",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://waqf.com/",
+   "note": "",
+   "model": "donation",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "repay",
+   "n": "Repay",
+   "c": "crowd",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://repay.com/",
+   "note": "",
+   "model": "donation",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "seedinvest",
+   "n": "SeedInvest",
+   "c": "crowd",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.seedinvest.com/",
+   "note": "",
+   "model": "donation",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "republic",
+   "n": "Republic",
+   "c": "crowd",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://republic.com/",
+   "note": "",
+   "model": "donation",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "wefunder",
+   "n": "Wefunder",
+   "c": "crowd",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://wefunder.com/",
+   "note": "",
+   "model": "donation",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "startengine",
+   "n": "StartEngine",
+   "c": "crowd",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://www.startengine.com/",
+   "note": "",
+   "model": "donation",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "microventures",
+   "n": "MicroVentures",
+   "c": "crowd",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "mid",
+   "u": "https://microventures.com/",
+   "note": "",
+   "model": "donation",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "hsoub",
+   "n": "Hsoub",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://hsoub.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "zinc",
+   "n": "Zinc",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://zinc.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "nabbesh",
+   "n": "Nabbesh",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.nabbesh.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "starzplay",
+   "n": "Starzplay",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://starzplay.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "shahid-vip",
+   "n": "Shahid VIP",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.shahid.net/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "osn",
+   "n": "OSN+",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.osn.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "anghami",
+   "n": "Anghami",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://anghami.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "watan",
+   "n": "Watan",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://watan.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "jawaker",
+   "n": "Jawaker",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://jawaker.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "yalla-ludo",
+   "n": "Yalla Ludo",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://yallaludo.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "careem",
+   "n": "Careem",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.careem.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "talabat",
+   "n": "Talabat",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.talabat.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "deliveroo",
+   "n": "Deliveroo",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://deliveroo.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "zomato",
+   "n": "Zomato",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.zomato.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "elmenus",
+   "n": "Elmenus",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.elmenus.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "otle",
+   "n": "Otle",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://otle.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "aqar",
+   "n": "Aqar",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.aqar.fm/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "bayut",
+   "n": "Bayut",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.bayut.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "property-finder",
+   "n": "Property Finder",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.propertyfinder.ae/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "dubizzle",
+   "n": "Dubizzle",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://dubai.dubizzle.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "olx",
+   "n": "OLX",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.olx.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "haraj",
+   "n": "Haraj",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://haraj.com.sa/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "opensooq",
+   "n": "OpenSooq",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.opensooq.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "souq",
+   "n": "Souq",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.amazon.ae/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "noon",
+   "n": "Noon",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.noon.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "boutiqaat",
+   "n": "Boutiqaat",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.boutiqaat.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "golden-scent",
+   "n": "Golden Scent",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.goldenscent.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "namshi-beauty",
+   "n": "Namshi Beauty",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.namshi.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "cazar",
+   "n": "Cazar",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://cazar.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "jamalon",
+   "n": "Jamalon",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.jamalon.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "neelwafurat",
+   "n": "Neelwafurat",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.neelwafurat.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "almaktabah",
+   "n": "AlMaktabah",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.almaktabah.net/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "hindawi",
+   "n": "Hindawi",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.hindawi.org/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "al-jazeera",
+   "n": "Al Jazeera",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.aljazeera.net/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "arab-news",
+   "n": "Arab News",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.arabnews.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "al-arabiya",
+   "n": "Al Arabiya",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.alarabiya.net/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "sky-news-arabia",
+   "n": "Sky News Arabia",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.skynewsarabia.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "yemen-hr",
+   "n": "Yemen HR",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.yemenhr.com/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "yemen-mobile",
+   "n": "Yemen Mobile",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://yemenmobile.com.ye/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "mtn-yemen",
+   "n": "MTN Yemen",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://www.mtn.com.ye/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "sabafon",
+   "n": "Sabafon",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://sabafon.net/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
+  },
+  {
+   "id": "y",
+   "n": "Y",
+   "c": "arabic",
+   "min": 0,
+   "p": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ],
+   "ye": "high",
+   "u": "https://yemen.net.ye/",
+   "note": "",
+   "model": "commission",
+   "ref": true,
+   "done": false,
+   "ref_code": ""
   }
- ]
+ ],
+ "discovered_at": "2026-10-16T21:51:20Z"
 }

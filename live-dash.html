@@ -1,0 +1,78 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>الأرباح الحيّة · CineHub 3099</title><style>
+body{margin:0;background:radial-gradient(1000px 460px at 50% -10%,#152a3f,#0a0e1a 60%);color:#e8f6ff;font:15px/1.8 system-ui,Tahoma;padding:14px}
+.wrap{max-width:900px;margin:auto}.card{background:#111827cc;border:1px solid #1e2a44;border-radius:14px;padding:15px;margin:11px 0}
+.big{font-size:44px;font-weight:900;letter-spacing:-1px;background:linear-gradient(90deg,#22c55e,#4dd0e1);-webkit-background-clip:text;background-clip:text;color:transparent}
+.grid{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(140px,1fr))}
+.k{color:#8aa0bd;font-size:11.5px}.v{font-size:20px;font-weight:800}
+canvas{width:100%;height:90px;display:block}
+.pill{border:1px solid;border-radius:99px;padding:2px 9px;font-size:11px}
+.ok{color:#22c55e;border-color:#22c55e55}.w{color:#fbbf24;border-color:#fbbf2455}.bad{color:#f87171;border-color:#f8717155}
+.l{color:#8aa0bd;font-size:12.5px}code{background:#0d1424;padding:2px 6px;border-radius:6px;font-size:11px;direction:ltr;display:inline-block}
+pre{background:#0d1424;border:1px solid #1e2a44;border-radius:9px;padding:10px;max-height:210px;overflow:auto;font-size:11.5px;direction:ltr;text-align:left}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#22c55e;margin-inline-end:6px;animation:p 1.5s infinite}
+@keyframes p{50%{opacity:.4}}
+</style></head><body><div class="wrap">
+<h1>الأرباح الحيّة <span class="dot"></span></h1>
+<div class="card"><div class="k">إيراد حقيقي من الشبكات (30 يومًا)</div><div class="big" id="rev">$0.000000</div>
+<div class="l">نبضة الخادم: <b id="seq">—</b> · آخر نبضة <b id="pt">—</b> · التالية خلال <b id="cd">—</b></div>
+<div class="l" id="mode"></div></div>
+<div class="card"><div class="grid">
+<div><div class="k">ظهور حقيقي</div><div class="v" id="imp">0</div></div>
+<div><div class="k">نقرات</div><div class="v" id="clk">0</div></div>
+<div><div class="k">زيارات عالمية</div><div class="v" data-gviews id="gv">—</div></div>
+<div><div class="k">نقرات خروج</div><div class="v" id="oc">—</div></div>
+<div><div class="k">رصيدك القابل للسحب</div><div class="v" id="bal">$0.0000</div></div>
+<div><div class="k">قيود السجل الموثّق</div><div class="v" id="led">0</div></div>
+</div></div>
+<div class="card"><div class="k">منحنى الإيراد — آخر 24 ساعة (288 نبضة)</div><canvas id="sp" width="860" height="90"></canvas></div>
+<div class="card"><h3>ما الذي يحرّك أرباحك؟</h3><div id="ins" class="l">…</div></div>
+<div class="card"><h3>سجل النشاط التلقائي</h3><pre id="act">…</pre></div>
+<p class="l"><a href="/gateway.html">بوابة العبور</a> · <a href="/audit.html">تدقيق</a> · <a href="/apply.html">620+ جهة</a> · <a href="/withdraw.html">اسحب</a></p>
+</div>
+<script src="/ledger.js"></script><script src="/beacon.js"></script><script src="/authtoken.js"></script>
+<script>
+var realRev=0,imp=0,clk=0,lastT=0,pts=[];
+function fmt(v){return '$'+Number(v||0).toFixed(6)}
+function paint(){
+ document.getElementById('rev').textContent=fmt(realRev);
+ document.getElementById('imp').textContent=Number(imp).toLocaleString('en');
+ document.getElementById('clk').textContent=Number(clk).toLocaleString('en');
+ document.getElementById('bal').textContent='$'+(window.CHLedger?CHLedger.balance():0).toFixed(4);
+}
+function spark(){
+ var c=document.getElementById('sp'),x=c.getContext('2d');x.clearRect(0,0,c.width,c.height);
+ var d=pts.map(function(p){return p.rev||0}),mx=Math.max.apply(null,d.concat([0.000001]));
+ x.strokeStyle='#22c55e';x.lineWidth=2;x.beginPath();
+ d.forEach(function(v,i){var px=i/Math.max(1,d.length-1)*c.width,py=c.height-4-(v/mx)*(c.height-10);i?x.lineTo(px,py):x.moveTo(px,py)});x.stroke();
+ x.fillStyle='#8aa0bd';x.font='10px system-ui';x.fillText('أعلى: $'+mx.toFixed(4),4,12);
+}
+function cd(){ if(!lastT)return '—'; var s=Math.max(0,300-Math.floor((Date.now()/1000)-lastT));
+ document.getElementById('cd').textContent=s+' ثانية'; }
+setInterval(cd,1000);
+function load(){
+ Promise.all([fetch('/live.json?t='+Date.now()).then(r=>r.json()).catch(()=>({})),
+  fetch('/pulse.json?t='+Date.now()).then(r=>r.json()).catch(()=>({})),
+  fetch('/ledger-index.json?t='+Date.now()).then(r=>r.json()).catch(()=>({})),
+  fetch('/insights.json?t='+Date.now()).then(r=>r.json()).catch(()=>({})),
+  fetch('/ACTIVITY.md?t='+Date.now()).then(r=>r.text()).catch(()=>'')]).then(function(a){
+  var L=a[0],P=a[1];
+  realRev=L.rev||0; imp=L.imp||0; clk=L.clk||0; pts=L.points||[];
+  lastT=P.t?Math.floor(new Date(P.t).getTime()/1000):0;
+  document.getElementById('seq').textContent=P.seq||0;
+  document.getElementById('pt').textContent=P.t?P.t.slice(5,16)+'Z':'—';
+  document.getElementById('led').textContent=(a[2]||{}).entries||0;
+  document.getElementById('gv').textContent=(L.views==null?'—':Number(L.views).toLocaleString('en'));
+  document.getElementById('oc').textContent=(L.outclicks==null?'—':Number(L.outclicks).toLocaleString('en'));
+  document.getElementById('mode').innerHTML=(realRev>0)?'<span class="pill ok">أرقام حقيقية من واجهات الشبكات</span>':'<span class="pill w">صفر حقيقي — لا مفاتيح شبكات بعد</span>';
+  var i=a[3]||{};
+  document.getElementById('ins').innerHTML='الجاهزية: <b>'+((i.score||0))+'/8</b> · '+(i.top_source?('أفضل مصدر: <b>'+i.top_source+'</b>'):'لا مصدر بعد')+
+   '<br>ينقص: '+(i.missing&&i.missing.length?i.missing.join(' · '):'لا شيء ✓')+
+   '<br><span class="l">أسرع ما يرفع الرقم: مفتاح شبكة + رابط مدفوع واحد.</span>';
+  document.getElementById('act').textContent=(a[4]||'').split('\n').slice(-18).join('\n');
+  paint();spark();
+ });
+}
+setInterval(load,20000); load(); setInterval(paint,1000);
+</script><script src="/ads.js" defer></script><script src="/hero.js" defer></script><script>if(!document.querySelector('a[href="/live-dash.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/live-dash.html">حيّ</a>')}</script>
+</body></html>

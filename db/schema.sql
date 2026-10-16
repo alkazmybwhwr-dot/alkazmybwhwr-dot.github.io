@@ -41,3 +41,9 @@ begin
  elsif g.kind='xp' then update profiles set xp=xp+g.value::int where id=auth.uid(); end if;
  return json_build_object('ok',true,'kind',g.kind,'value',g.value);
 end $$;
+
+-- عدّاد عالمي حقيقي (اختياري مع Supabase)
+create table if not exists hits(id bigserial primary key,kind text,at timestamptz default now());
+alter table hits enable row level security;
+create policy p_hits_ins on hits for insert with check(true);
+create policy p_hits_sel on hits for select using(true);
