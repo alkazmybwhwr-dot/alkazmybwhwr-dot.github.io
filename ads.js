@@ -1,27 +1,33 @@
-/* ads.js v3 — يدعم رابطًا واحدًا (main) أو شبكات متعددة */
-(function(){
-  var C=window.CH_ADS_CONFIG||{},D={};
-  function L(s,p){if(!s||D[s])return;D[s]=1;var e=document.createElement("script");
-    e.src=s;e.async=1;e.setAttribute("data-cfasync","false");(p||document.head).appendChild(e);}
-  function pool(){return [C.main,C.adsterra&&C.adsterra.popunder,C.monetag&&C.monetag.vignette,
-    C.propeller&&C.propeller.push,C.adcash&&C.adcash.popunder,
-    C.hilltop&&C.hilltop.popunder,C.clickadu&&C.clickadu.popunder]
-    .filter(Boolean).filter(function(v,i,a){return a.indexOf(v)===i});}
-  addEventListener("load",function(){
-    var p=pool();
-    if(!p.length){console.warn("[ads] لا شبكة مُفعّلة — نفّذ: bash activate.sh");return;}
-    L(p[0]); if(p[1])L(p[1]);
-    if(C.adsterra&&C.adsterra.socialbar)L(C.adsterra.socialbar);
-  },{once:1});
-  function F(el){var k=el.getAttribute("data-ad"),
-    s=(C.slots&&C.slots[k])||C.main||(C.adsterra&&C.adsterra.banner);
-    if(!s||el.classList.contains("ad-filled"))return;
-    el.classList.add("ad-filled");L(s,el);
-    localStorage.setItem("ch_impressions",(+(localStorage.getItem("ch_impressions")||0))+1);}
-  var io="IntersectionObserver"in window?new IntersectionObserver(function(es){es.forEach(function(e){
-    if(e.isIntersecting){io.unobserve(e.target);F(e.target);}})},{rootMargin:"300px"}):null;
-  function S(){var a=document.querySelectorAll("[data-ad]:not(.ad-filled)");
-    for(var i=0;i<a.length;i++)io?io.observe(a[i]):F(a[i]);}
-  document.readyState==="loading"?addEventListener("DOMContentLoaded",S):S();
-  window.CH_rescanAds=S;
+/* CineHub 3099 · محمّل إعلانات حقيقي — Adsterra / Monetag / أي شبكة */
+(function () {
+  var HOST = 'www.highperformanceformat.com', C = null;
+  function load(cb){ fetch('/ads-config.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json()}).then(function(j){C=j;cb()}).catch(function(){C=null;cb()}); }
+  function script(src){ if(!src) return; var s=document.createElement('script'); s.src=src; s.async=1; document.body.appendChild(s); }
+  function frame(el,key,size){
+    if(!key||!el) return;
+    var p=String(size).split('x'), w=+p[0]||300, h=+p[1]||250;
+    var f=document.createElement('iframe');
+    f.src='//'+HOST+'/'+key+'/invoke.html';
+    f.width=w; f.height=h; f.scrolling='no'; f.loading='lazy';
+    f.style.cssText='border:0;overflow:hidden;max-width:100%;display:block;margin:0 auto';
+    el.innerHTML=''; el.appendChild(f);
+  }
+  function render(){
+    if(!C||!C.enabled) return;
+    var mob=innerWidth<620, n=0;
+    document.querySelectorAll('[data-ad]').forEach(function(el){
+      var id=el.getAttribute('data-ad'), b=(C.banners||{})[id];
+      if(!b) return;
+      var use=(mob&&id==='top'&&(C.banners.mobile||{}).key)?C.banners.mobile:b;
+      if(!use.key){ el.style.display='none'; return; }
+      frame(el,use.key,use.size); n++;
+    });
+    if(n){ localStorage.setItem('ch_impressions',(+(localStorage.getItem('ch_impressions')||0))+n);
+           document.dispatchEvent(new CustomEvent('ch:impression',{detail:n})); }
+    script(C.popunder_src);
+    setTimeout(function(){script(C.socialbar_src)},1500);
+    if(C.direct_link) document.querySelectorAll('[data-adlink]').forEach(function(a){a.href=C.direct_link;a.target='_blank';a.rel='noopener'});
+  }
+  function boot(){ load(render); }
+  document.readyState==='loading'?addEventListener('DOMContentLoaded',boot):boot();
 })();
