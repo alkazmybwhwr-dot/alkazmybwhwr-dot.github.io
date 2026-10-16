@@ -13,6 +13,16 @@ if os.path.exists(f):
         l=l.strip()
         if not l or l.startswith('#') or '=' not in l: continue
         a,b=l.split('=',1); K[a.strip()]=b.strip()
+ALIAS={'ADSTERRA':'ADSTERRA_API_KEY','EXOCLICK':'EXOCLICK_API_KEY','TMDB_KEY':'TMDB_KEY',
+ 'WORKER':'WORKER_URL','CCBILL':'CCBILL_ACCOUNT','SEGPAY':'SEGPAY_ACCOUNT','ADSENSE':'ADSENSE_CLIENT',
+ 'MONETAG':'MONETAG_MULTITAG','PROPELLER':'PROPELLER_API_KEY','POPADS':'POPADS_API_KEY',
+ 'LINKVERTISE':'LINKVERTISE_UID','WORKINK':'WORKINK_UID','SHRINKME':'SHRINKME_UID'}
+for a,b in ALIAS.items():
+    if K.get(a) and not K.get(b):
+        v=K[a]
+        if a=='ADSTERRA' and v.isdigit() and len(v)<12: K['ADSTERRA_PUB_ID']=v
+        else: K[b]=v
+EXTRA={k:v for k,v in K.items() if k not in ALIAS and k not in ('ADSTERRA_PUB_ID',)}
 def g(k):return K.get(k,'')
 n=0
 cfg=rd('ads-config.json',{}) or {}
@@ -60,6 +70,7 @@ cl=rd('cloud-config.json',{})
 if g('SUPABASE_URL'):cl['supabase_url']=g('SUPABASE_URL')
 if g('SUPABASE_ANON'):cl['supabase_anon']=g('SUPABASE_ANON')
 wr('cloud-config.json',cl)
+o2=rd('owner.json',{}); o2.setdefault('extra',{}).update({k:v for k,v in K.items() if v and k not in ('ADSTERRA_API_KEY','ADSTERRA_PUB_ID','LINKVERTISE_UID')}); wr('owner.json',o2)
 if g('ADSTERRA_PUB_ID'):
     a=open(os.path.join(R,'ads.txt'),encoding='utf-8').read() if os.path.exists(os.path.join(R,'ads.txt')) else ''
     if 'adsterra.com, %s'%g('ADSTERRA_PUB_ID') not in a:

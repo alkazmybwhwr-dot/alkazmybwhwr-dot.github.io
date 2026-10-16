@@ -1,6 +1,6 @@
 /* طبقة المالك: تُخفي أدوات الإدارة عن الزوّار، وتفتحها لك بـ ?o=1 أو 5 نقرات على الشعار */
 (function(){
- var OWN=['accounts.html','apply.html','treasury.html','audit.html','gateway.html','live-dash.html','admin2.html','plan.html','owner.html','credit.html','img.html'];
+ var OWN=['setup.html','accounts.html','apply.html','treasury.html','audit.html','gateway.html','live-dash.html','admin2.html','plan.html','owner.html','credit.html','img.html'];
  function isOwner(){return localStorage.getItem('ch_owner')==='1'}
  function mark(){
   document.querySelectorAll('nav a, .foot a, a').forEach(function(a){
@@ -35,6 +35,7 @@
  document.addEventListener('DOMContentLoaded',function(){
   mark(); taps();
   if(/[?&]o=1/.test(location.search)||location.hash==='#owner')gate();
+  if(/[?&]setup=1/.test(location.search)&&location.pathname.indexOf('setup')<0){ if(!isOwner())gate(); else location.href='/setup.html' }
   var s=document.createElement('style');
   s.textContent='.owner-only{display:none!important}html[data-owner="1"] .owner-only{display:inline-block!important}';
   document.head.appendChild(s);
