@@ -1,6 +1,6 @@
 /* CineHub 3099 · الهوية + التحقق من أكواد الاشتراك + بوابة الأدمن */
 (function(){
-  var SECRET='d9b0eadc92da110c43560aa787e16716', ADMIN_SHA='01e6a7402cfa756f7a5165ab80cfc66bcc68022b57b37696fab6ce9befe5b47f', enc=new TextEncoder();
+  var SECRET='d9b0eadc92da110c43560aa787e16716', ADMIN_SHA='afe4751a95683214ccb8994154ab4f29b50c322785d5778f141a86bbf1155fbd', enc=new TextEncoder();
   function hex(b){ return [].map.call(new Uint8Array(b),function(x){return('0'+x.toString(16)).slice(-2)}).join(''); }
   async function hmac(p){
     var k=await crypto.subtle.importKey('raw',enc.encode(SECRET),{name:'HMAC',hash:'SHA-256'},false,['sign']);

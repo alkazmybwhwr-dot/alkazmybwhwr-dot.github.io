@@ -70,17 +70,8 @@ function sync(){ var ep=localStorage.getItem('ch_endpoint')||''; if(!ep){ docume
   fetch(ep,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain'},
     body:JSON.stringify({type:'earnings',uid:CH.uid(),payload:{gross:CHLedger.gross(o),net:CHLedger.net(o),bal:CHLedger.balance()}})});
   document.getElementById('sm').textContent='✓ أُرسل'; }
-</script><script src="/nav.js" defer></script>
-<script src="/push.js" defer></script>
+</script><script src="/push.js" defer></script>
 <script src="/ads.js" defer></script>
 <script src="/engage.js" defer></script>
 <script src="/live-earnings.js" defer></script>
-<script src="/captcha.js" defer></script>
-<script src="/ref.js" defer></script>
-<script src="/viral.js" defer></script>
-<script src="/rev.js" defer></script>
-<script src="/share.js" defer></script>
-<script src="/ticker.js" defer></script>
-<script src="/payout.js" defer></script>
-<script src="/app.js" defer></script>
 </body></html>
