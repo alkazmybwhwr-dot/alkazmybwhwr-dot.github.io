@@ -1,8 +1,8 @@
 {
- "t": "2026-10-16T23:45:01Z",
- "banner_keys": 0,
+ "t": "2026-10-16T23:45:02Z",
+ "banner_keys": 1,
  "nets_enabled": 1,
- "nets_with_keys": 0,
+ "nets_with_keys": 1,
  "shorteners_with_uid": 0,
  "smartlinks": 0,
  "platforms": 3800,
@@ -14,6 +14,6 @@
  "supabase": false,
  "apps_script": false,
  "workflows": 12,
- "catalog": 15172,
- "ready_score": 0
+ "catalog": 15906,
+ "ready_score": 2
 }
