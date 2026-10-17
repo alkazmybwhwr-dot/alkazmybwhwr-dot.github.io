@@ -1,4 +1,3 @@
 warning: redirecting to https://github.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io.git/
 To https://github.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at d66b55e69986a2eb266268d41a7f1ea58034b39f but expected 37083c4e1355adbb4c71c1ab63ed6171dfef7dba)
-error: failed to push some refs to 'https://github.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io.git'
+   8b8a039..8a38bad  main -> main
