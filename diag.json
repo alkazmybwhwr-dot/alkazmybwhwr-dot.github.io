@@ -1,5 +1,5 @@
 {
- "at": "2026-10-17T17:44:47.143902+00:00",
+ "at": "2026-10-17T17:44:57.814333+00:00",
  "live": {
   "index.html": 200,
   "library.html": 200,
@@ -55,7 +55,7 @@
   "ad_requests": 0,
   "browse_runs": 0,
   "cycles": 49,
-  "rewards": 0.0315,
+  "rewards": 0.036,
   "valid_keys": 0,
   "keys_total": 0
  },

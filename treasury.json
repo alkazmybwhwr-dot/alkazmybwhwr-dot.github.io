@@ -1,15 +1,15 @@
 {
  "buckets": {
   "ads": 0.0,
-  "rewards": 0.0315,
+  "rewards": 0.036,
   "commissions": 0.0,
   "gifts": 0.0,
   "surveys": 0.0,
   "links": 0.0,
   "referral": 0.0
  },
- "balance": 0.0315,
- "withdrawable": 0.0315,
+ "balance": 0.036,
+ "withdrawable": 0.036,
  "min": 5.0,
- "updated": "2026-10-17T17:43:50.564946+00:00"
+ "updated": "2026-10-17T17:44:58.235512+00:00"
 }
