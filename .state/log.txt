@@ -94,3 +94,13 @@ treasury 0.0 {'ads': 0.0, 'rewards': 0.0, 'commissions': 0.0, 'gifts': 0.0, 'sur
 balance 0.000000 / min 5.00
 status ok
 report ok
+  ✓ رُبط 2 مفتاحًا تلقائيًا
+  جُرّبت: 2 · رُبطت: 0
+     · ADSTERRA → stats 401
+     · TMDB_KEY → configuration 200
+ledger: 0 قيد · 0 مكسور
+لا عناصر — شغّل SCALE.sh أولًا
+treasury 0.0 {'ads': 0.0, 'rewards': 0.0, 'commissions': 0.0, 'gifts': 0.0, 'surveys': 0.0, 'links': 0.0, 'referral': 0.0}
+balance 0.000000 / min 5.00
+status ok
+report ok
