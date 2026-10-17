@@ -1,0 +1,55 @@
+{
+ "revenue.json": {
+  "confirmed_total": 0.0,
+  "sources": [
+   {
+    "net": "Adsterra",
+    "ok": false,
+    "http": "HTTP Error 401: Unauthorized",
+    "value": 0
+   },
+   {
+    "net": "Monetag",
+    "ok": false,
+    "http": "لا مفتاح",
+    "value": 0
+   },
+   {
+    "net": "Linkvertise",
+    "ok": false,
+    "http": "لا مفتاح",
+    "value": 0
+   }
+  ],
+  "estimated": {
+   "impressions": 4,
+   "assumed_cpm": 1.5,
+   "value": 0.006,
+   "note": "تقديري = ظهور حقيقي × CPM مفترض معلن"
+  },
+  "updated": "2026-10-17T04:37:11.742947+00:00"
+ },
+ "treasury.json": {
+  "buckets": {
+   "ads": 0.0,
+   "rewards": 0.0,
+   "commissions": 0.0,
+   "gifts": 0.0,
+   "surveys": 0.0,
+   "links": 0.0,
+   "referral": 0.0
+  },
+  "balance": 0.0,
+  "withdrawable": 0.0,
+  "min": 5.0,
+  "updated": "2026-10-17T04:37:11.769608+00:00"
+ },
+ "heartbeat.json": {
+  "t": "",
+  "ok": false,
+  "source": "none",
+  "note": "ينتظر أول تشغيل للـworkflow",
+  "error": ""
+ },
+ "payments.json": null
+}
