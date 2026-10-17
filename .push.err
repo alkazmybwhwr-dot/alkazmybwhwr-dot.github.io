@@ -1,0 +1,23 @@
+warning: redirecting to https://github.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io.git/
+remote: error: unable to write file /data/repositories/6/nw/63/b0/6b/1274209699/1419986285.git/objects/ghq_HcZi8aaBOcn/pack/pack-c09093da486d7c22e4b131d10f9e129f467dbc3d.pack: No such file or directory        
+remote: fatal: unable to rename temporary '*.pack' file to '/data/repositories/6/nw/63/b0/6b/1274209699/1419986285.git/objects/ghq_HcZi8aaBOcn/pack/pack-c09093da486d7c22e4b131d10f9e129f467dbc3d.pack'        
+error: remote unpack failed: index-pack failed
+To https://github.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io.git
+ ! [remote rejected] main -> main (failed)
+error: failed to push some refs to 'https://github.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io.git'
+cked-push        
+remote:             
+remote:             
+remote:       —— GitHub Personal Access Token ——————————————————————        
+remote:        locations:        
+remote:          - commit: 6a144838094dce4430c3e9bd794386c4f002ceb9        
+remote:            path: auth.json:2        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io/security/secret-scanning/unblock-secret/3KpemGeuhBb4hkuhL9CATnIutfg        
+remote:             
+remote: 
+remote: 
+To https://github.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io.git
+ ! [remote rejected] main -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'https://github.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io.git'
