@@ -1,0 +1,83 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>ربط الحساب — CineHub 3099</title>
+<style>body{font-family:system-ui,Tahoma,sans-serif;background:#0b0f14;color:#e8eef6;margin:0;padding:16px;line-height:1.7}
+.box{background:#111a24;border:1px solid #1e2937;border-radius:12px;padding:14px;margin:12px 0}
+input,button{font-family:inherit;font-size:14px;padding:8px;border-radius:8px;border:1px solid #24313f;background:#0f1720;color:#e8eef6;width:100%;box-sizing:border-box;margin:4px 0}
+button{background:#123a4d;color:#9fe;border-color:#2a6;cursor:pointer}
+#st{font-size:13px;color:#8fd}.ok{color:#7fd88a}.bad{color:#ff8a8a}code{color:#8fd;word-break:break-all;font-size:11px}</style></head><body>
+<h1>ربط حقيقي: توكن + كابتشا + مفاتيح + حسابات</h1>
+<div class="box"><b>1) هوية الجهاز (كابتشا)</b>
+<div id="capq">…</div><input id="capa" placeholder="الجواب"><button id="capb">تحقّق وولّد الهوية</button>
+<div id="idout"></div></div>
+<div class="box"><b>2) توكن GitHub (repo + workflow)</b>
+<input id="tok" placeholder="ghp_… أو github_pat_…"><button id="tokb">تحقّق من التوكن وصلاحياته</button>
+<div id="tokout"></div>
+<p><a href="https://github.com/settings/tokens/new?scopes=repo,workflow&description=CineHub3099" target="_blank">إنشاء توكن بالصلاحيات الصحيحة</a></p></div>
+<div class="box"><b>3) بيانات الكريمي للسحب</b>
+<input id="kn" placeholder="الاسم الكامل"><input id="ka" placeholder="رقم الحساب"><input id="kp" placeholder="رقم الهاتف"><input id="kw" placeholder="واتساب (اختياري)">
+<button id="ownb">حفظ الحساب</button></div>
+<div class="box"><b>4) التفعيل</b><button id="go">دفع كل شيء + تشغيل دورة فورية</button><div id="st"></div></div>
+<script>
+(function(){
+ var S=document.getElementById('st');
+ function say(m,c){S.className=c||'';S.textContent=m;}
+ // 1) كابتشا محلية حقيقية
+ var a=Math.floor(Math.random()*9)+2,b=Math.floor(Math.random()*9)+2;
+ document.getElementById('capq').textContent='كم يساوي '+a+' + '+b+' ؟';
+ document.getElementById('capb').onclick=function(){
+  if(parseInt(document.getElementById('capa').value,10)!==a+b){say('جواب الكابتشا خطأ','bad');return;}
+  crypto.subtle.digest('SHA-256',new TextEncoder().encode('ch3099|'+a+b+'|'+navigator.userAgent+'|'+screen.width))
+   .then(function(buf){var h=Array.from(new Uint8Array(buf)).map(function(x){return x.toString(16).padStart(2,'0')}).join('');
+    localStorage.setItem('ch3099_identity',h);
+    document.getElementById('idout').innerHTML='الهوية: <code>'+h.slice(0,32)+'…</code> صالحة سنة';
+    say('تم التحقق من الكابتشا ✓','ok');});
+ };
+ // 2) توكن حقيقي
+ document.getElementById('tokb').onclick=function(){
+  var t=document.getElementById('tok').value.trim();
+  fetch('https://api.github.com/user',{headers:{Authorization:'token '+t}})
+  .then(function(r){if(!r.ok)throw 0;return r.json().then(function(j){return {j:j,r:r};});})
+  .then(function(o){
+   var sc=(o.r.headers.get('x-oauth-scopes')||'');
+   var has=sc.indexOf('repo')>-1&&sc.indexOf('workflow')>-1;
+   localStorage.setItem('ch3099_gh',JSON.stringify({token:t,repo:o.j.login+'/'+o.j.login+'.github.io',branch:'main'}));
+   localStorage.setItem('ch3099_token_fp',sc);
+   document.getElementById('tokout').innerHTML='المستخدم: <b>'+o.j.login+'</b><br>الصلاحيات: <code>'+sc+'</code><br>'+(has?'<span class="ok">repo+workflow موجودة ✓</span>':'<span class="bad">ناقص repo أو workflow</span>');
+  }).catch(function(){say('التوكن غير صالح','bad');});
+ };
+ // 3) الحساب
+ document.getElementById('ownb').onclick=function(){
+  var o={kuraimi:{name:document.getElementById('kn').value.trim(),account:document.getElementById('ka').value.trim(),phone:document.getElementById('kp').value.trim()},
+         whatsapp:document.getElementById('kw').value.trim(),
+         identity:localStorage.getItem('ch3099_identity')||'',bank:"Al-Kuraimi Islamic Microfinance Bank",swift:"KBMFYESAXXX",updated:new Date().toISOString()};
+  localStorage.setItem('ch3099_owner',JSON.stringify(o)); say('حُفظ الحساب محليًا ✓','ok');
+ };
+ // 4) الدفع
+ function put(path,text,msg){var gh=JSON.parse(localStorage.getItem('ch3099_gh')||'{}');
+  if(!gh.token) return Promise.reject('no token');
+  var url='https://api.github.com/repos/'+gh.repo+'/contents/'+path;
+  var H={Authorization:'token '+gh.token,'Content-Type':'application/json'};
+  return fetch(url,{headers:H}).then(function(r){return r.ok?r.json():null}).then(function(j){
+   var body={message:msg,content:btoa(unescape(encodeURIComponent(text))),branch:gh.branch};
+   if(j&&j.sha)body.sha=j.sha;
+   return fetch(url,{method:'PUT',headers:H,body:JSON.stringify(body)});
+  });
+ }
+ document.getElementById('go').onclick=function(){
+  var gh=JSON.parse(localStorage.getItem('ch3099_gh')||'{}');
+  var own=JSON.parse(localStorage.getItem('ch3099_owner')||'{}');
+  var keys=JSON.parse(localStorage.getItem('ch3099_keys')||'{}');
+  var env=Object.keys(keys).filter(function(k){return keys[k]}).map(function(k){return k+'='+keys[k]}).join('\n')+'\n';
+  env+='CH3099_IDENTITY='+(localStorage.getItem('ch3099_identity')||'')+'\n';
+  if(!gh.token){say('أدخل التوكن أولًا','bad');return;}
+  say('جارٍ الدفع…');
+  put('keys.env',env,'keys via link.html')
+   .then(function(){return put('owner.json',JSON.stringify(own,null,1),'owner via link.html');})
+   .then(function(){return fetch('https://api.github.com/repos/'+gh.repo+'/dispatches',
+      {method:'POST',headers:{Authorization:'token '+gh.token,'Content-Type':'application/json'},
+       body:JSON.stringify({event_type:'agent-cycle'})});})
+   .then(function(){say('تم الدفع وتشغيل دورة فورية ✓ — الأرقام تتحرك خلال 5 دقائق','ok');})
+   .catch(function(e){say('فشل: '+e,'bad');});
+ };
+})();
+</script></body></html>

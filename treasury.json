@@ -1,1 +1,16 @@
-{"updated":"","total_30d":0,"all_time_seen":0,"by_network":{}}
+{
+ "buckets": {
+  "ads": 0.0,
+  "rewards": 0.0,
+  "commissions": 0.0,
+  "gifts": 0.0,
+  "surveys": 0.0,
+  "links": 0.0,
+  "referral": 0.0
+ },
+ "balance": 0.0,
+ "withdrawable": 0.0,
+ "min": 5.0,
+ "updated": "2026-10-17T00:07:55.977497+00:00",
+ "note": "كل رقم مقروء من ملف مصدره — لا تقدير"
+}
