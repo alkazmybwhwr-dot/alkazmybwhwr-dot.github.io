@@ -1,79 +1,45 @@
-<!doctype html><html lang="ar" dir="rtl"><head>
-<script src="killsw.js?v=3099-1792196423"></script>
-
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>مشاهدة · CineHub 3099</title><link rel="manifest" href="/manifest.json">
-<style>
-*{box-sizing:border-box;margin:0;padding:0}
-body{background:#070b14;color:#e9f4ff;font:15px/1.75 system-ui,Tahoma;padding-bottom:70px}
-.wrap{max-width:960px;margin:auto;padding:10px}
-a{color:#22d3ee;text-decoration:none}
-.player{background:#000;border:1px solid #1d2a44;border-radius:14px;overflow:hidden;min-height:200px;display:grid;place-items:center}
-iframe,video{width:100%;height:58vh;border:0;display:block}
-img.pv{max-height:70vh;max-width:100%;display:block;margin:auto}
-h1{font-size:18px;margin:12px 0 4px}
-.bar{display:flex;gap:7px;flex-wrap:wrap;margin:10px 0}
-.bar a,.bar button{background:#0f1626;border:1px solid #1d2a44;color:#e9f4ff;border-radius:9px;padding:8px 12px;font-size:12.5px;cursor:pointer;font-weight:700}
-.bar a.p{background:linear-gradient(135deg,#22c55e,#22d3ee);color:#04121a;border:0}
-.card{background:#0f1626;border:1px solid #1d2a44;border-radius:13px;padding:12px;margin:11px 0}
-.k{color:#8ba2c0;font-size:12.5px}
-.grid{display:grid;gap:9px;grid-template-columns:repeat(auto-fill,minmax(140px,1fr))}
-.it{background:#0f1626;border:1px solid #1d2a44;border-radius:11px;overflow:hidden;display:block}
-.th{height:80px;background:#0b1220 center/cover no-repeat;display:grid;place-items:center}
-.it b{display:block;padding:6px 8px;font-size:12px}
-</style></head><body><div class="wrap">
-<div class="player" id="pl">…</div>
-<h1 id="ti">…</h1>
-<div class="k" id="meta"></div>
-<div class="bar">
- <a class="p" id="wa" target="_blank" rel="noopener">واتساب</a>
- <a id="tg" target="_blank" rel="noopener">تيليجرام</a>
- <a id="x" target="_blank" rel="noopener">X</a>
- <button onclick="rw()">▶ إعلان مكافأة (+ربح)</button>
- <a href="/library.html">← المكتبة</a>
-</div>
-<div class="card"><b>رصيدك: <span id="bal">$0.0000</span></b> <span class="k">— كل مشاهدة تُضيف رصيدًا، وكل مشاركة تجلب زيارات</span>
-<div class="k" id="msg"></div></div>
-<div class="card"><b>شاهد أيضًا</b><div class="grid" id="rel">…</div></div>
-<div class="ch-ad" data-ad="mid"></div>
-</div>
-<script src="/ledger.js" defer></script><script src="/ref.js" defer></script><script src="/beacon.js" defer></script>
-<script src="/authtoken.js" defer></script><script src="/ads.js" defer></script><script src="/owner.js" defer></script>
-<script src="/comments.js" defer></script>
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>مشاهدة — CineHub 3099</title>
+<style>body{font-family:system-ui,Tahoma,sans-serif;background:#070b10;color:#e9f1f8;margin:0;padding:14px;line-height:1.8}
+a{color:#4cc2ff}.box{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:13px;margin:12px 0}
+.ad{border:1px dashed rgba(255,255,255,.18);border-radius:12px;padding:14px;text-align:center;color:#8ea3b8;margin:12px 0}
+iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:12px;background:#000}
+.btn{display:inline-block;background:linear-gradient(135deg,#4cc2ff,#7b6bff);color:#06121c;font-weight:700;border-radius:10px;padding:10px 15px;margin:4px;border:0;font-size:14px;cursor:pointer}
+.c{color:#8ea3b8;font-size:13px}</style></head><body>
+<h1 id="t">…</h1><p class="c" id="m"></p>
+<iframe id="pl" allowfullscreen allow="autoplay; fullscreen"></iframe>
+<div class="ad" data-ad>إعلان</div>
+<p><button class="btn" id="earn">▶ شاهد 15 ثانية واقبض</button>
+<button class="btn" id="wa">شارك على واتساب</button>
+<button class="btn" id="tg">شارك على تيليجرام</button></p>
+<div class="box" id="rel"><b>مشاهدات مقترحة</b></div>
+<p><a href="library.html">المكتبة</a> · <a href="index.html">الرئيسية</a> · <a href="rise.html">الأرقام</a></p>
 <script>
-var Q=new URLSearchParams(location.search),s=Q.get('s')||'',id=Q.get('id')||'',t=Q.get('t')||'مشاهدة',
- img=Q.get('img')||'',kind=Q.get('kind')||'iframe',emb=Q.get('emb')||'',by=Q.get('by')||'';
-document.title=t+' · CineHub 3099';
-document.getElementById('ti').textContent=t;
-document.getElementById('meta').textContent=[by,s].filter(Boolean).join(' · ');
-var pl=document.getElementById('pl');
-if(emb){
- if(kind==='video'){pl.innerHTML='<video src="'+emb+'" controls playsinline poster="'+img+'"></video>'}
- else if(kind==='image'){pl.innerHTML='<img class="pv" src="'+emb+'" alt="">'}
- else if(kind==='link'){pl.innerHTML='<iframe src="'+emb+'" loading="lazy"></iframe>'}
- else {pl.innerHTML='<iframe src="'+emb+'" allowfullscreen allow="autoplay; fullscreen" loading="lazy"></iframe>'}
-}else{pl.innerHTML='<div class="k">لا مشغّل لهذا العنصر</div>'}
-function rw(){ if(window.CHRewarded)CHRewarded.show(); else { if(window.CHLedger)CHLedger.bonus(0.0008,'play'); msg('✓ +$0.0008'); } }
-function msg(x){document.getElementById('msg').innerHTML='<b style="color:#22c55e">'+x+'</b>'}
-function paint(){document.getElementById('bal').textContent='$'+(window.CHLedger?CHLedger.balance():0).toFixed(4)}
-paint();setInterval(paint,2000);
-if(window.CHLedger)CHLedger.bonus(0.0008,'watch');
-if(window.CHBeacon){CHBeacon.hit('play');CHBeacon.hit('play_'+s)}
-msg('✓ أُضيف $0.0008 لرصيدك مقابل المشاهدة');
-var u=location.href, txt=encodeURIComponent(t+' — شاهد مجانًا على CineHub 3099');
-document.getElementById('wa').href='https://wa.me/?text='+txt+'%20'+encodeURIComponent(u);
-document.getElementById('tg').href='https://t.me/share/url?url='+encodeURIComponent(u)+'&text='+txt;
-document.getElementById('x').href='https://twitter.com/intent/tweet?text='+txt+'&url='+encodeURIComponent(u);
-document.addEventListener('ch:rewarded',function(e){msg('✓ ربحت $'+Number(e.detail||0).toFixed(4))});
-fetch('/data/catalog/'+s+'.json?t='+Date.now()).then(function(r){return r.json()}).then(function(j){
- var a=(j.items||[]).filter(function(x){return x.id!==id}).slice(0,10);
- document.getElementById('rel').innerHTML=a.map(function(x){
-  return '<a class="it" href="/play.html?s='+encodeURIComponent(s)+'&id='+encodeURIComponent(x.id)+'&t='+encodeURIComponent(x.t||'')+
-   '&img='+encodeURIComponent(x.img||'')+'&kind='+encodeURIComponent(x.kind||'')+'&emb='+encodeURIComponent(x.emb||'')+'&by='+encodeURIComponent(x.by||'')+'">'+
-   '<div class="th" style="'+(x.img?'background-image:url('+x.img+')':'')+'"></div><b>'+String(x.t||'').slice(0,46)+'</b></a>'}).join('');
-}).catch(function(){});
-</script>
-
-<script src="boot.js?v=3099-1792196423" defer></script>
-<script src="track.js?v=3099-1792196423" defer></script>
+(function(){
+"use strict";
+function g(u){return fetch(u+"?_="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null});}
+var id=decodeURIComponent((location.search.match(/[?&]id=([^&]+)/)||[])[1]||"");
+var SITE="https://alkazmybwhwr-dot.github.io/play.html?id=";
+function hit(k){try{fetch("https://abacus.jasoncameron.dev/hit/ch3099-alkazmybwhwr-dot/"+k,{mode:"cors"}).catch(function(){});}catch(e){}}
+g("catalog.json").then(function(d){
+ if(!d||!d.items){document.getElementById("t").textContent="لا كتالوج";return;}
+ var it=null;for(var i=0;i<d.items.length;i++) if(d.items[i].i===id){it=d.items[i];break;}
+ if(!it){document.getElementById("t").textContent="لم يُعثر على الفيلم";return;}
+ document.title=it.t+" — CineHub 3099";
+ document.getElementById("t").textContent=it.t;
+ document.getElementById("m").textContent=(it.y?it.y+" · ":"")+it.c+" · "+it.a+" · المصدر: archive.org (ملك عام / مرخّص)";
+ document.getElementById("pl").src=it.p;
+ var box=document.getElementById("rel");
+ d.items.filter(function(x){return x.c===it.c&&x.i!==it.i;}).slice(0,8).forEach(function(x){
+  var a=document.createElement("a");a.href="play.html?id="+encodeURIComponent(x.i);a.textContent="• "+x.t;a.style.display="block";box.appendChild(a);});
+ var u=encodeURIComponent(SITE+encodeURIComponent(id));
+ document.getElementById("wa").onclick=function(){hit("shares");window.open("https://wa.me/?text="+encodeURIComponent(it.t+" — مشاهدة مجانية\n")+u,"_blank");};
+ document.getElementById("tg").onclick=function(){hit("shares");window.open("https://t.me/share/url?url="+u+"&text="+encodeURIComponent(it.t),"an_blank");};
+});
+document.getElementById("earn").onclick=function(){
+ var b=localStorage.getItem("ch3099_balance");var v=parseFloat(b||"0")+0.0004;
+ localStorage.setItem("ch3099_balance",String(v));hit("rewards");
+ this.textContent="✓ أُضيف $0.0004 — رصيدك $"+v.toFixed(4);};
+})();
+</script><script src="ads.js?v=3099-1792197840" defer></script>
 </body></html>

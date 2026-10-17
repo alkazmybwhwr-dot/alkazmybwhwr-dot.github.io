@@ -1,0 +1,150 @@
+status ok
+report ok
+  ✓ رُبط 2 مفتاحًا تلقائيًا
+  جُرّبت: 2 · رُبطت: 0
+     · ADSTERRA → stats 401
+     · TMDB_KEY → configuration 200
+ledger: 0 قيد · 0 مكسور
+لا عناصر — شغّل SCALE.sh أولًا
+treasury 0.0 {'ads': 0.0, 'rewards': 0.0, 'commissions': 0.0, 'gifts': 0.0, 'surveys': 0.0, 'links': 0.0, 'referral': 0.0}
+balance 0.000000 / min 5.00
+status ok
+report ok
+  ✓ رُبط 2 مفتاحًا تلقائيًا
+  جُرّبت: 2 · رُبطت: 0
+     · ADSTERRA → stats 401
+     · TMDB_KEY → configuration 200
+ledger: 0 قيد · 0 مكسور
+لا عناصر — شغّل SCALE.sh أولًا
+treasury 0.0 {'ads': 0.0, 'rewards': 0.0, 'commissions': 0.0, 'gifts': 0.0, 'surveys': 0.0, 'links': 0.0, 'referral': 0.0}
+balance 0.000000 / min 5.00
+status ok
+report ok
+  ✓ رُبط 2 مفتاحًا تلقائيًا
+  جُرّبت: 2 · رُبطت: 0
+     · ADSTERRA → stats 401
+     · TMDB_KEY → configuration 200
+ledger: 0 قيد · 0 مكسور
+لا عناصر
+treasury 0.0
+balance 0.000000 / min 5.00
+status ok
+report ok
+  ✓ رُبط 2 مفتاحًا تلقائيًا
+  جُرّبت: 2 · رُبطت: 0
+     · ADSTERRA → stats 401
+     · TMDB_KEY → configuration 200
+ledger: 0 قيد · 0 مكسور
+لا عناصر
+treasury 0.0
+balance 0.000000 / min 5.00
+status ok
+report ok
+  ✓ رُبط 2 مفتاحًا تلقائيًا
+  جُرّبت: 2 · رُبطت: 0
+     · ADSTERRA → stats 401
+     · TMDB_KEY → configuration 200
+ledger: 0 قيد · 0 مكسور
+لا عناصر
+treasury 0.0
+balance 0.000000 / min 5.00
+  ✓ رُبط 2 مفتاحًا تلقائيًا
+status ok
+report ok
+  جُرّبت: 2 · رُبطت: 0
+     · ADSTERRA → stats 401
+     · TMDB_KEY → configuration 200
+ledger: 0 قيد · 0 مكسور
+لا عناصر
+treasury 0.0
+balance 0.000000 / min 5.00
+status ok
+report ok
+  ✓ رُبط 2 مفتاحًا تلقائيًا
+  جُرّبت: 2 · رُبطت: 0
+     · ADSTERRA → stats 401
+     · TMDB_KEY → configuration 200
+ledger: 0 قيد · 0 مكسور
+لا عناصر
+treasury 0.0
+balance 0.000000 / min 5.00
+status ok
+report ok
+  ✓ رُبط 2 مفتاحًا تلقائيًا
+  جُرّبت: 2 · رُبطت: 0
+     · ADSTERRA → stats 401
+     · TMDB_KEY → configuration 200
+ledger: 0 قيد · 0 مكسور
+لا عناصر
+treasury 0.0
+balance 0.000000 / min 5.00
+status ok
+report ok
+nets 136 with_key 0
+counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+nets 136 with_key 0
+confirmed 0.000000 | estimated 0.000000 | impressions 0
+treasury 0.0
+ledger 1 083c252ad1e3
+insights ok
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+balance 0.000000 / min 5.00
+لا عناصر
+counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+confirmed 0.000000 | estimated 0.000000 | impressions 0
+treasury 0.0
+ledger 2 901b0fe9eed7
+insights ok
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 136 with_key 0
+counts {'visits': 2, 'impressions': 1, 'clicks': 0}
+confirmed 0.000000 | estimated 0.001500 | impressions 1
+treasury 0.0
+ledger 3 9cd3e3634d39
+insights ok
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✓ ظهور حقيقي يُسجَّل — 
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 136 with_key 0
+counts {'visits': 0, 'impressions': 4, 'clicks': 0}
+confirmed 0.000000 | estimated 0.006000 | impressions 4
+treasury 0.0
+ledger 4 020d9441b305
+insights ok
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✓ ظهور حقيقي يُسجَّل — 
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 136 with_key 0
+counts {'visits': 3, 'impressions': 4, 'clicks': 0}
+confirmed 0.000000 | estimated 0.006000 | impressions 4
+treasury 0.0
+ledger 5 438d2bdabb04
+insights ok
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✓ ظهور حقيقي يُسجَّل — 
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok

@@ -11,6 +11,7 @@ run tools/insights.py
 run tools/gates.py
 run tools/status.py
 run tools/report.py
+run tools/agent_log.py
 run tools/withdraw_auto.py
 PLATFORM_TARGET=1000 PAGES_LIMIT="${PAGES_LIMIT:-40}" run tools/pages_gen.py
 python3 - <<'PY' >>"$LOG" 2>&1
