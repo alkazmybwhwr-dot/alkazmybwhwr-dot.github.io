@@ -192,3 +192,17 @@ status ok
 report ok
 balance 0.000000 / min 5.00
 لا عناصر
+nets 136 with_key 0
+counts {'visits': 2, 'impressions': 1, 'clicks': 0}
+confirmed 0.000000 | estimated 0.001500 | impressions 1
+treasury 0.0
+ledger 3 9cd3e3634d39
+insights ok
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✓ ظهور حقيقي يُسجَّل — 
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+balance 0.000000 / min 5.00
+لا عناصر

@@ -21,10 +21,10 @@
   }
  ],
  "estimated": {
-  "impressions": 0,
+  "impressions": 1,
   "assumed_cpm": 1.5,
-  "value": 0.0,
+  "value": 0.0015,
   "note": "تقديري = ظهور حقيقي × CPM مفترض معلن"
  },
- "updated": "2026-10-17T00:44:31.349361+00:00"
+ "updated": "2026-10-17T00:50:04.138749+00:00"
 }
