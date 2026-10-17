@@ -1,5 +1,5 @@
 /* CineHub 3099 — SW آمن: شبكة أولًا لـHTML/JSON، كاش للأصول، ولا يخزّن ملفات التحكم */
-var V = "3099-1792196274";
+var V = "3099-1792196423";
 self.addEventListener("install", function(){ self.skipWaiting(); });
 self.addEventListener("activate", function(e){
   e.waitUntil(

@@ -1,8 +1,9 @@
 {
- "time": "2026-10-17T00:17:59.818813+00:00",
+ "time": "2026-10-17T00:20:27.906023+00:00",
  "sw": [
   "app.js",
   "earnings.js",
+  "reset.html",
   "killsw.js"
  ],
  "reload": [
@@ -13,9 +14,10 @@
   "go.html",
   "owner.js",
   "setup.html",
+  "reset.html",
   "killsw.js"
  ],
  "hide": [],
  "docwrite": [],
- "files": 78
+ "files": 80
 }
