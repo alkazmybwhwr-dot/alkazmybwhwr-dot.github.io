@@ -1,6 +1,6 @@
 {
  "engine": "live",
- "updated": "2026-10-17T17:35:31.476070+00:00",
+ "updated": "2026-10-17T17:37:14.712135+00:00",
  "revenue": {
   "confirmed_total": 0.0,
   "sources": [
@@ -29,7 +29,7 @@
    "value": 0.0285,
    "note": "تقديري = ظهور حقيقي × CPM مفترض معلن"
   },
-  "updated": "2026-10-17T17:34:04.118430+00:00"
+  "updated": "2026-10-17T17:36:13.418363+00:00"
  },
  "ledger": {
   "entries": [
@@ -2097,9 +2097,68 @@
       "updated": "2026-10-17T17:34:04.660273+00:00"
      }
     }
+   },
+   {
+    "i": 36,
+    "t": "2026-10-17T17:36:14.971223+00:00",
+    "prev": "8a5da9d4f19d670e6d9cf40902d612bc7b51bb5b95464179d7c85dd8e47805c2",
+    "h": "42143dd5e629ecee281a165cf6b86b80d189b28764f70d9334d513e5824099e1",
+    "snap": {
+     "t": "2026-10-17T17:36:14.971223+00:00",
+     "counts": {
+      "visits": 11,
+      "impressions": 19,
+      "clicks": 0
+     },
+     "revenue": {
+      "confirmed_total": 0.0,
+      "sources": [
+       {
+        "net": "Adsterra",
+        "ok": false,
+        "http": "HTTP Error 401: Unauthorized",
+        "value": 0
+       },
+       {
+        "net": "Monetag",
+        "ok": false,
+        "http": "لا مفتاح",
+        "value": 0
+       },
+       {
+        "net": "Linkvertise",
+        "ok": false,
+        "http": "لا مفتاح",
+        "value": 0
+       }
+      ],
+      "estimated": {
+       "impressions": 19,
+       "assumed_cpm": 1.5,
+       "value": 0.0285,
+       "note": "تقديري = ظهور حقيقي × CPM مفترض معلن"
+      },
+      "updated": "2026-10-17T17:36:13.418363+00:00"
+     },
+     "treasury": {
+      "buckets": {
+       "ads": 0.0,
+       "rewards": 0.0135,
+       "commissions": 0.0,
+       "gifts": 0.0,
+       "surveys": 0.0,
+       "links": 0.0,
+       "referral": 0.0
+      },
+      "balance": 0.0135,
+      "withdrawable": 0.0135,
+      "min": 5.0,
+      "updated": "2026-10-17T17:36:14.430878+00:00"
+     }
+    }
    }
   ],
-  "last": "8a5da9d4f19d670e6d9cf40902d612bc7b51bb5b95464179d7c85dd8e47805c2"
+  "last": "42143dd5e629ecee281a165cf6b86b80d189b28764f70d9334d513e5824099e1"
  },
  "registry": {
   "generated": "2026-10-17T00:24:23.264087+00:00",

@@ -27,6 +27,7 @@
 .nojekyll
 .publish-extra
 .push.err
+.remote.txt
 .repair.json
 .scan.json
 .scan2.json
@@ -46,7 +47,9 @@ REBUILD.sh
 REGISTER.md
 REPAIR.sh
 RISE.sh
+RUNALL.sh
 TODO.md
+TOWER.sh
 UNBLACK.sh
 VERSION
 accounts-status.json
@@ -171,6 +174,7 @@ data/movies.json
 db/schema.sql
 deploy.py
 deploy.sh
+diag.json
 earn.html
 earn.sh
 earnings-daily.json
@@ -333,6 +337,7 @@ tools/autodetect.py
 tools/build_index.py
 tools/credit.py
 tools/daily.py
+tools/diag.py
 tools/discover.py
 tools/doctor.py
 tools/gates.py
@@ -354,6 +359,7 @@ tools/networks.py
 tools/pages_gen.py
 tools/ping.py
 tools/platforms_build.py
+tools/platforms_plus.py
 tools/pull_counts.py
 tools/pull_stats.py
 tools/pulse.py
@@ -371,6 +377,7 @@ tools/validate.py
 tools/verify.py
 tools/wire90k.py
 tools/withdraw_auto.py
+tower.html
 tr/index.html
 track.js
 treasury.html

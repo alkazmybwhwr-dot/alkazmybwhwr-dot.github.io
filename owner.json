@@ -1,7 +1,7 @@
 {
  "whatsapp": "",
  "telegram": "",
- "email": "",
+ "email": "alkazmybwhwr@gmail.com",
  "usdt_base": "0x7AcC22Ed0d07dd775D4456a29011Ff1440945CbB",
  "usdt_trc20": "",
  "endpoint": "",
@@ -37,5 +37,13 @@
   "ADSTERRA": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6",
   "EXOCLICK": "1234567",
   "EXOCLICK_API_KEY": "1234567"
- }
+ },
+ "kuraimi": {
+  "name": "",
+  "account": "",
+  "phone": ""
+ },
+ "bank": "Al-Kuraimi Islamic Microfinance Bank",
+ "swift": "KBMFYESAXXX",
+ "updated": "2026-10-17T20:36:05.516441"
 }

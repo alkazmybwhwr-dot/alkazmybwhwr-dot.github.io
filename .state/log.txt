@@ -1191,3 +1191,34 @@ report ok
 agent-log ok
 balance 0.009000 / min 5.00
 لا عناصر
+nets 269 with_key 0
+counts {'visits': 11, 'impressions': 19, 'clicks': 0}
+confirmed 0.000000 | estimated 0.028500 | impressions 19
+مكافآت الوكيل اليوم: $0.013500 | الإجمالي: $0.013500
+treasury 0.0135
+ledger 36 42143dd5e629
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 269
+  Eporner top-weekly: 100
+  Eporner top-monthly: 100
+  Eporner top-all-time: 100
+  Eporner top-rated: 100
+  Eporner latest: 100
+  Eporner longest: 100
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/cinehub3099/tools/ingest_adult.py", line 40, in <module>
+    tags=",".join((v.get("tags") or [])[:6])
+TypeError: sequence item 0: expected str instance, dict found
+صفحات وسوم: 0
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✓ ظهور حقيقي يُسجَّل — 
+✓ حساب الكريمي محفوظ — 
+حيّ 34/37 | غائب: diag.html, auth.json, tasks.json
+أفلام 4440 · كبار 0 · طلبات إعلان 0 · دورات 45
+status ok
+nets 269 with_key 0
+report ok
+agent-log ok
+balance 0.013500 / min 5.00
+لا عناصر
