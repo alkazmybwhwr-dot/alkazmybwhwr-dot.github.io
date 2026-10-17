@@ -1,1 +1,1 @@
-if(!document.querySelector('a[href="/live-dash.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/live-dash.html">حيّ</a>')}
+if(!document.querySelector('a[href="/plan.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/start.html">ابدأ</a><a href="/plan.html">الخطة</a>')}

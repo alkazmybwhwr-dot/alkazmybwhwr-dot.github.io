@@ -1,5 +1,5 @@
 {
- "time": "2026-10-17T00:16:41.184770+00:00",
+ "time": "2026-10-17T00:25:56.371005+00:00",
  "js": [
   {
    "file": "index.html",
@@ -7,11 +7,6 @@
    "log": []
   },
   {
-   "file": "index.html",
-   "status": "سليم",
-   "log": []
-  },
-  {
    "file": "partners.html",
    "status": "سليم",
    "log": []
@@ -38,16 +33,6 @@
   },
   {
    "file": "revenue.html",
-   "status": "سليم",
-   "log": []
-  },
-  {
-   "file": "withdraw.html",
-   "status": "سليم",
-   "log": []
-  },
-  {
-   "file": "withdraw.html",
    "status": "سليم",
    "log": []
   },
@@ -443,6 +428,16 @@
   },
   {
    "file": "play.html",
+   "status": "سليم",
+   "log": []
+  },
+  {
+   "file": "reset.html",
+   "status": "سليم",
+   "log": []
+  },
+  {
+   "file": "sites.html",
    "status": "سليم",
    "log": []
   },
@@ -1347,10 +1342,10 @@
   }
  ],
  "counts": {
-  "files": 326,
-  "html": 91,
-  "json": 62,
-  "inline_blocks": 192,
+  "files": 336,
+  "html": 93,
+  "json": 66,
+  "inline_blocks": 191,
   "broken_js": 0
  }
 }
