@@ -1,4 +1,5 @@
-<!doctype html><html lang="ar" dir="rtl"><head><script src="/killsw.js"></script>
+<!doctype html><html lang="ar" dir="rtl"><head>
+<script src="killsw.js?v=3099-1792196274"></script>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>مشاهدة · CineHub 3099</title><link rel="manifest" href="/manifest.json">
 <style>
@@ -37,7 +38,7 @@ h1{font-size:18px;margin:12px 0 4px}
 </div>
 <script src="/ledger.js" defer></script><script src="/ref.js" defer></script><script src="/beacon.js" defer></script>
 <script src="/authtoken.js" defer></script><script src="/ads.js" defer></script><script src="/owner.js" defer></script>
-<script src="/comments.js" defer></script><script src="/boot.js" defer></script>
+<script src="/comments.js" defer></script>
 <script>
 var Q=new URLSearchParams(location.search),s=Q.get('s')||'',id=Q.get('id')||'',t=Q.get('t')||'مشاهدة',
  img=Q.get('img')||'',kind=Q.get('kind')||'iframe',emb=Q.get('emb')||'',by=Q.get('by')||'';
@@ -71,4 +72,5 @@ fetch('/data/catalog/'+s+'.json?t='+Date.now()).then(function(r){return r.json()
    '<div class="th" style="'+(x.img?'background-image:url('+x.img+')':'')+'"></div><b>'+String(x.t||'').slice(0,46)+'</b></a>'}).join('');
 }).catch(function(){});
 </script>
+<script src="boot.js?v=3099-1792196274" defer></script>
 </body></html>

@@ -1,0 +1,21 @@
+{
+ "time": "2026-10-17T00:17:59.818813+00:00",
+ "sw": [
+  "app.js",
+  "earnings.js",
+  "killsw.js"
+ ],
+ "reload": [
+  "live.js",
+  "revenue.html",
+  "earnings.js",
+  "admin2.html",
+  "go.html",
+  "owner.js",
+  "setup.html",
+  "killsw.js"
+ ],
+ "hide": [],
+ "docwrite": [],
+ "files": 78
+}

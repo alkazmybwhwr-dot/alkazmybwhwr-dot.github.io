@@ -1,16 +1,39 @@
-(function(){
- function nz(id,msg){var e=document.getElementById(id);if(e&&e.textContent.trim().length<2)e.textContent=msg}
- window.addEventListener('load',function(){
-  setTimeout(function(){
-   var t=(document.body.innerText||'').trim();
-   if(t.length<60){
-    var d=document.createElement('div');
-    d.style.cssText='max-width:760px;margin:24px auto;padding:18px;border:1px solid #1e2a44;border-radius:14px;font:15px system-ui';
-    d.innerHTML='<h2 style="margin:0 0 8px">CineHub 3099</h2><p>تعذّر تحميل بعض الأجزاء. افتح:</p><ul>'+
-     ['/cinema.html','/watch.html','/img.html','/withdraw.html'].map(function(u){return '<li><a href="'+u+'">'+u+'</a></li>'}).join('')+'</ul>';
-    document.body.appendChild(d);
-   }
-   ['status','films','nets','kuraimi','stamp'].forEach(function(i){nz(i,'—')});
-  },3000);
- });
+/* CineHub 3099 — شبكة أمان: يمنع أي شاشة سوداء مهما حدث */
+(function () {
+  "use strict";
+  try {
+    var st = document.createElement("style");
+    st.id = "ch3099-guard";
+    st.textContent = "html{visibility:visible!important;background:#070b10}html,body{opacity:1!important}";
+    (document.head || document.documentElement).appendChild(st);
+  } catch (e) {}
+  function shell(){
+    try {
+      if (document.getElementById("ch3099_fallback")) return;
+      var b = document.body; if (!b) return;
+      var txt = (b.innerText || "").replace(/\s/g, "");
+      if (b.offsetHeight > 60 && txt.length > 0) return;
+      var d = document.createElement("div");
+      d.id = "ch3099_fallback";
+      d.style.cssText = "position:fixed;inset:0;background:#070b10;color:#e9f1f8;padding:22px;" +
+        "font-family:system-ui,Tahoma,sans-serif;z-index:99999;overflow:auto;line-height:1.9";
+      var links = [["index.html","الرئيسية"],["library.html","المكتبة"],["sites.html","90 ألف موقع"],
+                   ["auto.html","شاهد واقبض"],["subscribe.html","الشبكات"],["withdraw.html","السحب"],
+                   ["link.html","ربط الحساب"],["live-dash.html","لوحة المتابعة"],["?fresh=1","تصفير كامل"]];
+      d.innerHTML = '<h2 style="margin:0 0 6px">الواجهة تعمل</h2>' +
+        '<p style="color:#8ea3b8;margin:0 0 12px">اختر صفحة — لن تبقى الشاشة سوداء بعد الآن.</p>' +
+        links.map(function(p){
+          return '<a style="display:block;padding:11px;margin:7px 0;background:rgba(255,255,255,.06);' +
+                 'border-radius:11px;color:#4cc2ff;text-decoration:none" href="' + p[0] + '">' + p[1] + '</a>';
+        }).join("");
+      b.appendChild(d);
+    } catch (e) {}
+  }
+  function arm(){
+    setTimeout(shell, 5000);
+    setTimeout(shell, 9000);
+    try { window.addEventListener("error", function(){ setTimeout(shell, 1200); }); } catch (e) {}
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", arm);
+  else arm();
 })();

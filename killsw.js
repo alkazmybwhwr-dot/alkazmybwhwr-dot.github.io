@@ -1,36 +1,48 @@
-/* قاتل الكاش: يشتغل مرة واحدة، يلغي كل service worker ويحذف كل الكاش، ثم يتابع بلا كسر */
-(function(){
- var V='sw9';
- try{
-  if(localStorage.getItem('ch_kill')!==V){
-   localStorage.setItem('ch_kill',V);
-   if('serviceWorker' in navigator){
-    navigator.serviceWorker.getRegistrations().then(function(r){r.forEach(function(x){x.unregister()})}).catch(function(){});
-   }
-   if(window.caches&&caches.keys){caches.keys().then(function(k){k.forEach(function(n){caches.delete(n)})}).catch(function(){})}
+/* CineHub 3099 — كاسر الحصار: يُبطل كل SW وكاش مرة واحدة لكل إصدار */
+(function () {
+  "use strict";
+  var V = "3099-1792196274";
+  var SS = window.sessionStorage;
+  function g(k){ try { return SS.getItem(k); } catch(e){ return null; } }
+  function s(k,v){ try { SS.setItem(k,v); } catch(e){} }
+  var force = /[?&](fresh|reset|clean)=1/.test(location.search);
+  var prev  = g("ch3099_sw_ver");
+  var need  = force || prev !== V;
+
+  function nuke(){
+    var jobs = [];
+    if (navigator.serviceWorker && navigator.serviceWorker.getRegistrations) {
+      jobs.push(navigator.serviceWorker.getRegistrations().then(function(rs){
+        return Promise.all(rs.map(function(r){ return r.unregister(); }));
+      }).catch(function(){}));
+    }
+    if (window.caches && caches.keys) {
+      jobs.push(caches.keys().then(function(ks){
+        return Promise.all(ks.map(function(k){ return caches.delete(k); }));
+      }).catch(function(){}));
+    }
+    return Promise.all(jobs);
   }
- }catch(e){}
- window.addEventListener('error',function(ev){
-  try{var b=document.getElementById('ch-err');
-   if(!b){b=document.createElement('div');b.id='ch-err';
-    b.style.cssText='position:fixed;bottom:70px;left:8px;right:8px;z-index:99999;background:#7f1d1d;color:#fff;font:12px system-ui;padding:6px 10px;border-radius:8px;display:none';
-    document.body&&document.body.appendChild(b)}
-   if(b){b.style.display='block';b.textContent='⚠ '+(ev.message||'خطأ')}
-  }catch(x){}
- });
- window.addEventListener('unhandledrejection',function(ev){
-  try{var b=document.getElementById('ch-err'); if(!b)return;
-   b.style.display='block'; b.textContent='⚠ '+((ev.reason&&ev.reason.message)||ev.reason)}
-  catch(x){}
- });
- window.addEventListener('load',function(){
-  if(!('serviceWorker' in navigator))return;
-  navigator.serviceWorker.register('/sw.js',{updateViaCache:'none'}).then(function(reg){
-   try{reg.update()}catch(e){}
-   if(reg.waiting){try{reg.waiting.postMessage({sw:'skip'})}catch(e){}}
-  }).catch(function(){});
-  navigator.serviceWorker.addEventListener('message',function(m){
-   if(m.data&&m.data.sw==='updated'&&!sessionStorage.getItem('ch_rl')){sessionStorage.setItem('ch_rl','1');location.reload()}
-  });
- });
+  function reg(){
+    if (!navigator.serviceWorker || !window.isSecureContext) return;
+    navigator.serviceWorker.register("sw2.js?v=" + V, { scope: "./" }).catch(function(){});
+  }
+
+  if (need) {
+    var tries = parseInt(g("ch3099_sw_tries") || "0", 10);
+    nuke().then(function(){
+      s("ch3099_sw_ver", V);
+      var controlled = navigator.serviceWorker && navigator.serviceWorker.controller;
+      if (controlled && tries < 2) {
+        s("ch3099_sw_tries", String(tries + 1));
+        reg();
+        setTimeout(function(){ location.reload(); }, 80);
+      } else {
+        s("ch3099_sw_tries", "0");
+        reg();
+      }
+    });
+  } else {
+    reg();
+  }
 })();
