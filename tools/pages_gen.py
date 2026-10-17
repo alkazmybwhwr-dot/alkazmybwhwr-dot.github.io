@@ -5,7 +5,6 @@ import os,re,json,random,urllib.request,urllib.parse,html as H
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); os.chdir(ROOT)
 OUT="p"; SITE=os.environ.get("SITE_URL","https://alkazmybwhwr-dot.github.io")
 LIMIT=int(os.environ.get("PAGES_LIMIT","200"))
-VER=open("sw-version.txt").read().strip() if os.path.exists("sw-version.txt") else "1"
 KIND=["فيلم كلاسيكي","فيلم قصير","وثائقي","رسوم متحركة","فيلم نوار","تحفة صامتة","مغامرات","دراما","كوميديا","خيال علمي"]
 def slug(s):
     s=re.sub(r"[^\w\s-]","",s,flags=re.U).strip().lower()
@@ -31,7 +30,6 @@ def load():
     return out
 TPL="""<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<script src="../killsw.js?v={ver}"></script>
 <title>{t} — مشاهدة مجانية | CineHub 3099</title>
 <meta name="description" content="{d}"><link rel="canonical" href="{site}/p/{s}.html">
 <script type="application/ld+json">{{"@context":"https://schema.org","@type":"Movie","name":{tj},"genre":{kj},"inLanguage":"ar"}}</script>
@@ -43,7 +41,7 @@ a{{color:#4cc2ff}}.box{{background:rgba(255,255,255,.04);border:1px solid rgba(2
 <div class="ad">إعلان — {n1}</div>
 <p><a class="btn" href="../auto.html">▶ شاهد واقبض</a><a class="btn" href="../index.html">الرئيسية</a><a class="btn" href="../sites.html">90 ألف موقع</a></p>
 <div class="box"><b>النوع:</b> {k} · <b>الحقوق:</b> ملك عام / مرخّص · <b>المصدر:</b> {src}</div>
-<div class="ad">إعلان — {n2}</div><h3>مشاهدات مقترحة</h3><ul>{rel}</ul><script src="../boot.js?v={ver}" defer></script></body></html>"""
+<div class="ad">إعلان — {n2}</div><h3>مشاهدات مقترحة</h3><ul>{rel}</ul></body></html>"""
 def main():
     it=load()
     if not it: print("لا عناصر"); return
@@ -52,7 +50,7 @@ def main():
         k=KIND[i%len(KIND)]
         d="مشاهدة %s مجانًا داخل CineHub 3099 — %s قانوني، مع أرباح مباشرة وسحب لبنك الكريمي."%(t,k)
         rel="".join('<li><a href="%s.html">%s</a></li>'%(take[(i+j*7)%len(take)][0],H.escape(take[(i+j*7)%len(take)][1])) for j in range(1,7))
-        open(os.path.join(OUT,s+".html"),"w",encoding="utf-8").write(TPL.replace('{ver}',VER).format(
+        open(os.path.join(OUT,s+".html"),"w",encoding="utf-8").write(TPL.format(
             t=H.escape(t),s=s,d=H.escape(d),k=k,kj=json.dumps(k,ensure_ascii=False),
             tj=json.dumps(t,ensure_ascii=False),site=SITE,src=H.escape(str(x.get("source") or "Archive / Public Domain")),
             n1="Adsterra" if i%2 else "Monetag", n2="Linkvertise" if i%2 else "BitLabs", rel=rel))
