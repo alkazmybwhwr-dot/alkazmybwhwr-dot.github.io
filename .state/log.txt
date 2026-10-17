@@ -154,3 +154,13 @@ treasury 0.0
 balance 0.000000 / min 5.00
 status ok
 report ok
+  ✓ رُبط 2 مفتاحًا تلقائيًا
+  جُرّبت: 2 · رُبطت: 0
+     · ADSTERRA → stats 401
+     · TMDB_KEY → configuration 200
+ledger: 0 قيد · 0 مكسور
+لا عناصر
+treasury 0.0
+balance 0.000000 / min 5.00
+status ok
+report ok
