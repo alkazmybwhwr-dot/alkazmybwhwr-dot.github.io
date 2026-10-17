@@ -2,10 +2,10 @@
  "t": "2026-10-16T21:51:21Z",
  "seq": 1,
  "next": "+5 دقائق",
- "updated": "2026-10-17T03:23:00.143568+00:00",
- "cycle": 43,
- "visits": 0,
- "impressions": 0,
+ "updated": "2026-10-17T17:19:32.379831+00:00",
+ "cycle": 44,
+ "visits": 10,
+ "impressions": 16,
  "clicks": 0,
  "source": "abacus/counterapi (حقيقي)"
 }

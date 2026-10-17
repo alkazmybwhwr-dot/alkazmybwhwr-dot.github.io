@@ -5,6 +5,7 @@ run(){ [ -f "$1" ] && python3 "$1" >>"$LOG" 2>&1 || true; }
 run tools/apply_keys.py
 run tools/pull_counts.py
 run tools/revenue_pull.py
+run tools/agent_tasks.py
 run tools/treasury.py
 run tools/ledger.py
 run tools/insights.py
