@@ -1,5 +1,5 @@
 {
- "at": "2026-10-17T17:37:14.318587+00:00",
+ "at": "2026-10-17T17:38:35.427532+00:00",
  "live": {
   "index.html": 200,
   "library.html": 200,
@@ -21,7 +21,7 @@
   "surveys.html": 200,
   "audit.html": 200,
   "live-dash.html": 200,
-  "diag.html": 404,
+  "diag.html": 200,
   "nav.js": 200,
   "ads.js": 200,
   "authtoken.js": 200,
@@ -39,10 +39,9 @@
   "rss.xml": 200,
   "robots.txt": 200
  },
- "ok": 34,
+ "ok": 35,
  "total": 37,
  "missing": [
-  "diag.html",
   "auth.json",
   "tasks.json"
  ],
@@ -55,16 +54,16 @@
  "agent": {
   "ad_requests": 0,
   "browse_runs": 0,
-  "cycles": 45,
-  "rewards": 0.0135,
+  "cycles": 46,
+  "rewards": 0.018,
   "valid_keys": 0,
   "keys_total": 0
  },
  "money": {
-  "balance": 0.0135,
+  "balance": 0.018,
   "buckets": {
    "ads": 0.0,
-   "rewards": 0.0135,
+   "rewards": 0.018,
    "commissions": 0.0,
    "gifts": 0.0,
    "surveys": 0.0,
