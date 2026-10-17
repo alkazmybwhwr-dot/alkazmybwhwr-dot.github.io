@@ -412,7 +412,66 @@
      "updated": "2026-10-17T07:44:15.241408+00:00"
     }
    }
+  },
+  {
+   "i": 8,
+   "t": "2026-10-17T08:46:27.824862+00:00",
+   "prev": "f2ba3f0c5c6be765f35f45c9964d687d8a6531f6de06a533b0ed9426554a1212",
+   "h": "2ada64daa1a3d6cd08ce9b15dd47c140f78ad54e95269d247fc2d891cd4d1671",
+   "snap": {
+    "t": "2026-10-17T08:46:27.824862+00:00",
+    "counts": {
+     "visits": 5,
+     "impressions": 4,
+     "clicks": 0
+    },
+    "revenue": {
+     "confirmed_total": 0.0,
+     "sources": [
+      {
+       "net": "Adsterra",
+       "ok": false,
+       "http": "HTTP Error 401: Unauthorized",
+       "value": 0
+      },
+      {
+       "net": "Monetag",
+       "ok": false,
+       "http": "لا مفتاح",
+       "value": 0
+      },
+      {
+       "net": "Linkvertise",
+       "ok": false,
+       "http": "لا مفتاح",
+       "value": 0
+      }
+     ],
+     "estimated": {
+      "impressions": 4,
+      "assumed_cpm": 1.5,
+      "value": 0.006,
+      "note": "تقديري = ظهور حقيقي × CPM مفترض معلن"
+     },
+     "updated": "2026-10-17T08:46:27.778891+00:00"
+    },
+    "treasury": {
+     "buckets": {
+      "ads": 0.0,
+      "rewards": 0.0,
+      "commissions": 0.0,
+      "gifts": 0.0,
+      "surveys": 0.0,
+      "links": 0.0,
+      "referral": 0.0
+     },
+     "balance": 0.0,
+     "withdrawable": 0.0,
+     "min": 5.0,
+     "updated": "2026-10-17T08:46:27.803882+00:00"
+    }
+   }
   }
  ],
- "last": "f2ba3f0c5c6be765f35f45c9964d687d8a6531f6de06a533b0ed9426554a1212"
+ "last": "2ada64daa1a3d6cd08ce9b15dd47c140f78ad54e95269d247fc2d891cd4d1671"
 }
