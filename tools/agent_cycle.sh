@@ -12,7 +12,9 @@ run tools/insights.py
 run tools/adult_networks.py
 ADULT_MAX=200 run tools/ingest_adult.py
 run tools/adult_pages.py
+run tools/platforms_plus.py
 run tools/gates.py
+run tools/diag.py
 run tools/status.py
 run tools/report.py
 run tools/agent_log.py

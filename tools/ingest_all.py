@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""يجلب آلاف الأفلام + مقاطع الكبار — بمعالجة حقول القوائم"""
 import json,os,re,urllib.request,urllib.parse,datetime,random
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); os.chdir(ROOT)
 UA={"User-Agent":"Mozilla/5.0 (cinehub3099)"}
-FILM_MAX=int(os.environ.get("FILM_MAX","3000")); ADULT_MAX=int(os.environ.get("ADULT_MAX","1200"))
 def s(v):
     if v is None: return ""
     if isinstance(v,list): return " ".join(str(i) for i in v)
@@ -24,7 +21,7 @@ SUBJ=[("كوميديا","عائلي","comedy"),("دراما","+13","drama"),("م
 ("إثارة","+13","thriller")]
 films={}
 for cat,age,q in SUBJ:
-    for page in (1,2):
+    for page in (1,2,3):
         u=("https://archive.org/advancedsearch.php?q="+urllib.parse.quote("mediatype:movies AND subject:(%s)"%q)+
            "&rows=100&page=%d&output=json&sort[]=downloads+desc"%page+
            "&fl[]=identifier&fl[]=title&fl[]=year&fl[]=subject&fl[]=downloads")
@@ -36,14 +33,13 @@ for cat,age,q in SUBJ:
             films[i]={"i":i,"t":t[:95],"y":s(x.get("year"))[:4],"c":cat,"a":age,
                       "th":"https://archive.org/services/img/"+i,"e":"https://archive.org/embed/"+i,
                       "k":"iframe","s":"archive.org","v":int(x.get("downloads") or 0)}
-    print("  فيلم",cat,len(films))
-fl=list(films.values()); random.shuffle(fl); fl=fl[:FILM_MAX]
+fl=list(films.values()); random.shuffle(fl)
 json.dump({"generated":datetime.datetime.now(datetime.timezone.utc).isoformat(),"count":len(fl),
            "cats":sorted({x["c"] for x in fl}),"ages":["كل الأعمار","عائلي","+12","+13"],"items":fl},
           open("catalog.json","w"),ensure_ascii=False,separators=(",",":"))
 json.dump({"count":len(fl),"cats":sorted({x["c"] for x in fl})},open("films.json","w"),ensure_ascii=False)
 print("أفلام:",len(fl))
-def src_iframe(x):
+def emb(x):
     m=re.search(r'src=["\']([^"\']+)',s(x)); return m.group(1) if m else ""
 ad={}
 for o in ["top-weekly","top-monthly","top-all-time","top-rated","latest","longest","most-popular"]:
@@ -53,10 +49,9 @@ for o in ["top-weekly","top-monthly","top-all-time","top-rated","latest","longes
         i=s(v.get("id"))
         if not i or i in ad: continue
         ad[i]={"i":i,"t":re.sub(r"\s+"," ",s(v.get("title")).strip())[:95],"d":s(v.get("duration")),
-               "th":s((v.get("default_thumb") or {}).get("src")),"e":src_iframe(v.get("embed")),
-               "g":",".join([s(t.get("tag")) for t in (v.get("tags") or [])][:6]),"k":"iframe","s":"Eporner",
-               "v":int(v.get("views") or 0)}
-for pg in range(1,11):
+               "th":s((v.get("default_thumb") or {}).get("src")),"e":emb(v.get("embed")),
+               "g":",".join([s(t.get("tag")) for t in (v.get("tags") or [])][:6]),"k":"iframe","s":"Eporner","v":int(v.get("views") or 0)}
+for pg in range(1,13):
     d=j("https://api.redtube.com/?data=redtube.Videos.searchVideos&output=json&thumbsize=big&page=%d&ordering=newest"%pg)
     if not d: continue
     for w in d.get("videos",[]):
@@ -65,7 +60,7 @@ for pg in range(1,11):
         ad[i]={"i":i,"t":re.sub(r"\s+"," ",s(v.get("title")).strip())[:95],"d":s(v.get("duration")),
                "th":s(v.get("thumb")),"e":s(v.get("embed_url")),"g":",".join([s(t) for t in (v.get("tags") or [])][:6]),
                "k":"iframe","s":"RedTube","v":int(v.get("views") or 0)}
-al=[x for x in ad.values() if x["e"] and x["t"]]; random.shuffle(al); al=al[:ADULT_MAX]
+al=[x for x in ad.values() if x["e"] and x["t"]]; random.shuffle(al)
 tg={}
 for x in al:
     for t in x["g"].split(","):

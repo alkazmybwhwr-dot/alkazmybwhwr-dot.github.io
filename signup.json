@@ -1265,5 +1265,621 @@
   "min": "$50",
   "url": "https://bongacash.com",
   "var": "BONGACASH_KEY"
+ },
+ {
+  "name": "AdThrive",
+  "cat": "إعلانات",
+  "min": "$5",
+  "url": "https://www.adthrive.com",
+  "var": "ADTHRIVE_KEY"
+ },
+ {
+  "name": "Raptive",
+  "cat": "إعلانات",
+  "min": "$5",
+  "url": "https://raptive.com",
+  "var": "RAPTIVE_KEY"
+ },
+ {
+  "name": "Monumetric",
+  "cat": "إعلانات",
+  "min": "$5",
+  "url": "https://www.monumetric.com",
+  "var": "MONUMETRIC_KEY"
+ },
+ {
+  "name": "Freestar",
+  "cat": "إعلانات",
+  "min": "$5",
+  "url": "https://freestar.com",
+  "var": "FREESTAR_KEY"
+ },
+ {
+  "name": "AdPushup",
+  "cat": "إعلانات",
+  "min": "$5",
+  "url": "https://www.adpushup.com",
+  "var": "ADPUSHUP_KEY"
+ },
+ {
+  "name": "Adapex",
+  "cat": "إعلانات",
+  "min": "$5",
+  "url": "https://adapex.io",
+  "var": "ADAPEX_KEY"
+ },
+ {
+  "name": "Sulvo",
+  "cat": "إعلانات",
+  "min": "$5",
+  "url": "https://sulvo.com",
+  "var": "SULVO_KEY"
+ },
+ {
+  "name": "Vidoomy",
+  "cat": "إعلانات",
+  "min": "$5",
+  "url": "https://vidoomy.com",
+  "var": "VIDOOMY_KEY"
+ },
+ {
+  "name": "AdPlayer.Pro",
+  "cat": "إعلانات",
+  "min": "$5",
+  "url": "https://adplayer.pro",
+  "var": "ADPLAYER_PRO_KEY"
+ },
+ {
+  "name": "VideoByte",
+  "cat": "إعلانات",
+  "min": "$5",
+  "url": "https://videobyte.com",
+  "var": "VIDEOBYTE_KEY"
+ },
+ {
+  "name": "Exponential",
+  "cat": "إعلانات",
+  "min": "$5",
+  "url": "https://exponential.com",
+  "var": "EXPONENTIAL_KEY"
+ },
+ {
+  "name": "Plista",
+  "cat": "إعلانات",
+  "min": "$5",
+  "url": "https://www.plista.com",
+  "var": "PLISTA_KEY"
+ },
+ {
+  "name": "Dianomi",
+  "cat": "إعلانات",
+  "min": "$5",
+  "url": "https://www.dianomi.com",
+  "var": "DIANOMI_KEY"
+ },
+ {
+  "name": "Zemanta",
+  "cat": "إعلانات",
+  "min": "$5",
+  "url": "https://www.zemanta.com",
+  "var": "ZEMANTA_KEY"
+ },
+ {
+  "name": "Adyoulike",
+  "cat": "إعلانات",
+  "min": "$5",
+  "url": "https://www.adyoulike.com",
+  "var": "ADYOULIKE_KEY"
+ },
+ {
+  "name": "Sirdata",
+  "cat": "إعلانات",
+  "min": "$5",
+  "url": "https://www.sirdata.com",
+  "var": "SIRDATA_KEY"
+ },
+ {
+  "name": "AdultAdWorld",
+  "cat": "كبار",
+  "min": "$5",
+  "url": "https://adultadworld.com",
+  "var": "ADULTADWORLD_KEY"
+ },
+ {
+  "name": "ExoGroup",
+  "cat": "كبار",
+  "min": "$5",
+  "url": "https://www.exogroup.com",
+  "var": "EXOGROUP_KEY"
+ },
+ {
+  "name": "TrafficShop",
+  "cat": "كبار",
+  "min": "$5",
+  "url": "https://trafficshop.com",
+  "var": "TRAFFICSHOP_KEY"
+ },
+ {
+  "name": "Recreativ",
+  "cat": "كبار",
+  "min": "$5",
+  "url": "https://recreativ.com",
+  "var": "RECREATIV_KEY"
+ },
+ {
+  "name": "M4trix",
+  "cat": "CPA",
+  "min": "$5",
+  "url": "https://m4trix.co",
+  "var": "M4TRIX_KEY"
+ },
+ {
+  "name": "AlgoAffiliates",
+  "cat": "CPA",
+  "min": "$5",
+  "url": "https://algoaffiliates.com",
+  "var": "ALGOAFFILIATES_KEY"
+ },
+ {
+  "name": "Adcell",
+  "cat": "CPA",
+  "min": "$5",
+  "url": "https://www.adcell.com",
+  "var": "ADCELL_KEY"
+ },
+ {
+  "name": "Tradetracker",
+  "cat": "CPA",
+  "min": "$5",
+  "url": "https://www.tradetracker.com",
+  "var": "TRADETRACKER_KEY"
+ },
+ {
+  "name": "Zanox",
+  "cat": "CPA",
+  "min": "$5",
+  "url": "https://www.zanox.com",
+  "var": "ZANOX_KEY"
+ },
+ {
+  "name": "Public-Idées",
+  "cat": "CPA",
+  "min": "$5",
+  "url": "https://www.public-idees.com",
+  "var": "PUBLIC_ID_ES_KEY"
+ },
+ {
+  "name": "Cake",
+  "cat": "CPA",
+  "min": "$5",
+  "url": "https://www.cake.com",
+  "var": "CAKE_KEY"
+ },
+ {
+  "name": "Post Affiliate Pro",
+  "cat": "CPA",
+  "min": "$5",
+  "url": "https://www.postaffiliatepro.com",
+  "var": "POST_AFFILIATE_PRO_KEY"
+ },
+ {
+  "name": "HasOffers",
+  "cat": "CPA",
+  "min": "$5",
+  "url": "https://www.hasoffers.com",
+  "var": "HASOFFERS_KEY"
+ },
+ {
+  "name": "Tapfiliate",
+  "cat": "CPA",
+  "min": "$5",
+  "url": "https://tapfiliate.com",
+  "var": "TAPFILIATE_KEY"
+ },
+ {
+  "name": "FirstPromoter",
+  "cat": "CPA",
+  "min": "$5",
+  "url": "https://firstpromoter.com",
+  "var": "FIRSTPROMOTER_KEY"
+ },
+ {
+  "name": "Rewardful",
+  "cat": "CPA",
+  "min": "$5",
+  "url": "https://www.rewardful.com",
+  "var": "REWARDFUL_KEY"
+ },
+ {
+  "name": "Refersion",
+  "cat": "CPA",
+  "min": "$5",
+  "url": "https://www.refersion.com",
+  "var": "REFERSION_KEY"
+ },
+ {
+  "name": "BuyGoods",
+  "cat": "CPA",
+  "min": "$5",
+  "url": "https://www.buygoods.com",
+  "var": "BUYGOODS_KEY"
+ },
+ {
+  "name": "Smash Loud",
+  "cat": "CPA",
+  "min": "$5",
+  "url": "https://smashloud.com",
+  "var": "SMASH_LOUD_KEY"
+ },
+ {
+  "name": "MaxWeb",
+  "cat": "CPA",
+  "min": "$5",
+  "url": "https://maxweb.com",
+  "var": "MAXWEB_KEY"
+ },
+ {
+  "name": "Adikteev",
+  "cat": "استطلاعات",
+  "min": "$5",
+  "url": "https://www.adikteev.com",
+  "var": "ADIKTEEV_KEY"
+ },
+ {
+  "name": "Survey Sampling",
+  "cat": "استطلاعات",
+  "min": "$5",
+  "url": "https://www.surveysampling.com",
+  "var": "SURVEY_SAMPLING_KEY"
+ },
+ {
+  "name": "Attapoll",
+  "cat": "استطلاعات",
+  "min": "$5",
+  "url": "https://attapoll.app",
+  "var": "ATTAPOLL_KEY"
+ },
+ {
+  "name": "Streetbees",
+  "cat": "استطلاعات",
+  "min": "$5",
+  "url": "https://www.streetbees.com",
+  "var": "STREETBEES_KEY"
+ },
+ {
+  "name": "Poll Pay",
+  "cat": "استطلاعات",
+  "min": "$5",
+  "url": "https://pollpay.app",
+  "var": "POLL_PAY_KEY"
+ },
+ {
+  "name": "Tremendous",
+  "cat": "استطلاعات",
+  "min": "$5",
+  "url": "https://www.tremendous.com",
+  "var": "TREMENDOUS_KEY"
+ },
+ {
+  "name": "Linkshortify",
+  "cat": "روابط",
+  "min": "$5",
+  "url": "https://linkshortify.com",
+  "var": "LINKSHORTIFY_KEY"
+ },
+ {
+  "name": "Mdisk Shortner",
+  "cat": "روابط",
+  "min": "$5",
+  "url": "https://mdiskshortner.com",
+  "var": "MDISK_SHORTNER_KEY"
+ },
+ {
+  "name": "TnLink",
+  "cat": "روابط",
+  "min": "$5",
+  "url": "https://tnlink.in",
+  "var": "TNLINK_KEY"
+ },
+ {
+  "name": "Try2Link",
+  "cat": "روابط",
+  "min": "$5",
+  "url": "https://try2link.com",
+  "var": "TRY2LINK_KEY"
+ },
+ {
+  "name": "Short2URL",
+  "cat": "روابط",
+  "min": "$5",
+  "url": "https://short2url.in",
+  "var": "SHORT2URL_KEY"
+ },
+ {
+  "name": "Sub2Unlock",
+  "cat": "روابط",
+  "min": "$5",
+  "url": "https://sub2unlock.com",
+  "var": "SUB2UNLOCK_KEY"
+ },
+ {
+  "name": "FC.lc",
+  "cat": "روابط",
+  "min": "$5",
+  "url": "https://fc.lc",
+  "var": "FC_LC_KEY"
+ },
+ {
+  "name": "Payouts.click",
+  "cat": "روابط",
+  "min": "$5",
+  "url": "https://payouts.click",
+  "var": "PAYOUTS_CLICK_KEY"
+ },
+ {
+  "name": "Binance P2P",
+  "cat": "دفع",
+  "min": "$5",
+  "url": "https://p2p.binance.com",
+  "var": "BINANCE_P2P_KEY"
+ },
+ {
+  "name": "Bybit",
+  "cat": "دفع",
+  "min": "$5",
+  "url": "https://www.bybit.com",
+  "var": "BYBIT_KEY"
+ },
+ {
+  "name": "OKX",
+  "cat": "دفع",
+  "min": "$5",
+  "url": "https://www.okx.com",
+  "var": "OKX_KEY"
+ },
+ {
+  "name": "MEXC",
+  "cat": "دفع",
+  "min": "$5",
+  "url": "https://www.mexc.com",
+  "var": "MEXC_KEY"
+ },
+ {
+  "name": "Bitget",
+  "cat": "دفع",
+  "min": "$5",
+  "url": "https://www.bitget.com",
+  "var": "BITGET_KEY"
+ },
+ {
+  "name": "WhiteBIT",
+  "cat": "دفع",
+  "min": "$5",
+  "url": "https://whitebit.com",
+  "var": "WHITEBIT_KEY"
+ },
+ {
+  "name": "Gate.io",
+  "cat": "دفع",
+  "min": "$5",
+  "url": "https://www.gate.io",
+  "var": "GATE_IO_KEY"
+ },
+ {
+  "name": "Kraken",
+  "cat": "دفع",
+  "min": "$5",
+  "url": "https://www.kraken.com",
+  "var": "KRAKEN_KEY"
+ },
+ {
+  "name": "Coinbase",
+  "cat": "دفع",
+  "min": "$5",
+  "url": "https://www.coinbase.com",
+  "var": "COINBASE_KEY"
+ },
+ {
+  "name": "NOWPayments",
+  "cat": "دفع",
+  "min": "$5",
+  "url": "https://nowpayments.io",
+  "var": "NOWPAYMENTS_KEY"
+ },
+ {
+  "name": "Paxum",
+  "cat": "دفع",
+  "min": "$5",
+  "url": "https://www.paxum.com",
+  "var": "PAXUM_KEY"
+ },
+ {
+  "name": "Payeer",
+  "cat": "دفع",
+  "min": "$5",
+  "url": "https://payeer.com",
+  "var": "PAYEER_KEY"
+ },
+ {
+  "name": "AdvCash",
+  "cat": "دفع",
+  "min": "$5",
+  "url": "https://advcash.com",
+  "var": "ADVCASH_KEY"
+ },
+ {
+  "name": "Skrill",
+  "cat": "دفع",
+  "min": "$5",
+  "url": "https://www.skrill.com",
+  "var": "SKRILL_KEY"
+ },
+ {
+  "name": "MetaMask",
+  "cat": "دفع",
+  "min": "$5",
+  "url": "https://metamask.io",
+  "var": "METAMASK_KEY"
+ },
+ {
+  "name": "Tether TRC20",
+  "cat": "دفع",
+  "min": "$5",
+  "url": "https://tether.to",
+  "var": "TETHER_TRC20_KEY"
+ },
+ {
+  "name": "AirTM",
+  "cat": "دفع",
+  "min": "$5",
+  "url": "https://airtm.com",
+  "var": "AIRTM_KEY"
+ },
+ {
+  "name": "Wise",
+  "cat": "دفع",
+  "min": "$5",
+  "url": "https://wise.com",
+  "var": "WISE_KEY"
+ },
+ {
+  "name": "Western Union",
+  "cat": "دفع",
+  "min": "$5",
+  "url": "https://www.westernunion.com",
+  "var": "WESTERN_UNION_KEY"
+ },
+ {
+  "name": "Internet Archive",
+  "cat": "محتوى",
+  "min": "$5",
+  "url": "https://archive.org",
+  "var": "INTERNET_ARCHIVE_KEY"
+ },
+ {
+  "name": "Wikimedia Commons",
+  "cat": "محتوى",
+  "min": "$5",
+  "url": "https://commons.wikimedia.org",
+  "var": "WIKIMEDIA_COMMONS_KEY"
+ },
+ {
+  "name": "Project Gutenberg",
+  "cat": "محتوى",
+  "min": "$5",
+  "url": "https://www.gutenberg.org",
+  "var": "PROJECT_GUTENBERG_KEY"
+ },
+ {
+  "name": "Dailymotion",
+  "cat": "محتوى",
+  "min": "$5",
+  "url": "https://www.dailymotion.com",
+  "var": "DAILYMOTION_KEY"
+ },
+ {
+  "name": "PeerTube",
+  "cat": "محتوى",
+  "min": "$5",
+  "url": "https://joinpeertube.org",
+  "var": "PEERTUBE_KEY"
+ },
+ {
+  "name": "LBRY",
+  "cat": "محتوى",
+  "min": "$5",
+  "url": "https://lbry.com",
+  "var": "LBRY_KEY"
+ },
+ {
+  "name": "Odysee",
+  "cat": "محتوى",
+  "min": "$5",
+  "url": "https://odysee.com",
+  "var": "ODYSEE_KEY"
+ },
+ {
+  "name": "Vimeo",
+  "cat": "محتوى",
+  "min": "$5",
+  "url": "https://vimeo.com",
+  "var": "VIMEO_KEY"
+ },
+ {
+  "name": "Eporner",
+  "cat": "محتوى",
+  "min": "$5",
+  "url": "https://www.eporner.com",
+  "var": "EPORNER_KEY"
+ },
+ {
+  "name": "RedTube",
+  "cat": "محتوى",
+  "min": "$5",
+  "url": "https://www.redtube.com",
+  "var": "REDTUBE_KEY"
+ },
+ {
+  "name": "Pornhub",
+  "cat": "محتوى",
+  "min": "$5",
+  "url": "https://www.pornhub.com",
+  "var": "PORNHUB_KEY"
+ },
+ {
+  "name": "xHamster",
+  "cat": "محتوى",
+  "min": "$5",
+  "url": "https://xhamster.com",
+  "var": "XHAMSTER_KEY"
+ },
+ {
+  "name": "XVideos",
+  "cat": "محتوى",
+  "min": "$5",
+  "url": "https://www.xvideos.com",
+  "var": "XVIDEOS_KEY"
+ },
+ {
+  "name": "XNXX",
+  "cat": "محتوى",
+  "min": "$5",
+  "url": "https://www.xnxx.com",
+  "var": "XNXX_KEY"
+ },
+ {
+  "name": "SpankBang",
+  "cat": "محتوى",
+  "min": "$5",
+  "url": "https://spankbang.com",
+  "var": "SPANKBANG_KEY"
+ },
+ {
+  "name": "TNAFlix",
+  "cat": "محتوى",
+  "min": "$5",
+  "url": "https://www.tnaflix.com",
+  "var": "TNAFLIX_KEY"
+ },
+ {
+  "name": "HQPorner",
+  "cat": "محتوى",
+  "min": "$5",
+  "url": "https://hqporner.com",
+  "var": "HQPORNER_KEY"
+ },
+ {
+  "name": "PornTrex",
+  "cat": "محتوى",
+  "min": "$5",
+  "url": "https://porntrex.com",
+  "var": "PORNTREX_KEY"
+ },
+ {
+  "name": "AdultEmpire",
+  "cat": "محتوى",
+  "min": "$5",
+  "url": "https://www.adultempire.com",
+  "var": "ADULTEMPIRE_KEY"
  }
 ]

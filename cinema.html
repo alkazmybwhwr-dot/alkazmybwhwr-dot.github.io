@@ -1,46 +1,17 @@
-<!doctype html><html lang="ar" dir="rtl"><head>
-<script src="killsw.js?v=3099-1792196423"></script>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>سينما مجانية · CineHub 3099</title><style>
-body{margin:0;background:#0a0e1a;color:#e8f6ff;font:15px/1.7 system-ui,Tahoma;padding:14px}.wrap{max-width:1000px;margin:auto}
-.grid{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
-.card{background:#111827;border:1px solid #1e2a44;border-radius:12px;padding:10px;cursor:pointer}
-.card:hover{border-color:#4dd0e1}.l{color:#8aa0bd;font-size:12px}
-select,input{background:#0d1424;border:1px solid #1e2a44;color:#e8f6ff;border-radius:9px;padding:9px}
-iframe{width:100%;height:62vh;border:0;border-radius:12px;background:#000}
-</style>
-</head><body><div class="wrap">
-<h1>سينما مجانية — أفلام ملك عام (archive.org)</h1>
-<div class="l">قانونية 100%، تُشاهد داخل التطبيق، وتُدرّ إعلانات + نقرات روابط مدفوعة. <b>مشاهدة واحدة = ربح.</b></div>
-<div style="display:flex;gap:8px;flex-wrap:wrap;margin:10px 0"><select id="c"></select><input id="q" placeholder="ابحث…" oninput="draw()"><span class="l" id="st"></span></div>
-<div id="pl" style="display:none;margin:10px 0"><iframe id="fr" allowfullscreen></iframe><div id="ti" class="l"></div></div>
-<div class="grid" id="g"></div>
-</div><script src="/ledger.js"></script>
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>سينما — CineHub 3099</title>
+<style>body{font-family:system-ui,Tahoma,sans-serif;background:#070b10;color:#e9f1f8;margin:0;padding:14px 14px 70px;line-height:1.8}
+a{color:#4cc2ff}.box{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:13px;margin:11px 0}
+.c{color:#8ea3b8;font-size:13px}.big{font-size:24px;font-weight:800}.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px}
+.cd{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:12px;overflow:hidden;text-decoration:none;color:inherit}
+.cd img{width:100%;height:150px;object-fit:cover;display:block}.cd b{font-size:12.5px;display:block;padding:7px}</style></head><body>
+<h1>سينما</h1><div id="b" class="c">…</div><div class="g" id="g"></div>
 <script>
-var D={},list=[];
-function watch(id,t,embed){document.getElementById('pl').style.display='block';
- document.getElementById('fr').src=embed;document.getElementById('ti').textContent=t;
- if(window.CHLedger)CHLedger.bonus(0.0008,'watch');
- if(window.CHBeacon)CHBeacon.hit('archive_views');
- location.hash=id;window.scrollTo(0,0);
- try{localStorage.setItem('ch_watched',String((+(localStorage.getItem('ch_watched')||0))+1))}catch(e){}
- document.getElementById('st').textContent='مشاهداتك: '+(localStorage.getItem('ch_watched')||0)+' · +$0.0008 أُضيف';}
-function draw(){var c=document.getElementById('c').value,q=(document.getElementById('q').value||'').toLowerCase();
- list=[];Object.keys(D).forEach(function(k){if(c&&c!==k)return;(D[k]||[]).forEach(function(x){if(!q||x.t.toLowerCase().indexOf(q)>-1)list.push(x)})});
- list=list.slice(0,120);
- document.getElementById('g').innerHTML=list.map(function(x){
-  return '<div class="card" onclick="watch(\''+x.id+'\',\''+x.t.replace(/'/g,"")+'\',\''+x.embed+'\')"><b>'+x.t.slice(0,52)+'</b><div class="l">'+(x.y||'')+' · '+x.dl.toLocaleString('en')+' تحميل</div></div>'}).join('')||'<p class="l">لا نتائج</p>';}
-fetch('/data/archive.json?t='+Date.now()).then(r=>r.json()).then(function(j){D=j.cols||{};
- document.getElementById('c').innerHTML='<option value="">كل الأقسام</option>'+Object.keys(D).map(k=>'<option value="'+k+'">'+k+' ('+(D[k]||[]).length+')</option>').join('');
- draw(); if(location.hash.length>2){var id=location.hash.slice(1);list.forEach(function(x){if(x.id===id)watch(x.id,x.t,x.embed)})}}).catch(function(){});
-</script><script src="/ads.js" defer></script><script src="/owner.js" defer></script><script src="/comments.js" defer></script>
-<script src="/authtoken.js" defer></script>
-<script src="/cloud.js" defer></script>
-<script src="/captcha.js" defer></script>
-<script src="/beacon.js" defer></script>
+(function(){function g(u){return fetch(u+"?_="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null});}
 
-
-<script src="boot.js?v=3099-1792196423" defer></script>
-<script src="track.js?v=3099-1792196423" defer></script>
-<script src="ads.js?v=3099-1792197840" defer></script>
-</body></html>
+g("catalog.json").then(function(d){if(!d){document.getElementById("b").textContent="لا كتالوج";return;}
+var a=d.items.filter(function(x){return ["دراما","رومانسي","مغامرات","غربي","إثارة","جريمة"].indexOf(x.c)>-1;});
+document.getElementById("b").textContent=a.length+" فيلم سينمائي · <a href=\"library.html\">المكتبة</a>";
+document.getElementById("g").innerHTML=a.slice(0,36).map(function(x){return "<a class=cd href=\"play.html?id="+encodeURIComponent(x.i)+"\"><img loading=lazy src=\""+x.th+"\"><b>"+x.t+"</b></a>";}).join("");});
+})();
+</script></body></html>

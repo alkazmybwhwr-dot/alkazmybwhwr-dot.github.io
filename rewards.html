@@ -1,86 +1,18 @@
-<!doctype html><html lang="ar" dir="rtl"><head>
-<script src="killsw.js?v=3099-1792196423"></script>
-
-<!--hreflang-->
-<link rel="alternate" hreflang="en" href="https://alkazmybwhwr-dot.github.io/en/">
-<link rel="alternate" hreflang="es" href="https://alkazmybwhwr-dot.github.io/es/">
-<link rel="alternate" hreflang="fr" href="https://alkazmybwhwr-dot.github.io/fr/">
-<link rel="alternate" hreflang="id" href="https://alkazmybwhwr-dot.github.io/id/">
-<link rel="alternate" hreflang="pt" href="https://alkazmybwhwr-dot.github.io/pt/">
-<link rel="alternate" hreflang="tr" href="https://alkazmybwhwr-dot.github.io/tr/">
-<link rel="alternate" hreflang="ar" href="https://alkazmybwhwr-dot.github.io/ar/">
-<link rel="alternate" hreflang="x-default" href="https://alkazmybwhwr-dot.github.io/">
-<!--/hreflang-->
-
-
-
-
-
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1"><title>المكافآت · CineHub 3099</title>
-<style>:root{--bg:#0a0e1a;--p:#111827;--b:#1e2a44;--t:#e8f6ff;--m:#8aa0c0;--a:#4dd0e1;--g:#22c55e}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--t);font:15px/1.9 system-ui,Tahoma;padding:16px}
-.wrap{max-width:680px;margin:auto}.card{background:var(--p);border:1px solid var(--b);border-radius:14px;padding:16px;margin:12px 0;text-align:center}
-.big{font-size:36px;font-weight:800;color:var(--a)}.l{color:var(--m);font-size:13px}
-button{background:var(--a);color:#04121a;border:0;border-radius:10px;padding:12px 20px;font-weight:800;cursor:pointer}
-button.alt{background:#1b2740;color:var(--t);border:1px solid var(--b)}
-.bar{height:10px;background:#0d1424;border-radius:6px;overflow:hidden;margin:10px 0}
-.bar i{display:block;height:100%;background:var(--a);width:0}
-code{background:#0d1424;padding:4px 8px;border-radius:6px;word-break:break-all}
-</style><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"CineHub 3099","url":"https://alkazmybwhwr-dot.github.io/","potentialAction":{"@type":"SearchAction","target":"https://alkazmybwhwr-dot.github.io/movies.html?q={q}"}}</script><meta property="og:type" content="website"><meta property="og:site_name" content="CineHub 3099"><meta property="og:locale" content="ar_YE"><meta name="twitter:card" content="summary_large_image"><link rel="alternate" type="application/rss+xml" href="/rss.xml"><link rel="stylesheet" href="/theme.css">
-
-</head><body><div class="wrap">
-<h1>مكافآت يومية</h1>
-<div class="card"><div class="l">سلسلتك</div><div class="big" id="st">0</div><div class="l">يوم متواصل</div>
-  <button onclick="cl()">استلم مكافأة اليوم</button><p id="m" class="l"></p></div>
-<div class="card"><h3>افتح Pro مجاناً</h3>
-  <p class="l">ادعُ <b id="tg"></b> أصدقاء → Pro لمدة <b id="dy"></b> أيام</p>
-  <div class="bar"><i id="bar"></i></div>
-  <p class="l" id="pr"></p>
-  <p>رابطك: <code id="rl"></code></p><button class="alt" onclick="cp()">نسخ</button></div>
-<div class="card"><div class="l">نقاطك من المكافآت</div><div class="big" id="pt">$0</div></div>
-<p class="l"><a href="/leaderboard.html">المتصدرون</a> · <a href="/earn.html">اربح</a> · <a href="/favorites.html">مفضلتي</a></p>
-</div>
-<script src="/auth.js" defer></script><script src="/ledger.js" defer></script>
-<script src="/ref.js" defer></script><script src="/viral.js" defer></script>
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>مكافآت — CineHub 3099</title>
+<style>body{font-family:system-ui,Tahoma,sans-serif;background:#070b10;color:#e9f1f8;margin:0;padding:14px 14px 70px;line-height:1.8}
+a{color:#4cc2ff}.box{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:13px;margin:11px 0}
+.c{color:#8ea3b8;font-size:13px}.big{font-size:24px;font-weight:800}.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px}
+.cd{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:12px;overflow:hidden;text-decoration:none;color:inherit}
+.cd img{width:100%;height:150px;object-fit:cover;display:block}.cd b{font-size:12.5px;display:block;padding:7px}</style></head><body>
+<h1>مكافآت</h1><div id="b" class="c">…</div><div class="g" id="g"></div>
 <script>
-function paint(){ var o=CHViral.read(); document.getElementById('st').textContent=o.streak;
-  document.getElementById('pt').textContent='$'+CHViral.points().toFixed(4);
-  document.getElementById('tg').textContent=CHViral.target; document.getElementById('dy').textContent=CHViral.days;
-  var n=CHViral.invites(); document.getElementById('bar').style.width=Math.min(100,n/CHViral.target*100)+'%';
-  document.getElementById('pr').textContent=n+' / '+CHViral.target+' مدعوّين';
-  document.getElementById('rl').textContent=CHRef.link();
-  document.getElementById('m').textContent=CHViral.done()?'✓ استلمت اليوم':'';
-  if(CHViral.done()) document.querySelector('button').disabled=true; }
-document.readyState==='loading'?addEventListener('DOMContentLoaded',paint):paint();
-document.addEventListener('ch:viral',paint);
-function cl(){ var r=CHViral.claim(); document.getElementById('m').textContent=r.ok?('✓ +$'+r.bonus.toFixed(4)+' · سلسلة '+r.streak):r.why; paint(); }
-function cp(){ CHRef.copy(); }
-</script><script src="/captcha.js" defer></script>
-<script src="/rev.js" defer></script>
-<script src="/share.js" defer></script>
-<script src="/ticker.js" defer></script>
-<script src="/payout.js" defer></script>
-<script src="/ads.js" defer></script>
-<script src="/app.js" defer></script>
-<script src="/nav.js" defer></script>
-<script src="/push.js" defer></script>
-<script src="/engage.js" defer></script>
-<script src="/live-earnings.js" defer></script>
-<script src="/linkgo.js" defer></script>
-<script>if(!document.querySelector('a[href="/plan.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/start.html">ابدأ</a><a href="/plan.html">الخطة</a>')}</script>
-<script src="/authtoken.js" defer></script>
-<script src="/upsell.js" defer></script>
-<script src="/hero.js" defer></script>
-<script src="/beacon.js" defer></script>
-<script>if(!document.querySelector('a[href="/live-dash.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/live-dash.html">حيّ</a>')}</script>
-<script src="/cloud.js" defer></script>
-<script src="/comments.js" defer></script>
-<script src="/owner.js" defer></script>
+(function(){function g(u){return fetch(u+"?_="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null});}
 
-
-<script src="boot.js?v=3099-1792196423" defer></script>
-<script src="track.js?v=3099-1792196423" defer></script>
-<script src="ads.js?v=3099-1792197840" defer></script>
-</body></html>
+function g2(u){return fetch(u+"?_="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null});}
+g2("tasks.json").then(function(t){var b=document.getElementById("b");
+if(!t){b.textContent="…";return;}
+b.innerHTML="معدلات معلنة — <a href=\"earn.html\">نفّذ المهام</a>";
+document.getElementById("g").innerHTML=t.tasks.map(function(x){return "<div class=cd style=\"padding:12px\"><b>"+x.t+"</b><span class=c>$"+x.v.toFixed(4)+" · "+x.d+"</span></div>";}).join("");});
+})();
+</script></body></html>

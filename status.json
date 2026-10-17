@@ -1,6 +1,6 @@
 {
  "engine": "live",
- "updated": "2026-10-17T17:19:30.968617+00:00",
+ "updated": "2026-10-17T17:35:31.476070+00:00",
  "revenue": {
   "confirmed_total": 0.0,
   "sources": [
@@ -24,12 +24,12 @@
    }
   ],
   "estimated": {
-   "impressions": 16,
+   "impressions": 19,
    "assumed_cpm": 1.5,
-   "value": 0.024,
+   "value": 0.0285,
    "note": "تقديري = ظهور حقيقي × CPM مفترض معلن"
   },
-  "updated": "2026-10-17T17:18:59.277329+00:00"
+  "updated": "2026-10-17T17:34:04.118430+00:00"
  },
  "ledger": {
   "entries": [
@@ -2038,9 +2038,68 @@
       "updated": "2026-10-17T17:18:59.813935+00:00"
      }
     }
+   },
+   {
+    "i": 35,
+    "t": "2026-10-17T17:34:04.927575+00:00",
+    "prev": "fe00f851482b1716b94f9950cb412048ce0facf9d80086d4c1bc9b8536c5d24d",
+    "h": "8a5da9d4f19d670e6d9cf40902d612bc7b51bb5b95464179d7c85dd8e47805c2",
+    "snap": {
+     "t": "2026-10-17T17:34:04.927575+00:00",
+     "counts": {
+      "visits": 11,
+      "impressions": 19,
+      "clicks": 0
+     },
+     "revenue": {
+      "confirmed_total": 0.0,
+      "sources": [
+       {
+        "net": "Adsterra",
+        "ok": false,
+        "http": "HTTP Error 401: Unauthorized",
+        "value": 0
+       },
+       {
+        "net": "Monetag",
+        "ok": false,
+        "http": "لا مفتاح",
+        "value": 0
+       },
+       {
+        "net": "Linkvertise",
+        "ok": false,
+        "http": "لا مفتاح",
+        "value": 0
+       }
+      ],
+      "estimated": {
+       "impressions": 19,
+       "assumed_cpm": 1.5,
+       "value": 0.0285,
+       "note": "تقديري = ظهور حقيقي × CPM مفترض معلن"
+      },
+      "updated": "2026-10-17T17:34:04.118430+00:00"
+     },
+     "treasury": {
+      "buckets": {
+       "ads": 0.0,
+       "rewards": 0.009,
+       "commissions": 0.0,
+       "gifts": 0.0,
+       "surveys": 0.0,
+       "links": 0.0,
+       "referral": 0.0
+      },
+      "balance": 0.009,
+      "withdrawable": 0.009,
+      "min": 5.0,
+      "updated": "2026-10-17T17:34:04.660273+00:00"
+     }
+    }
    }
   ],
-  "last": "fe00f851482b1716b94f9950cb412048ce0facf9d80086d4c1bc9b8536c5d24d"
+  "last": "8a5da9d4f19d670e6d9cf40902d612bc7b51bb5b95464179d7c85dd8e47805c2"
  },
  "registry": {
   "generated": "2026-10-17T00:24:23.264087+00:00",
