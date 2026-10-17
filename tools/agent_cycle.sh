@@ -2,11 +2,17 @@
 set -u
 cd "$(dirname "$0")/.."; mkdir -p .state; LOG=.state/log.txt
 run(){ [ -f "$1" ] && python3 "$1" >>"$LOG" 2>&1 || true; }
-run tools/apply_keys.py; run tools/autodetect.py
-run tools/revenue_pull.py; run tools/revenue.py; run tools/pull_revenue.py
-run tools/ledger.py; run tools/insights.py
+run tools/apply_keys.py
+run tools/pull_counts.py
+run tools/revenue_pull.py
+run tools/treasury.py
+run tools/ledger.py
+run tools/insights.py
+run tools/gates.py
+run tools/status.py
+run tools/report.py
+run tools/withdraw_auto.py
 PLATFORM_TARGET=1000 PAGES_LIMIT="${PAGES_LIMIT:-40}" run tools/pages_gen.py
-run tools/treasury.py; run tools/withdraw_auto.py; run tools/status.py; run tools/report.py
 python3 - <<'PY' >>"$LOG" 2>&1
 import json,datetime
 p="pulse.json"; d={}

@@ -1,1 +1,30 @@
-{"source":"none","ok":false,"impressions":0,"clicks":0,"revenue":0.0,"window_days":30,"by_day":[],"total_seen":0.0,"error":"","fetched_utc":""}
+{
+ "confirmed_total": 0.0,
+ "sources": [
+  {
+   "net": "Adsterra",
+   "ok": false,
+   "http": "HTTP Error 401: Unauthorized",
+   "value": 0
+  },
+  {
+   "net": "Monetag",
+   "ok": false,
+   "http": "لا مفتاح",
+   "value": 0
+  },
+  {
+   "net": "Linkvertise",
+   "ok": false,
+   "http": "لا مفتاح",
+   "value": 0
+  }
+ ],
+ "estimated": {
+  "impressions": 0,
+  "assumed_cpm": 1.5,
+  "value": 0.0,
+  "note": "تقديري = ظهور حقيقي × CPM مفترض معلن"
+ },
+ "updated": "2026-10-17T00:44:22.164879+00:00"
+}
