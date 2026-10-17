@@ -8,6 +8,9 @@ run tools/revenue_pull.py
 run tools/treasury.py
 run tools/ledger.py
 run tools/insights.py
+run tools/adult_networks.py
+ADULT_MAX=200 run tools/ingest_adult.py
+run tools/adult_pages.py
 run tools/gates.py
 run tools/status.py
 run tools/report.py

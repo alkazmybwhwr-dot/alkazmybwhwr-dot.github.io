@@ -236,11 +236,203 @@ agent-log ok
 balance 0.000000 / min 5.00
 لا عناصر
 nets 136 with_key 0
+counts {'visits': 3, 'impressions': 4, 'clicks': 0}
+confirmed 0.000000 | estimated 0.006000 | impressions 4
+treasury 0.0
+ledger 6 eec94b451952
+insights ok
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✓ ظهور حقيقي يُسجَّل — 
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+agent-log ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 181 with_key 0
+counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+confirmed 0.000000 | estimated 0.000000 | impressions 0
+treasury 0.0
+ledger 7 8f1e93b974f2
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+agent-log ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 181 with_key 0
+counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+confirmed 0.000000 | estimated 0.000000 | impressions 0
+treasury 0.0
+ledger 8 546967cd3a96
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+agent-log ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 181 with_key 0
+counts {'visits': 3, 'impressions': 4, 'clicks': 0}
+confirmed 0.000000 | estimated 0.006000 | impressions 4
+treasury 0.0
+ledger 9 5ca6babcd5b7
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✓ ظهور حقيقي يُسجَّل — 
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+agent-log ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 181 with_key 0
+counts {'visits': 3, 'impressions': 4, 'clicks': 0}
+confirmed 0.000000 | estimated 0.006000 | impressions 4
+treasury 0.0
+ledger 10 d8c966bdf7ed
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✓ ظهور حقيقي يُسجَّل — 
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+agent-log ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 181 with_key 0
+counts {'visits': 0, 'impressions': 4, 'clicks': 0}
+confirmed 0.000000 | estimated 0.006000 | impressions 4
+treasury 0.0
+ledger 11 ff71508d64c2
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✓ ظهور حقيقي يُسجَّل — 
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+agent-log ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 181 with_key 0
 counts {'visits': 4, 'impressions': 4, 'clicks': 0}
 confirmed 0.000000 | estimated 0.006000 | impressions 4
 treasury 0.0
-ledger 6 7fcb176cb30d
+ledger 12 a711ff8d8170
 insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
 ✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
 ✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
 ✓ ظهور حقيقي يُسجَّل — 
@@ -250,12 +442,29 @@ report ok
 agent-log ok
 balance 0.000000 / min 5.00
 لا عناصر
-nets 136 with_key 0
+nets 181 with_key 0
 counts {'visits': 4, 'impressions': 4, 'clicks': 0}
 confirmed 0.000000 | estimated 0.006000 | impressions 4
 treasury 0.0
-ledger 7 f2ba3f0c5c6b
+ledger 13 a8e89c48140f
 insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
 ✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
 ✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
 ✓ ظهور حقيقي يُسجَّل — 
@@ -265,45 +474,640 @@ report ok
 agent-log ok
 balance 0.000000 / min 5.00
 لا عناصر
-nets 136 with_key 0
-counts {'visits': 5, 'impressions': 4, 'clicks': 0}
-confirmed 0.000000 | estimated 0.006000 | impressions 4
+nets 181 with_key 0
+counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+confirmed 0.000000 | estimated 0.000000 | impressions 0
 treasury 0.0
-ledger 8 2ada64daa1a3
+ledger 14 60242608da7a
 insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
 ✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
 ✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
-✓ ظهور حقيقي يُسجَّل — 
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
 ✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
 status ok
 report ok
 agent-log ok
 balance 0.000000 / min 5.00
 لا عناصر
-nets 136 with_key 0
-counts {'visits': 6, 'impressions': 4, 'clicks': 0}
-confirmed 0.000000 | estimated 0.006000 | impressions 4
+nets 181 with_key 0
+counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+confirmed 0.000000 | estimated 0.000000 | impressions 0
 treasury 0.0
-ledger 9 6928e6334701
+ledger 15 c58cfc0a9832
 insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
 ✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
 ✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
-✓ ظهور حقيقي يُسجَّل — 
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
 ✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
 status ok
 report ok
 agent-log ok
 balance 0.000000 / min 5.00
 لا عناصر
-nets 136 with_key 0
-counts {'visits': 6, 'impressions': 4, 'clicks': 0}
-confirmed 0.000000 | estimated 0.006000 | impressions 4
+nets 181 with_key 0
+counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+confirmed 0.000000 | estimated 0.000000 | impressions 0
 treasury 0.0
-ledger 10 c025617ede7b
+ledger 16 277c5887e319
 insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
 ✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
 ✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
-✓ ظهور حقيقي يُسجَّل — 
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+agent-log ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 181 with_key 0
+counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+confirmed 0.000000 | estimated 0.000000 | impressions 0
+treasury 0.0
+ledger 17 63af2f9034d5
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+agent-log ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 181 with_key 0
+counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+confirmed 0.000000 | estimated 0.000000 | impressions 0
+treasury 0.0
+ledger 18 1bf1bcd404cc
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+agent-log ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 181 with_key 0
+counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+confirmed 0.000000 | estimated 0.000000 | impressions 0
+treasury 0.0
+ledger 19 4a95002eac01
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+agent-log ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 181 with_key 0
+counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+confirmed 0.000000 | estimated 0.000000 | impressions 0
+treasury 0.0
+ledger 20 184b20848d86
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+agent-log ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 181 with_key 0
+counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+confirmed 0.000000 | estimated 0.000000 | impressions 0
+treasury 0.0
+ledger 21 60cc8c81b46e
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+agent-log ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 181 with_key 0
+counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+confirmed 0.000000 | estimated 0.000000 | impressions 0
+treasury 0.0
+ledger 22 cc026c50d08d
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+agent-log ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 181 with_key 0
+counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+confirmed 0.000000 | estimated 0.000000 | impressions 0
+treasury 0.0
+ledger 23 c5f5f918b440
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+agent-log ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 181 with_key 0
+counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+confirmed 0.000000 | estimated 0.000000 | impressions 0
+treasury 0.0
+ledger 24 1868924b1114
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+agent-log ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 181 with_key 0
+counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+confirmed 0.000000 | estimated 0.000000 | impressions 0
+treasury 0.0
+ledger 25 02b67dd434bc
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+agent-log ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 181 with_key 0
+counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+confirmed 0.000000 | estimated 0.000000 | impressions 0
+treasury 0.0
+ledger 26 484c205e5844
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+agent-log ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 181 with_key 0
+counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+confirmed 0.000000 | estimated 0.000000 | impressions 0
+treasury 0.0
+ledger 27 f3ed8b016f6b
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+agent-log ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 181 with_key 0
+counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+confirmed 0.000000 | estimated 0.000000 | impressions 0
+treasury 0.0
+ledger 28 f84b70e213bf
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+agent-log ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 181 with_key 0
+counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+confirmed 0.000000 | estimated 0.000000 | impressions 0
+treasury 0.0
+ledger 29 2840454ba01e
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+agent-log ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 181 with_key 0
+counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+confirmed 0.000000 | estimated 0.000000 | impressions 0
+treasury 0.0
+ledger 30 cb8aac829c6b
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+agent-log ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 181 with_key 0
+counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+confirmed 0.000000 | estimated 0.000000 | impressions 0
+treasury 0.0
+ledger 31 a4a75acb6c85
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+agent-log ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 181 with_key 0
+counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+confirmed 0.000000 | estimated 0.000000 | impressions 0
+treasury 0.0
+ledger 32 ba162a4e4215
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+agent-log ok
+balance 0.000000 / min 5.00
+لا عناصر
+nets 181 with_key 0
+counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+confirmed 0.000000 | estimated 0.000000 | impressions 0
+treasury 0.0
+ledger 33 824f2653829f
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://www.eporner.com/api/v2/video/search/?query=&per_page <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
+فيديو حقيقي للكبار: 0 | وسوم: 0
+صفحات وسوم: 0
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
 ✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
 status ok
 report ok

@@ -63,7 +63,7 @@ footer{border-top:1px solid rgba(255,255,255,.07);margin-top:34px;padding:20px 0
   <a href="withdraw.html">اسحب</a><a href="link.html">ربط</a>
   <span style="margin-inline-start:auto;display:flex;align-items:center;gap:6px;color:#39d98a;font-size:12.5px">
     <span class="dot"></span><span id="st-eng">live</span></span>
-</div></header>
+<a href="adult.html">🔞 للكبار</a><a href="agent.html">الوكيل</a></div></header>
 <main class="wrap">
   <section class="hero">
     <h1>أفلام مجانية · <span>أرباح حقيقية</span> · سحب للكريمي</h1>
@@ -103,7 +103,7 @@ footer{border-top:1px solid rgba(255,255,255,.07);margin-top:34px;padding:20px 0
  <div class="fstrip" id="fstrip"></div>
  <p class="morep"><a href="library.html">افتح المكتبة كاملة ←</a></p>
 </section>
-</main>
+<section id="adult-block"><h2>🔞 للكبار — فيديو حقيقي</h2><div class="fstrip" id="xstrip"></div><p class="morep"><a href="adult.html">افتح قسم الكبار ←</a></p></section></main>
 <footer><div class="wrap">
   CineHub 3099 · <span id="st-upd">—</span> · alkazmybwhwr-dot.github.io
   <div style="margin-top:6px"><a href="audit.html">السجل الموثّق</a> · <a href="live-dash.html">لوحة المتابعة</a> · <a href="link.html">ربط الحساب</a></div>
@@ -189,4 +189,6 @@ g("catalog.json").then(function(d){
 })();
 </script>
 <script src="ads.js?v=3099-1792197840" defer></script>
-</body></html>
+<script>(function(){function g(u){return fetch(u).then(function(r){return r.ok?r.json():null}).catch(function(){return null});}
+g("adult.json").then(function(d){var b=document.getElementById("xstrip");if(!d||!b)return;
+b.innerHTML=d.items.slice(0,12).map(function(x){return "<a href='adult.html?v="+encodeURIComponent(x.i)+"'><img loading='lazy' src='"+x.th+"'><b>"+x.t+"</b></a>";}).join("");});})();</script></body></html>

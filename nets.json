@@ -1,5 +1,5 @@
 {
- "count": 136,
+ "count": 181,
  "with_key": 0,
  "networks": [
   {
@@ -1087,6 +1087,366 @@
    "min": "-",
    "pay": "USDT / Wire",
    "var": "KURAIMI_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "EroAdvertising",
+   "min": "$25",
+   "pay": "USDT / Wire",
+   "var": "EROADS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "BitterStrawberry",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "BITTER_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AdSpyglass",
+   "min": "$25",
+   "pay": "USDT / Wire",
+   "var": "ADSPYGLASS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Adnium",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "ADNIUM_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "TrafficFactory",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "TRAFFICFACTORY_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "PinkAds",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "PINKADS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Traforama",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "TRAFORAMA_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Clickaine",
+   "min": "$20",
+   "pay": "USDT / Wire",
+   "var": "CLICKAINE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Adamo",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "ADAMO_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "LosPollos",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "LOSPOLLOS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "CrakRevenue",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "CRAKREVENUE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AdCombo",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "ADCOMBO_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "TerraLeads",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "TERRALEADS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Zeydoo",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "ZEYDOO_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Leadbit",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "LEADBIT_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Kma.biz",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "KMA_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Datify",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "DATIFY_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "ClickDealer",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "CLICKDEALER_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Chaturbate",
+   "min": "$20",
+   "pay": "USDT / Wire",
+   "var": "CHATURBATE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Stripchat",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "STRIPCHAT_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "BongaCams",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "BONGACAMS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "LiveJasmin",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "LIVEJASMIN_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Cam4",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "CAM4_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "MyFreeCams",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "MFC_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Flirt4Free",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "FLIRT4FREE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Streamate",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "STREAMATE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "ImLive",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "IMLIVE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Jerkmate",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "JERKMATE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "SkyPrivate",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "SKYPRIVATE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "XloveCam",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "XLOVECAM_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Camsoda",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "CAMSODA_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AdultForce",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "ADULTFORCE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "FanCentro",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "FANCENTRO_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "ManyVids",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "MANYVIDS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Clips4Sale",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "CLIPS4SALE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "IWantClips",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "IWANTCLIPS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Sexier",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "SEXIER_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AdultModa",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "ADULTMODA_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "PornDough",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "PORNDOUGH_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "TrafficHaus",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "TRAFFICHAUS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AdultWebmasterEmpire",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "AWEMPIRE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "GammaEntertainment",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "GAMMA_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "WebcamAffiliates",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "WECAMY_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AdultCams",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "ADULTCAMS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Bongacash",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "BONGACASH_KEY",
    "key": "",
    "has_key": false
   }

@@ -950,5 +950,320 @@
   "min": "-",
   "url": "https://www.alkuraimi.com",
   "var": "KURAIMI_KEY"
+ },
+ {
+  "name": "EroAdvertising",
+  "cat": "إعلانات للكبار",
+  "min": "$25",
+  "url": "https://www.eroadvertising.com",
+  "var": "EROADS_KEY"
+ },
+ {
+  "name": "BitterStrawberry",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://www.bitterstrawberry.com",
+  "var": "BITTER_KEY"
+ },
+ {
+  "name": "AdSpyglass",
+  "cat": "إعلانات للكبار",
+  "min": "$25",
+  "url": "https://www.adspyglass.com",
+  "var": "ADSPYGLASS_KEY"
+ },
+ {
+  "name": "Adnium",
+  "cat": "إعلانات للكبار",
+  "min": "$100",
+  "url": "https://adnium.com",
+  "var": "ADNIUM_KEY"
+ },
+ {
+  "name": "TrafficFactory",
+  "cat": "إعلانات للكبار",
+  "min": "$100",
+  "url": "https://www.trafficfactory.biz",
+  "var": "TRAFFICFACTORY_KEY"
+ },
+ {
+  "name": "PinkAds",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://pinkads.io",
+  "var": "PINKADS_KEY"
+ },
+ {
+  "name": "Traforama",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://traforama.com",
+  "var": "TRAFORAMA_KEY"
+ },
+ {
+  "name": "Clickaine",
+  "cat": "إعلانات للكبار",
+  "min": "$20",
+  "url": "https://clickaine.com",
+  "var": "CLICKAINE_KEY"
+ },
+ {
+  "name": "Adamo",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://adamo.ad",
+  "var": "ADAMO_KEY"
+ },
+ {
+  "name": "LosPollos",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://los-pollos.com",
+  "var": "LOSPOLLOS_KEY"
+ },
+ {
+  "name": "CrakRevenue",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://www.crakrevenue.com",
+  "var": "CRAKREVENUE_KEY"
+ },
+ {
+  "name": "AdCombo",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://adcombo.com",
+  "var": "ADCOMBO_KEY"
+ },
+ {
+  "name": "TerraLeads",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://terraleads.com",
+  "var": "TERRALEADS_KEY"
+ },
+ {
+  "name": "Zeydoo",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://zeydoo.com",
+  "var": "ZEYDOO_KEY"
+ },
+ {
+  "name": "Leadbit",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://leadbit.com",
+  "var": "LEADBIT_KEY"
+ },
+ {
+  "name": "Kma.biz",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://kma.biz",
+  "var": "KMA_KEY"
+ },
+ {
+  "name": "Datify",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://datify.link",
+  "var": "DATIFY_KEY"
+ },
+ {
+  "name": "ClickDealer",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://www.clickdealer.com",
+  "var": "CLICKDEALER_KEY"
+ },
+ {
+  "name": "Chaturbate",
+  "cat": "إعلانات للكبار",
+  "min": "$20",
+  "url": "https://chaturbate.com/affiliates/",
+  "var": "CHATURBATE_KEY"
+ },
+ {
+  "name": "Stripchat",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://stripchat.com/affiliates",
+  "var": "STRIPCHAT_KEY"
+ },
+ {
+  "name": "BongaCams",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://bongacams.com/affiliate",
+  "var": "BONGACAMS_KEY"
+ },
+ {
+  "name": "LiveJasmin",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://www.livejasmin.com/en/affiliate",
+  "var": "LIVEJASMIN_KEY"
+ },
+ {
+  "name": "Cam4",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://www.cam4.com/affiliates",
+  "var": "CAM4_KEY"
+ },
+ {
+  "name": "MyFreeCams",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://www.myfreecams.com/affiliates",
+  "var": "MFC_KEY"
+ },
+ {
+  "name": "Flirt4Free",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://www.flirt4free.com/affiliates",
+  "var": "FLIRT4FREE_KEY"
+ },
+ {
+  "name": "Streamate",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://www.streamate.com/affiliates",
+  "var": "STREAMATE_KEY"
+ },
+ {
+  "name": "ImLive",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://www.imlive.com/affiliates",
+  "var": "IMLIVE_KEY"
+ },
+ {
+  "name": "Jerkmate",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://jerkmate.com/affiliates",
+  "var": "JERKMATE_KEY"
+ },
+ {
+  "name": "SkyPrivate",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://www.skyprivate.com/affiliates",
+  "var": "SKYPRIVATE_KEY"
+ },
+ {
+  "name": "XloveCam",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://www.xlovecam.com/affiliates",
+  "var": "XLOVECAM_KEY"
+ },
+ {
+  "name": "Camsoda",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://www.camsoda.com/affiliates",
+  "var": "CAMSODA_KEY"
+ },
+ {
+  "name": "AdultForce",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://www.adultforce.com",
+  "var": "ADULTFORCE_KEY"
+ },
+ {
+  "name": "FanCentro",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://fancentro.com/affiliates",
+  "var": "FANCENTRO_KEY"
+ },
+ {
+  "name": "ManyVids",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://www.manyvids.com/affiliates",
+  "var": "MANYVIDS_KEY"
+ },
+ {
+  "name": "Clips4Sale",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://www.clips4sale.com/affiliates",
+  "var": "CLIPS4SALE_KEY"
+ },
+ {
+  "name": "IWantClips",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://iwantclips.com/affiliates",
+  "var": "IWANTCLIPS_KEY"
+ },
+ {
+  "name": "Sexier",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://www.sexier.com/affiliates",
+  "var": "SEXIER_KEY"
+ },
+ {
+  "name": "AdultModa",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://www.adultmoda.com",
+  "var": "ADULTMODA_KEY"
+ },
+ {
+  "name": "PornDough",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://www.porndough.com",
+  "var": "PORNDOUGH_KEY"
+ },
+ {
+  "name": "TrafficHaus",
+  "cat": "إعلانات للكبار",
+  "min": "$100",
+  "url": "https://www.traffichaus.com",
+  "var": "TRAFFICHAUS_KEY"
+ },
+ {
+  "name": "AdultWebmasterEmpire",
+  "cat": "إعلانات للكبار",
+  "min": "$100",
+  "url": "https://www.awempire.com",
+  "var": "AWEMPIRE_KEY"
+ },
+ {
+  "name": "GammaEntertainment",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://www.gammae.com/affiliates",
+  "var": "GAMMA_KEY"
+ },
+ {
+  "name": "WebcamAffiliates",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://wecamy.com/affiliates",
+  "var": "WECAMY_KEY"
+ },
+ {
+  "name": "AdultCams",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://www.adultcams.com/affiliates",
+  "var": "ADULTCAMS_KEY"
+ },
+ {
+  "name": "Bongacash",
+  "cat": "إعلانات للكبار",
+  "min": "$50",
+  "url": "https://bongacash.com",
+  "var": "BONGACASH_KEY"
  }
 ]
