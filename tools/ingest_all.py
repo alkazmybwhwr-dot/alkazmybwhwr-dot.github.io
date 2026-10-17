@@ -42,8 +42,8 @@ print("أفلام:",len(fl))
 def emb(x):
     m=re.search(r'src=["\']([^"\']+)',s(x)); return m.group(1) if m else ""
 ad={}
-for o in ["top-weekly","top-monthly","top-all-time","top-rated","latest","longest","most-popular"]:
-    d=j("https://www.eporner.com/api/v2/video/search/?query=&per_page=100&page=1&thumbsize=big&order=%s&gay=0&lq=1&format=json"%o)
+for o in ["top-weekly","top-monthly","top-all-time","top-rated","latest","longest","most-popular","top"]:
+    d=j(("https://www.eporner.com/api/v2/video/top/?per_page=100&page=1&thumbsize=big&format=json" if o=="top" else ("https://www.eporner.com/api/v2/video/top/?per_page=100&page=1&thumbsize=big&format=json" if o=="top" else "https://www.eporner.com/api/v2/video/search/?query=&per_page=100&page=1&thumbsize=big&order=%s&gay=0&lq=1&format=json"%o)))
     if not d: continue
     for v in d.get("videos",[]):
         i=s(v.get("id"))
@@ -52,7 +52,8 @@ for o in ["top-weekly","top-monthly","top-all-time","top-rated","latest","longes
                "th":s((v.get("default_thumb") or {}).get("src")),"e":emb(v.get("embed")),
                "g":",".join([s(t.get("tag")) for t in (v.get("tags") or [])][:6]),"k":"iframe","s":"Eporner","v":int(v.get("views") or 0)}
 for pg in range(1,13):
-    d=j("https://api.redtube.com/?data=redtube.Videos.searchVideos&output=json&thumbsize=big&page=%d&ordering=newest"%pg)
+    d=j("https://api.redtube.com/?data=redtube.Videos.searchVideos&output=json&thumbsize=big&page=%d&ordering=newest&search="%pg)
+    if not d: d=j("https://api.redtube.com/?data=redtube.Videos.searchVideos&output=json&thumbsize=big&page=%d"%pg)
     if not d: continue
     for w in d.get("videos",[]):
         v=w.get("video") or {}; i="rt"+s(v.get("video_id"))
@@ -60,7 +61,15 @@ for pg in range(1,13):
         ad[i]={"i":i,"t":re.sub(r"\s+"," ",s(v.get("title")).strip())[:95],"d":s(v.get("duration")),
                "th":s(v.get("thumb")),"e":s(v.get("embed_url")),"g":",".join([s(t) for t in (v.get("tags") or [])][:6]),
                "k":"iframe","s":"RedTube","v":int(v.get("views") or 0)}
-al=[x for x in ad.values() if x["e"] and x["t"]]; random.shuffle(al)
+al=[x for x in ad.values() if x["e"] and x["t"]]
+if not al:
+    try:
+        old=json.load(open("adult.json",encoding="utf-8"))
+        if old.get("count",0)>0:
+            print("  الكبار: فشل الجلب — أُبقي الملف القديم (%d)"%old["count"]); raise SystemExit(0)
+    except SystemExit: raise
+    except Exception: pass
+random.shuffle(al)
 tg={}
 for x in al:
     for t in x["g"].split(","):

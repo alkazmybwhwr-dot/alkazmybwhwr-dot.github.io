@@ -29,6 +29,7 @@
 .push.err
 .remote.txt
 .repair.json
+.runs.json
 .scan.json
 .scan2.json
 .state/log.txt
@@ -38,6 +39,7 @@ ACTIVITY.md
 ADULT.sh
 AGENT.sh
 ALLIN.sh
+AUTOBTN.sh
 DEV.sh
 EXEC.sh
 FIXERR.sh
@@ -85,6 +87,7 @@ auth.js
 auth.py
 authtoken.js
 auto.html
+auto.js
 auto.sh
 b/action-2026.html
 b/anime-2026.html
