@@ -1,0 +1,76 @@
+  ✓ رُبط 2 مفتاحًا تلقائيًا
+  جُرّبت: 2 · رُبطت: 0
+     · ADSTERRA → stats 401
+     · TMDB_KEY → configuration 200
+ledger: 0 قيد · 0 مكسور
+لا عناصر — شغّل SCALE.sh أولًا
+balance 0.000000 / min 5.00 / pending 0
+status ok
+— ملفات الريموت —
+  200 .github/workflows/tick.yml
+  200 .github/workflows/daily.yml
+  200 tools/networks.py
+  200 networks.json
+  200 ads.js
+  200 rewarded.js
+  200 cloud.js
+  200 captcha.js
+  200 payout.js
+  200 ref.js
+  200 sw.js
+  200 ads.txt
+  200 treasury.html
+  200 admin2.html
+  200 gift.json
+  200 offerwalls.json
+  200 db/schema.sql
+  200 backend/Code.gs
+  200 revenue.json
+  200 heartbeat.json
+  200 treasury.json
+  200 shorteners.json
+  200 linkgo.js
+  200 apply.html
+  200 watch.html
+  200 platforms.json
+  200 referrals.json
+  200 money.json
+  200 tools/ping.py
+  200 data/harvest-report.json
+  200 credit.html
+  200 owner.html
+  200 img.html
+  200 cinema.html
+  200 data/archive.json
+  200 tools/harvest.py
+  200 .github/workflows/ping.yml
+  200 ping.json
+— الصفحات الحيّة (قد تتأخر دقائق بعد النشر) —
+  200 /
+  200 /ads-config.json
+  200 /networks.json
+  200 /treasury.html
+  200 /admin2.html
+  200 /withdraw.html
+  200 /wallet.json
+  200 /apply.html
+  200 /watch.html
+  200 /shorteners.json
+  200 /cinema.html
+  200 /owner.html
+— Actions —
+  apply-keys · active
+  archive · active
+  cloud · active
+  daily · active
+  discover · active
+  ingest · active
+  ping · active
+  .github/workflows/pulse.yml · active
+  setup · active
+  .github/workflows/tick.yml · active
+  verify-links · active
+  weekly · active
+  pages-build-deployment · active
+
+✓ كل شيء منشور (0 فشل)

@@ -1,0 +1,70 @@
+<!doctype html><html lang="ar" dir="rtl"><head><script src="/killsw.js"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>تشغيل تلقائي · CineHub 3099</title>
+<link rel="manifest" href="/manifest.json">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#070b14;color:#e9f4ff;font:15px/1.7 system-ui,Tahoma;padding:10px;padding-bottom:70px}
+.wrap{max-width:940px;margin:auto}.p{background:#000;border:1px solid #1d2a44;border-radius:14px;overflow:hidden;min-height:210px;display:grid;place-items:center}
+iframe,video{width:100%;height:56vh;border:0;display:block}
+h1{font-size:17px;margin:10px 0}.k{color:#8ba2c0;font-size:12.5px}
+.card{background:#0f1626;border:1px solid #1d2a44;border-radius:13px;padding:12px;margin:10px 0}
+.big{font-size:26px;font-weight:900;color:#22d3ee}
+button{background:linear-gradient(135deg,#22c55e,#22d3ee);color:#04121a;border:0;border-radius:10px;padding:10px 16px;font-weight:800;cursor:pointer;margin:3px}
+button.s{background:#0b1220;color:#e9f4ff;border:1px solid #1d2a44}
+.grid{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(120px,1fr))}
+</style></head><body><div class="wrap">
+<h1>تشغيل تلقائي — شاهد فقط والأرباح ترتفع</h1>
+<div class="k">يُشغّل التالي تلقائيًا بعد كل عنصر، ويضيف ربحًا لكل مشاهدة. اتركه مفتوحًا واعمل شغلك.</div>
+<div class="p" id="pl">…</div>
+<div class="card"><b id="ti">—</b><div class="k" id="meta"></div>
+<div class="grid" style="margin-top:8px">
+ <div><div class="k">شوهد</div><div class="big" id="n">0</div></div>
+ <div><div class="k">ربحت</div><div class="big" id="e">$0.0000</div></div>
+ <div><div class="k">التالي بعد</div><div class="big" id="cd">—</div></div>
+ <div><div class="k">رصيدك</div><div class="big" id="bal">$0.0000</div></div>
+</div>
+<div style="margin-top:8px"><button id="tg" onclick="toggle()">▶ ابدأ</button>
+<button class="s" onclick="next()">التالي ⟶</button>
+<button class="s" onclick="pick('tmdb')">أفلام</button>
+<button class="s" onclick="pick('archive')">أرشيف</button>
+<button class="s" onclick="pick('dailymotion')">مقاطع</button>
+<button class="s" onclick="pick('piped')">يوتيوب</button>
+<button class="s" onclick="pick('gutendex')">كتب</button></div>
+<div class="k" id="msg"></div></div>
+<div class="ch-ad" data-ad="mid"></div>
+<p class="k"><a href="/library.html">المكتبة</a> · <a href="/live-dash.html">الأرباح</a> · <a href="/withdraw.html">اسحب</a></p>
+</div>
+<script src="/ledger.js" defer></script><script src="/beacon.js" defer></script>
+<script src="/authtoken.js" defer></script><script src="/ads.js" defer></script><script src="/owner.js" defer></script>
+<script>
+var LIST=[],i=0,on=false,t=0,iv=null,n=0,earn=0,SRC='tmdb',SEC=45;
+function esc(s){return String(s||'').replace(/[<>&"]/g,function(c){return{'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]})}
+function paint(){document.getElementById('n').textContent=n;document.getElementById('e').textContent='$'+earn.toFixed(4);
+ document.getElementById('bal').textContent='$'+(window.CHLedger?CHLedger.balance():0).toFixed(4)}
+function pick(s){SRC=s;document.getElementById('msg').textContent='… يحمّل '+s;
+ fetch('/data/catalog/'+s+'.json?t='+Date.now()).then(function(r){return r.json()}).then(function(j){
+  LIST=(j.items||[]).filter(function(x){return x.emb});shuffle();i=0;document.getElementById('msg').textContent='جاهز: '+LIST.length+' عنصرًا من '+s;show();
+ }).catch(function(){document.getElementById('msg').textContent='تعذّر تحميل '+s})}
+function shuffle(){for(var k=LIST.length-1;k>0;k--){var r=Math.floor(Math.random()*(k+1));var x=LIST[k];LIST[k]=LIST[r];LIST[r]=x}}
+function show(){
+ if(!LIST.length){document.getElementById('ti').textContent='لا عناصر — اختر مصدرًا';return}
+ if(i>=LIST.length){i=0;shuffle()}
+ var x=LIST[i],pl=document.getElementById('pl');
+ document.getElementById('ti').textContent=esc(x.t||'');
+ document.getElementById('meta').textContent=[x.y,x.g,x.by].filter(Boolean).join(' · ');
+ if(x.kind==='video')pl.innerHTML='<video src="'+x.emb+'" controls autoplay muted playsinline poster="'+(x.img||'')+'"></video>';
+ else if(x.kind==='image')pl.innerHTML='<img src="'+x.emb+'" style="max-height:56vh">';
+ else if(x.kind==='link')pl.innerHTML='<iframe src="'+x.emb+'" loading="lazy"></iframe>';
+ else pl.innerHTML='<iframe src="'+x.emb+'" allowfullscreen allow="autoplay; fullscreen" loading="lazy"></iframe>';
+ n++;if(window.CHLedger)CHLedger.bonus(0.0008,'autowatch');earn+=0.0008;
+ if(window.CHBeacon)CHBeacon.hit('autowatch');
+ if(window.CHAds&&CHAds.reload)CHAds.reload();
+ document.getElementById('msg').innerHTML='<b style="color:#22c55e">✓ +$0.0008</b> — تابع';
+ paint();
+ if(on){t=SEC;if(iv)clearInterval(iv);iv=setInterval(function(){t--;document.getElementById('cd').textContent=t+'ث';
+  if(t<=0){clearInterval(iv);next()}},1000)}
+}
+function next(){i++;show()}
+function toggle(){on=!on;document.getElementById('tg').textContent=on?'⏸ إيقاف':'▶ ابدأ';if(on)show()}
+paint();pick('tmdb');
+</script></body></html>

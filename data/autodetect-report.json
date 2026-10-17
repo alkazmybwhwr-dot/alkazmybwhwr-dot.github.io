@@ -4,11 +4,5 @@
   "ADSTERRA": "stats 401",
   "TMDB_KEY": "configuration 200"
  },
- "wired": [
-  "ADSTERRA_BANNER_MID ← مفتاح زونة (ok)",
-  "EXOCLICK_ZONE ← اسم بديل (ok)",
-  "WORKER_URL ← اسم بديل (ok)",
-  "CCBILL_ACCOUNT ← اسم بديل (ok)",
-  "SEGPAY_ACCOUNT ← اسم بديل (ok)"
- ]
+ "wired": []
 }

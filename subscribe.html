@@ -1,107 +1,46 @@
-<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>اشتراكات · CineHub 3099</title>
-<style>:root{--bg:#0a0e1a;--p:#111827;--b:#1e2a44;--t:#e8f6ff;--m:#8aa0c0;--a:#4dd0e1;--g:#22c55e}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--t);font:15px/1.9 system-ui,Tahoma;padding:16px}
-.wrap{max-width:820px;margin:auto}h1{font-size:21px}.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
-.card{background:var(--p);border:1px solid var(--b);border-radius:14px;padding:16px}
-.p{font-size:26px;font-weight:800;color:var(--a)}ul{padding-inline-start:18px;font-size:13.5px;color:#cfe6f5}
-button{background:var(--a);color:#04121a;border:0;border-radius:9px;padding:11px 16px;font-weight:800;cursor:pointer;margin-top:10px}
-input,select{width:100%;background:#0d1424;border:1px solid var(--b);color:var(--t);border-radius:9px;padding:10px;margin-top:6px}
-.l{color:var(--m);font-size:12.5px}code{background:#0d1424;padding:2px 6px;border-radius:6px;direction:ltr;display:inline-block}
-.ok{color:var(--g)}pre{background:#0d1424;border:1px solid var(--b);padding:10px;border-radius:9px;direction:ltr;text-align:left;font-size:11.5px;overflow:auto}
-</style><link rel="stylesheet" href="/theme.css">
-<script src="/killsw.js"></script>
-</head><body><div class="wrap">
-<h1>اشتراكات CineHub 3099 — دفع حقيقي وتفعيل فوري</h1>
-<p class="l">الدفع عبر USDT/USDC على شبكة Base — يُتحقق منه <b>داخل متصفحك مباشرة من البلوكتشين</b> بلا وسيط، ثم يُصدر ترخيص فوري. أو حوّل عبر بنك الكريمي وأرسل الإثبات واتساب.</p>
-<div class="grid" id="plans"></div>
-<div class="card" id="pay">
-  <label>الخطة</label><select id="pl"></select>
-  <label>طريقة الدفع</label><select id="pm">
-    <option value="base">USDT / USDC على Base (تحقق فوري)</option>
-    <option value="kuraimi">حوالة بنك الكريمي (واتساب)</option>
-    <option value="trc">USDT TRC20 (تحقق برقم العملية)</option>
-  </select>
-  <div id="pane"></div>
-  <button onclick="go()">تنفيذ الدفع</button>
-  <div id="out"></div>
-</div>
-<div class="card"><h3>ترخيصك</h3><div id="lic" class="l">لا ترخيص</div>
-<p class="l">للتحقق اليدوي من أي عملية: الصق رقم العملية (tx hash) — نقرأ السجل من عقد USDT على Base.</p>
-<input id="tx" placeholder="0x..."><button onclick="chk()">تحقق من العملية</button><div id="txout" class="l"></div></div>
-<p class="l"><a href="/wallet.html">محفظتي</a> · <a href="/withdraw.html">السحب</a> · <a href="/earn.html">اربح</a></p>
-</div>
-<script src="/license.js"></script>
+<!doctype html><html lang="ar" dir="rtl"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>تفعيل الشبكات — CineHub 3099</title>
+<style>
+body{font-family:system-ui,Tahoma,sans-serif;background:#0b0f14;color:#e8eef6;margin:0;padding:14px}
+h1{font-size:20px}.warn{background:#2a1f0a;border:1px solid #6b4b0f;padding:8px;border-radius:8px;font-size:13px}
+table{width:100%;border-collapse:collapse;font-size:13px;margin-top:10px}
+th,td{border-bottom:1px solid #1e2937;padding:6px;text-align:right}
+a{color:#5cc8ff}input{width:100%;background:#0f1720;border:1px solid #24313f;color:#e8eef6;border-radius:6px;padding:5px;font-size:12px}
+button{background:#123a4d;color:#9fe;border:1px solid #2a6;border-radius:8px;padding:8px 12px;margin:4px;font-size:13px}
+#st{font-size:13px;color:#8fd}
+</style></head><body>
+<h1>تفعيل الشبكات والمنصات</h1>
+<div class="warn">افتح الرابط → سجّل (كابتشا) → انسخ المفتاح أو المعرّف → الصقه. يُحفظ فورًا ويُدفع للمستودع، والمحرّك يقرأه خلال 5 دقائق.</div>
+<p><button id="save">حفظ ودفع إلى المستودع</button><button id="copy">نسخ keys.env</button><span id="st"></span></p>
+<table id="t"><thead><tr><th>الشبكة</th><th>النوع</th><th>أدنى سحب</th><th>تسجيل</th><th>المفتاح / المعرّف</th></tr></thead><tbody></tbody></table>
 <script>
-var CFG={},OWN={};
-var BASE_RPC=['https://mainnet.base.org','https://base.llamarpc.com','https://base-rpc.publicnode.com'];
-var TOK={USDT:['0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2',6],USDC:['0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',6]};
-function rpc(m,p){var b=JSON.stringify({jsonrpc:'2.0',id:1,method:m,params:p}),i=0;
- return new Promise(function(res,rej){(function go(){if(i>=BASE_RPC.length)return rej('rpc');
-  fetch(BASE_RPC[i++],{method:'POST',headers:{'Content-Type':'application/json'},body:b})
-   .then(function(r){return r.json()}).then(function(j){j.result?res(j.result):go()}).catch(go)})()})}
-function money(v){return '$'+Number(v||0).toFixed(2)}
-(async function(){
- try{CFG=await (await fetch('/ads-config.json?t='+Date.now())).json()}catch(e){CFG={}}
- try{OWN=await (await fetch('/owner.json?t='+Date.now())).json()}catch(e){OWN={}}
- var S=CFG.subscriptions||[];
- document.getElementById('plans').innerHTML=S.map(function(s){return '<div class="card"><b>'+s.name+'</b><div class="p">'+money(s.price)+'<span class="l">/شهر</span></div><ul>'+s.features.map(function(f){return '<li>'+f+'</li>'}).join('')+'</ul></div>'}).join('');
- document.getElementById('pl').innerHTML=S.map(function(s){return '<option value="'+s.id+'">'+s.name+' — '+money(s.price)+'</option>'}).join('');
- lic();
+(function(){
+ var keys={},gh={};
+ try{keys=JSON.parse(localStorage.getItem('ch3099_keys')||'{}')}catch(e){}
+ try{gh=JSON.parse(localStorage.getItem('ch3099_gh')||'{}')}catch(e){}
+ function persist(){localStorage.setItem('ch3099_keys',JSON.stringify(keys));}
+ function env(){return Object.keys(keys).filter(function(k){return keys[k]}).map(function(k){return k+'='+keys[k]}).join('\n')+'\n';}
+ fetch('signup.json?_='+Date.now()).then(function(r){return r.json()}).then(function(list){
+  var tb=document.querySelector('#t tbody');
+  list.forEach(function(x){
+   var tr=document.createElement('tr');
+   tr.innerHTML='<td>'+x.name+'</td><td>'+x.cat+'</td><td>'+x.min+'</td><td><a target="_blank" rel="noopener" href="'+x.url+'">فتح</a></td><td></td>';
+   var inp=document.createElement('input'); inp.placeholder=x.var; inp.value=keys[x.var]||'';
+   inp.oninput=function(){keys[x.var]=inp.value.trim();persist();};
+   tr.lastChild.appendChild(inp); tb.appendChild(tr);
+  });
+ });
+ document.getElementById('copy').onclick=function(){navigator.clipboard.writeText(env());document.getElementById('st').textContent='نُسخ';};
+ document.getElementById('save').onclick=function(){
+  if(!gh.token||!gh.repo){document.getElementById('st').textContent='افتح setup.html أولًا لحفظ رمز GitHub';return;}
+  var url='https://api.github.com/repos/'+gh.repo+'/contents/keys.env';
+  var H={'Authorization':'token '+gh.token,'Content-Type':'application/json'};
+  fetch(url,{headers:H}).then(function(r){return r.ok?r.json():null}).then(function(j){
+   var body={message:'keys from subscribe.html',content:btoa(unescape(encodeURIComponent(env()))),branch:gh.branch||'main'};
+   if(j&&j.sha)body.sha=j.sha;
+   return fetch(url,{method:'PUT',headers:H,body:JSON.stringify(body)});
+  }).then(function(r){document.getElementById('st').textContent=r&&r.ok?'تم الدفع — المحرّك يعمل خلال 5 دقائق':'فشل الدفع';});
+ };
 })();
-function cur(){var id=document.getElementById('pl').value;return (CFG.subscriptions||[]).filter(function(s){return s.id===id})[0]||{price:0,name:id,days:30}}
-function go(){
- var s=cur(),m=document.getElementById('pm').value,o=document.getElementById('out');
- if(m==='base'){
-  var addr=OWN.usdt_base||'';
-  var q='ethereum:'+addr+'@8453/erc20:0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2?uint256='+Math.round(s.price*1e6);
-  o.innerHTML='<p>حوّل <b>'+money(s.price)+' USDT</b> (Base) إلى:</p><pre>'+addr+'</pre>'+
-   '<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data='+encodeURIComponent(q)+'" alt="QR" style="background:#fff;padding:6px;border-radius:8px">'+
-   '<p class="l">بعد التحويل الصق رقم العملية في خانة التحقق بالأسفل واضغط «تحقق من العملية».</p>';
-  try{navigator.clipboard.writeText(addr)}catch(e){}
- }
- if(m==='trc'){o.innerHTML='<p>حوّل <b>'+money(s.price)+' USDT (TRC20)</b> إلى العنوان:</p><pre>'+(OWN.usdt_trc20||'— لم يُضبط — نفّذ bash activate.sh')+'</pre><p class="l">ثم الصق رقم العملية في خانة التحقق.</p>'}
- if(m==='kuraimi'){
-  var t='اشتراك CineHub 3099\nالخطة: '+s.name+'\nالمبلغ: '+money(s.price)+'\nالاسم: ______\nرقم الحساب: ______\nالهاتف: ______';
-  var w=OWN.whatsapp?'https://wa.me/'+String(OWN.whatsapp).replace(/\D/g,'')+'?text='+encodeURIComponent(t):'';
-  o.innerHTML='<pre>'+t+'</pre>'+(w?'<a href="'+w+'" target="_blank" rel="noopener">إرسال الطلب واتساب</a>':'');
- }
-}
-async function chk(){
- var s=cur(),tx=document.getElementById('tx').value.trim(),o=document.getElementById('txout');
- o.textContent='… يقرأ من Base';
- if(!/^0x[0-9a-fA-F]{64}$/.test(tx)){o.textContent='رقم عملية غير صالح';return}
- try{
-  var rc=await rpc('eth_getTransactionReceipt',[tx]);
-  if(!rc||!rc.logs){o.textContent='لم تُعثر على العملية على Base';return}
-  var addr=(OWN.usdt_base||'').toLowerCase(),hit=null;
-  rc.logs.forEach(function(l){
-   var sym=null;Object.keys(TOK).forEach(function(k){if(TOK[k][0].toLowerCase()===l.address.toLowerCase())sym=k});
-   if(!sym)return;if(!l.topics||l.topics[2]!=='0x'+addr.slice(2).padStart(64,'0'))return;
-   hit={sym:sym,amt:parseInt(l.data,16)/10**TOK[sym][1]}});
-  if(!hit){o.textContent='العملية لا تحتوي تحويلًا إلى عنوان التطبيق';return}
-  if(hit.amt+1e-9<s.price){o.textContent='المبلغ '+hit.amt+' '+hit.sym+' أقل من سعر الخطة '+money(s.price);return}
-  var L=CHLic.issue(s.id,tx.slice(0,12),(s.days||30));
-  o.innerHTML='<span class="ok">✓ دفع مؤكد '+hit.amt+' '+hit.sym+' — ترخيص مُفعّل حتى '+new Date(L.exp).toLocaleDateString('ar-EG')+'</span>';
-  lic();
- }catch(e){o.textContent='تعذّر الاتصال بـRPC — أعد المحاولة'}
-}
-function lic(){var l=CHLic.read(),e=document.getElementById('lic');
- if(!l){e.textContent='لا ترخيص نشط';return}
- e.innerHTML=CHLic.active()?'<b class="ok">مُفعّل</b> · الخطة '+l.plan+' · ينتهي '+new Date(l.exp).toLocaleDateString('ar-EG')+'<br><code>'+l.key+'</code>':'منتهي · '+l.plan}
-</script>
-<script src="/ads.js" defer></script><script src="/nav.js" defer></script>
-<script src="/linkgo.js" defer></script>
-<script>if(!document.querySelector('a[href="/plan.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/start.html">ابدأ</a><a href="/plan.html">الخطة</a>')}</script>
-<script src="/authtoken.js" defer></script>
-<script src="/upsell.js" defer></script>
-<script src="/hero.js" defer></script>
-<script src="/beacon.js" defer></script>
-<script>if(!document.querySelector('a[href="/live-dash.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/live-dash.html">حيّ</a>')}</script>
-<script src="/cloud.js" defer></script>
-<script src="/ledger.js" defer></script>
-<script src="/captcha.js" defer></script>
-<script src="/comments.js" defer></script>
-<script src="/boot.js" defer></script>
-</body></html>
+</script></body></html>

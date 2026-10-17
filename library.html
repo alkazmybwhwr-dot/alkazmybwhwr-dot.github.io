@@ -26,7 +26,7 @@ footer{color:#8ba2c0;font-size:12px;text-align:center;padding:18px;border-top:1p
 </style></head><body>
 <header><div class="wrap hd"><div class="logo">▶</div>
 <b style="font-size:14.5px">مكتبة CineHub 3099</b>
-<input id="q" placeholder="ابحث في المكتبة…">
+<input id="q" placeholder="ابحث…"><select id="fg"></select><select id="fy"></select><select id="fs"></select>
 <a href="/" style="font-size:12.5px">الرئيسية</a><a href="/watch.html" style="font-size:12.5px">شاهد واقبض</a>
 </div>
 <div class="wrap"><div class="tabs" id="tabs"></div></div></header>
@@ -39,10 +39,10 @@ footer{color:#8ba2c0;font-size:12px;text-align:center;padding:18px;border-top:1p
 <script src="/ledger.js" defer></script><script src="/beacon.js" defer></script>
 <script src="/ads.js" defer></script><script src="/owner.js" defer></script><script src="/boot.js" defer></script>
 <script>
-var IDX=null,CACHE={},CUR='',ALL=[],SHOWN=0,STEP=60,LASTQ='';
+var IDX=null,CACHE={},CUR='',ALL=[],SHOWN=0,STEP=60,LASTQ='',FG='',FY='',FS='';
 function esc(s){return String(s||'').replace(/[<>&"]/g,function(c){return{'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]})}
 function paint(){
- var f=ALL.filter(function(x){return !LASTQ||(x.t||'').toLowerCase().indexOf(LASTQ)>-1});
+ var f=ALL.filter(function(x){if(LASTQ&&(x.t||'').toLowerCase().indexOf(LASTQ)<0)return false;if(FG&&x.g!==FG)return false;if(FY&&String(x.y)!==FY)return false;return true});
  var page=f.slice(0,SHOWN);
  document.getElementById('g').innerHTML=page.map(function(x){
   var q='/play.html?s='+encodeURIComponent(x.c)+'&id='+encodeURIComponent(x.id)+'&t='+encodeURIComponent(x.t||'')+
@@ -74,10 +74,15 @@ function load(src){
    [].forEach.call(this.children,function(x){x.classList.remove('on')}); b.classList.add('on');
    ALL=[];SHOWN=STEP;load(b.getAttribute('data-s'));
   };
-  load('archive');
+  load('tmdb');
+  var F=(j.facets||{});
+  document.getElementById('fg').innerHTML='<option value="">كل الأنواع</option>'+Object.keys(F.genres||{}).map(function(g){return '<option>'+g+'</option>'}).join('');
+  document.getElementById('fy').innerHTML='<option value="">كل السنوات</option>'+Object.keys(F.years||{}).map(function(y){return '<option>'+y+'</option>'}).join('');
+  document.getElementById('fs').innerHTML='<option value="">كل المصادر</option>'+(j.sources||[]).map(function(x){return '<option value="'+x.src+'">'+x.name+'</option>'}).join('');
   document.getElementById('stat').innerHTML+=' · <span class="k">'+ (j.underlying||[]).map(function(u){return u.n+': '+u.v}).join(' · ')+'</span>';
  }).catch(function(){document.getElementById('stat').textContent='تعذّر قراءة الفهرس — شغّل bash RUN.sh'});
  document.getElementById('q').oninput=function(){LASTQ=this.value.trim().toLowerCase();SHOWN=STEP;paint()};
+ ['fg','fy','fs'].forEach(function(i){var e=document.getElementById(i);if(e)e.onchange=function(){if(i==='fg')FG=this.value;if(i==='fy')FY=this.value;if(i==='fs'){var v=this.value;if(v&&v!==CUR){var b=document.querySelector('.tabs button[data-s="'+v+'"]');if(b)b.click()}}SHOWN=STEP;paint()}});
  document.getElementById('more').onclick=function(){SHOWN+=STEP;paint()};
 })();
 </script>

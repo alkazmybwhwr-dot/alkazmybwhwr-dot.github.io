@@ -16,8 +16,11 @@ def chk(u):
             if c and c<400: return {'url':u,'code':c,'ms':0,'ok':True}
             last={'url':u,'code':c or 'ERR','ms':0,'ok':False,'err':type(e).__name__}
     return last
+SCOPE=os.environ.get('SCOPE','programs'); LIM=int(os.environ.get('LIMIT','0'))
 j=json.load(open(os.path.join(R,'platforms.json'),encoding='utf-8'))
 P=j.get('platforms',[])
+if SCOPE=='programs': P=[x for x in P if x.get('c')!='entity']
+if LIM: P=P[:LIM]
 with ThreadPoolExecutor(24) as ex: res=list(ex.map(chk,[p['u'] for p in P]))
 for p,r in zip(P,res): p['status']=r.get('code'); p['ok']=r.get('ok'); p['ms']=r.get('ms',0)
 live=sum(1 for r in res if r['ok'])
