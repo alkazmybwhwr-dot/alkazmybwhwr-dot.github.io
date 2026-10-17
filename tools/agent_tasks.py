@@ -21,7 +21,7 @@ def put(k,n):
     v=n*RATES[k]
     ag["items"][k]=round(float(ag["items"].get(k,0))+v,6)
     ag["total"]=round(float(ag.get("total",0))+v,6); add+=v
-put("page",min(400,pages))
+put("page",min(1200,pages))
 put("indexnow",3)
 put("browse",1 if br else 0)
 put("cycle",1)

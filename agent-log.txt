@@ -1,34 +1,3 @@
-  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
-  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
-  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
-  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
-  تعذّر: https://api.redtube.com/?data=redtube.Videos.searchVideos&ou <urlopen error [Errno 7] No address associated with hostname>
-فيديو حقيقي للكبار: 0 | وسوم: 0
-صفحات وسوم: 0
-✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
-✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
-✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
-✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
-status ok
-report ok
-agent-log ok
-balance 0.000000 / min 5.00
-لا عناصر
-nets 181 with_key 0
-counts {'visits': 10, 'impressions': 16, 'clicks': 0}
-confirmed 0.000000 | estimated 0.024000 | impressions 16
-مكافآت الوكيل اليوم: $0.004500 | الإجمالي: $0.004500
-treasury 0.0045
-ledger 34 fe00f851482b
-insights ok
-شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 181
-  Eporner top-weekly: 100
-  Eporner top-monthly: 100
-  Eporner top-all-time: 100
-  Eporner top-rated: 100
-  Eporner latest: 100
-  Eporner longest: 100
-Traceback (most recent call last):
   File "/data/data/com.termux/files/home/cinehub3099/tools/ingest_adult.py", line 40, in <module>
     tags=",".join((v.get("tags") or [])[:6])
 TypeError: sequence item 0: expected str instance, dict found
@@ -146,5 +115,36 @@ TypeError: sequence item 0: expected str instance, dict found
 ✓ حساب الكريمي محفوظ — 
 حيّ 35/37 | غائب: auth.json, tasks.json
 أفلام 4440 · كبار 0 · طلبات إعلان 0 · دورات 46
+status ok
+report ok
+agent-log ok
+balance 0.018000 / min 5.00
+لا عناصر
+nets 269 with_key 0
+counts {'visits': 11, 'impressions': 19, 'clicks': 0}
+confirmed 0.000000 | estimated 0.028500 | impressions 19
+مكافآت الوكيل اليوم: $0.022500 | الإجمالي: $0.022500
+treasury 0.0225
+ledger 38 b3f71baf85b7
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 269
+  Eporner top-weekly: 100
+  Eporner top-monthly: 100
+  Eporner top-all-time: 100
+  Eporner top-rated: 100
+  Eporner latest: 100
+  Eporner longest: 100
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/cinehub3099/tools/ingest_adult.py", line 40, in <module>
+    tags=",".join((v.get("tags") or [])[:6])
+TypeError: sequence item 0: expected str instance, dict found
+صفحات وسوم: 0
+منصات مضافة: 0 | إجمالي قوائم التسجيل: 269 | إجمالي المنصات: 242
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✓ ظهور حقيقي يُسجَّل — 
+✓ حساب الكريمي محفوظ — 
+حيّ 35/37 | غائب: auth.json, tasks.json
+أفلام 4440 · كبار 0 · طلبات إعلان 0 · دورات 47
 status ok
 report ok
