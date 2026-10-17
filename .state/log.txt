@@ -180,3 +180,15 @@ report ok
 balance 0.000000 / min 5.00
 لا عناصر
 counts {'visits': 0, 'impressions': 0, 'clicks': 0}
+confirmed 0.000000 | estimated 0.000000 | impressions 0
+treasury 0.0
+ledger 2 901b0fe9eed7
+insights ok
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✗ لا ظهور مسجَّل بعد — مساحات الإعلان تُحسب عند دخولها الشاشة
+✗ بيانات الكريمي غير محفوظة — السحب يحتاجها
+status ok
+report ok
+balance 0.000000 / min 5.00
+لا عناصر
